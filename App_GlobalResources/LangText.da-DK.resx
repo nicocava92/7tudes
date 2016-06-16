@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="audit_fullydisengaged" xml:space="preserve">
+<value>Seri&#248;st uengageret</value>
+</data>
+<data name="audit_fullyengaged" xml:space="preserve">
+<value>Fuldt engageret</value>
+</data>
+<data name="audit_heading" xml:space="preserve">
+<value>Life Engagement Audit</value>
+</data>
+<data name="audit_instr" xml:space="preserve">
+<value>Besvar alle sp&#248;rgsm&#229;l ud fra en tidsramme p&#229; de sidste seks m&#229;neder. V&#230;lg det tal p&#229; en skala fra 1 til 7, som svarer til dit engagementsniveau.</value>
+</data>
+<data name="comments_charsleft" xml:space="preserve">
+<value>Antal tegn til r&#229;dighed:</value>
+</data>
+<data name="comments_heading" xml:space="preserve">
+<value>Kommentarfelter</value>
+</data>
+<data name="comments_instr" xml:space="preserve">
+<value>Du kan maks. indtaste 300 tegn i hvert kommentarfelt.</value>
+</data>
+<data name="default_checkemail" xml:space="preserve">
+<value>Kig i din indbakke for at finde den efterspurgte information.</value>
+</data>
+<data name="default_enablecookies" xml:space="preserve">
+<value>Tillad cookies</value>
+</data>
+<data name="default_groupcode" xml:space="preserve">
+<value>Gruppekode</value>
+</data>
+<data name="default_heading" xml:space="preserve">
+<value>Velkommen til energianalysen</value>
+</data>
+<data name="default_instr" xml:space="preserve">
+<value>Brug de tilsendte koder for at starte din(e) bed&#248;mmelse(r).</value>
+</data>
+<data name="default_invalid_input" xml:space="preserve">
+<value>Ugyldig indtastning. Pr&#248;v igen.</value>
+</data>
+<data name="default_loginagain" xml:space="preserve">
+<value>Af sikkerhedsm&#230;ssige &#229;rsager m&#229; du ikke logge p&#229; to sp&#248;rgeunders&#248;gelser samtidig. G&#229; tilbage til dit f&#248;rste sk&#230;rmbillede.</value>
+</data>
+<data name="default_participantid" xml:space="preserve">
+<value>Deltagerkode</value>
+</data>
+<data name="default_participants" xml:space="preserve">
+<value>Du skal til at gennemf&#248;re et Energy for Performance-forl&#248;b. Analysen, du skal gennemf&#248;re, er en integreret og vigtig del af tr&#230;ningen.</value>
+</data>
+<data name="default_participants_hpi" xml:space="preserve">
+<value>Du skal til at gennemf&#248;re et Corporate Athlete/Energy Management-forl&#248;b. Analysen, du skal gennemf&#248;re, er en integreret og vigtig del af tr&#230;ningen.</value>
+</data>
+<data name="default_participants_jnj" xml:space="preserve">
+<value>Du skal til at gennemf&#248;re et Energy for Performance in Life-forl&#248;b. Analysen, du skal gennemf&#248;re, er en integreret og vigtig del af tr&#230;ningen.</value>
+</data>
+<data name="default_participants_wp" xml:space="preserve">
+<value>Du skal til at gennemf&#248;re et Energy for Performance-forl&#248;b. Analysen, du skal gennemf&#248;re, er en integreret og vigtig del af tr&#230;ningen.</value>
+</data>
+<data name="default_raterpassword" xml:space="preserve">
+<value>Kodeord</value>
+</data>
+<data name="default_raters" xml:space="preserve">
+<value>Tak, fordi du vil tage dig tid til at gennemf&#248;re denne evaluering. Det vil tage ca. 10-15 minutter at besvare sp&#248;rgsm&#229;lene.</value>
+</data>
+<data name="default_reload" xml:space="preserve">
+<value>Klik her for at fors&#248;ge at logge p&#229; igen</value>
+</data>
+<data name="default_report" xml:space="preserve">
+<value>Rekvir&#233;r rapport</value>
+</data>
+<data name="default_reportsent" xml:space="preserve">
+<value>Din rapport er blevet sendt til din e-mail-adresse.</value>
+</data>
+<data name="default_submit" xml:space="preserve">
+<value>Start</value>
+</data>
+<data name="default_unknownemailaddress" xml:space="preserve">
+<value>E-mail-adressen findes ikke i systemet.</value>
+</data>
+<data name="demog_chooseone" xml:space="preserve">
+<value>V&#230;lg en</value>
+</data>
+<data name="demog_heading" xml:space="preserve">
+<value>Demografiske karakteristika</value>
+</data>
+<data name="demog_instr" xml:space="preserve">
+<value>Punkter med r&#248;dt er obligatoriske</value>
+</data>
+<data name="demog_rptnote" xml:space="preserve">
+<value>&lt;b&gt;P&#197;MINDELSE:&lt;/b&gt; Du vil modtage din rapport via e-mail efter svarfristens udl&#248;b og f&#248;r forl&#248;bets start. S&#248;rg for at fuldf&#248;re alle opgaver i hovedmenuen inden svarfristens udl&#248;b.</value>
+</data>
+<data name="demog_valsumm1" xml:space="preserve">
+<value>Besvar f&#248;lgende sp&#248;rgsm&#229;l:</value>
+</data>
+<data name="health_heading" xml:space="preserve">
+<value>Sundhedsprofil</value>
+</data>
+<data name="health_hour" xml:space="preserve">
+<value>time</value>
+</data>
+<data name="health_hours" xml:space="preserve">
+<value>timer</value>
+</data>
+<data name="health_q16_1" xml:space="preserve">
+<value>T&#230;nk p&#229; dage, hvor du f&#248;lte dig begr&#230;nset i m&#230;ngden eller typen af arbejde, du kunne udf&#248;re, dage, hvor du udrettede mindre, end du gerne ville, eller dage, hvor du ikke kunne udf&#248;re dit arbejde s&#229; optimalt som ellers. Hvis et lavt energiniveau eller negativ energi kun p&#229;virkede dit arbejde i lille udstr&#230;kning, skal du v&#230;lge et lavt tal. Du skal v&#230;lge et h&#248;jt tal, hvis et lavt energiniveau eller negativ energi p&#229;virkede dit arbejde i stor udstr&#230;kning.</value>
+</data>
+<data name="health_q16_2" xml:space="preserve">
+<value>Du skal kun tage stilling til, hvor meget et lavt energiniveau eller negativ energi p&#229;virkede din produktivitet, &lt;u&gt;mens du arbejdede&lt;/u&gt;.</value>
+</data>
+<data name="health_q17_1" xml:space="preserve">
+<value>Med almindelige aktiviteter menes de s&#230;dvanlige aktiviteter, du udf&#248;rer, fx at ordne ting derhjemme, indk&#248;b, b&#248;rnepasning, tr&#230;ning, studier osv. T&#230;nk p&#229; tidspunkter, hvor du f&#248;lte dig begr&#230;nset i m&#230;ngden eller typen af aktiviteter, du kunne udf&#248;re, og tidspunkter, hvor du udrettede mindre, end du gerne ville. Hvis helbredsproblemer kun p&#229;virkede dine aktiviteter i lille udstr&#230;kning, skal du v&#230;lge et lavt tal. Du skal v&#230;lge et h&#248;jt tal, hvis helbredsproblemer p&#229;virkede dine aktiviteter i stor udstr&#230;kning.</value>
+</data>
+<data name="health_q17_2" xml:space="preserve">
+<value>Du skal kun tage stilling til, hvor meget et &lt;u&gt;lavt energiniveau eller negativ energi&lt;/u&gt; p&#229;virkede din evne til at udf&#248;re dine almindelige daglige aktiviteter, som ikke er arbejdsrelaterede.</value>
+</data>
+<data name="logout_loginagain" xml:space="preserve">
+<value>Log p&#229; igen</value>
+</data>
+<data name="logout_msg" xml:space="preserve">
+<value>Sessionen er udl&#248;bet pga. inaktivitet. For at forts&#230;tte analysen bedes du logge p&#229; med adgangskoderne fra din e-mail.</value>
+</data>
+<data name="master_copyright" xml:space="preserve">
+<value>&#169; 2010 Human Performance Institute, Inc. Alle rettigheder forbeholdes.</value>
+</data>
+<data name="master_logout" xml:space="preserve">
+<value>Log af</value>
+</data>
+<data name="master_pname" xml:space="preserve">
+<value>Du bedes vurdere:</value>
+</data>
+<data name="master_relname" xml:space="preserve">
+<value>Som din:</value>
+</data>
+<data name="master_rname" xml:space="preserve">
+<value>Velkommen:</value>
+</data>
+<data name="master_savepartial" xml:space="preserve">
+<value>G&#229; tilbage til menuen</value>
+</data>
+<data name="master_support" xml:space="preserve">
+<value>Hvis du oplever problemer med adgangen til din profil, bedes du kontakte os via &lt;a href=&quot;mailto:abny@implement.dk&quot;&gt;e-mail&lt;/a&gt;.</value>
+</data>
+<data name="misc_instr" xml:space="preserve">
+<value>Besvar f&#248;lgende sp&#248;rgsm&#229;l ved at v&#230;lge den svarmulighed, som bedst afspejler dit svar. Bev&#230;g musen over et skalatal for at l&#230;se den tekst, som er tilknyttet det valg.</value>
+</data>
+<data name="misc_instr2" xml:space="preserve">
+<value>Besvar f&#248;lgende sp&#248;rgsm&#229;l ved at v&#230;lge den svarmulighed, som bedst afspejler dit svar.</value>
+</data>
+<data name="misc_mandatory" xml:space="preserve">
+<value>Du bedes besvare alle sp&#248;rgsm&#229;l.</value>
+</data>
+<data name="pagexofy" xml:space="preserve">
+<value>Side &quot;xx&quot; af &quot;yy&quot;</value>
+</data>
+<data name="profile_checkbox" xml:space="preserve">
+<value>Mark&#233;r det fremh&#230;vede afkrydsningsfelt, hvis sp&#248;rgsm&#229;let er forvirrende.</value>
+</data>
+<data name="profile_family" xml:space="preserve">
+<value>Da du er et familiemedlem eller en ven, bedes du besvare alle sp&#248;rgsm&#229;l fra et privat perspektiv.</value>
+</data>
+<data name="profile_heading" xml:space="preserve">
+<value>Energiprofil</value>
+</data>
+<data name="profile_reqdmissing" xml:space="preserve">
+<value>Bed&#248;m alle punkter markeret med en r&#248;d stjerne.</value>
+</data>
+<data name="profile_valsumm1" xml:space="preserve">
+<value>Vurd&#233;r f&#248;lgende sp&#248;rgsm&#229;l:</value>
+</data>
+<data name="progress_audit" xml:space="preserve">
+<value>Audit</value>
+</data>
+<data name="progress_comments" xml:space="preserve">
+<value>Kommentarer</value>
+</data>
+<data name="progress_demographics" xml:space="preserve">
+<value>Demografiske karakteristika</value>
+</data>
+<data name="progress_ratings" xml:space="preserve">
+<value>Profil</value>
+</data>
+<data name="questions_btncomplete" xml:space="preserve">
+<value>Indsend udfyldt sp&#248;rgeskema</value>
+</data>
+<data name="questions_btnnext" xml:space="preserve">
+<value>N&#230;ste</value>
+</data>
+<data name="questions_btnprev" xml:space="preserve">
+<value>Forrige</value>
+</data>
+<data name="questions_nextmsg" xml:space="preserve">
+<value>Dine svar vil blive gemt, n&#229;r du g&#229;r videre til n&#230;ste side.</value>
+</data>
+<data name="register_addheading" xml:space="preserve">
+<value>Tilf&#248;j bed&#248;mmere</value>
+</data>
+<data name="register_bullet1" xml:space="preserve">
+<value>&lt;FONT COLOR=&quot;#FF0000&quot;&gt;Det anbefalede antal bed&#248;mmere er 5 eller flere:&lt;/FONT&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Overordnet/leder: 1 (minimum )&lt;/li&gt;&lt;li&gt;Sidestillede: 2 eller flere&lt;/li&gt;&lt;li&gt;Medarbejdere, der refererer til dig: 2 eller flere&lt;/li&gt;&lt;li&gt;Venner/familie: valgfrit antal&lt;/li&gt;&lt;li&gt;B&#248;rn: valgfrit antal&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;</value>
+</data>
+<data name="register_bullet2" xml:space="preserve">
+<value>Hvis du ikke har &lt;b&gt;minimum 2 sidestillede og 2 medarbejdere&lt;/b&gt;, vil kategorierne blive kombineret i din rapport for at bevare anonymiteten.</value>
+</data>
+<data name="register_bullet3" xml:space="preserve">
+<value>B&#248;rnesp&#248;rgsm&#229;l er m&#229;lrettet aldersgruppen 7-18, og der er 6 sp&#248;rgsm&#229;l beregnet til den aldersgruppe. Et barn over 18 &#229;r anbefales at v&#230;lge &quot;familiemedlem&quot; for at f&#229; adgang til at besvare de mere detaljerede sp&#248;rgsm&#229;l.</value>
+</data>
+<data name="register_bullet4" xml:space="preserve">
+<value>Du kan bruge din egen e-mail-adresse til b&#248;rn, hvis de ikke har en selv. N&#229;r de er logget p&#229;, skal de v&#230;lge &quot;barn&quot; som deres forhold til dig.</value>
+</data>
+<data name="register_currentheading" xml:space="preserve">
+<value>Aktuelle bed&#248;mmere</value>
+</data>
+<data name="register_detail1" xml:space="preserve">
+<value>Detaljeret bed&#248;mmerinformation</value>
+</data>
+<data name="register_duedate" xml:space="preserve">
+<value>Svarfristen er</value>
+</data>
+<data name="register_emailaddress" xml:space="preserve">
+<value>E-mail-adresse</value>
+</data>
+<data name="register_emailssent" xml:space="preserve">
+<value>|Count| e-mails er sendt.</value>
+</data>
+<data name="register_exists" xml:space="preserve">
+<value>E-mail-adressen er i brug. Pr&#248;v igen.</value>
+</data>
+<data name="register_firstname" xml:space="preserve">
+<value>Fornavn</value>
+</data>
+<data name="register_groupheading" xml:space="preserve">
+<value>Tilmeld dig for at f&#229; adgang til energiprofilen</value>
+</data>
+<data name="register_heading" xml:space="preserve">
+<value>Tilmeld bed&#248;mmere</value>
+</data>
+<data name="register_instr" xml:space="preserve">
+<value>V&#230;lg de personer, som du &#248;nsker skal give feedback til din 360-energiprofil. De bed&#248;mmere, du v&#230;lger, vil modtage en delm&#230;ngde af de sp&#248;rgsm&#229;l, som du selv har f&#229;et. &lt;b&gt;Sp&#248;rgsm&#229;lene vil v&#230;re baseret p&#229; deres forhold til dig – arbejdsm&#230;ssigt kontra venner og familie&lt;/b&gt;. Personlige, vanerelaterede aspekter som ern&#230;ring eller tr&#230;ning vil eksempelvis kun indg&#229; i sp&#248;rgsm&#229;l til venner og familie. Der er ikke noget maksimum mht. antallet af bed&#248;mmere, s&#229; du kan registrere s&#229; mange, du &#248;nsker.</value>
+</data>
+<data name="register_instr2" xml:space="preserve">
+<value>&lt;u&gt;VEJLEDNING:&lt;/u&gt; Indtast den p&#229;kr&#230;vede information for hver person og klik &quot;Gem (send e-mails)&quot;. Systemet vil derefter udsende invitationer til de bed&#248;mmere, som du har valgt.</value>
+</data>
+<data name="register_lastname" xml:space="preserve">
+<value>Efternavn</value>
+</data>
+<data name="register_maxdate" xml:space="preserve">
+<value>P&#229;mindelser er sendt.</value>
+</data>
+<data name="register_nocurrentdata" xml:space="preserve">
+<value>Du har ikke registreret nogen bed&#248;mmere p&#229; nuv&#230;rende tidspunkt.</value>
+</data>
+<data name="register_note2" xml:space="preserve">
+<value>Bem&#230;rk: E-mail-adresser med endelserne att.com, shaw.ca og sbcglobal.net vil muligvis have sv&#230;rt ved at modtage disse e-mails. For at sikre, at informationen n&#229;r frem, bedes du om muligt bruge e-mail-adresser uden for disse dom&#230;ner.</value>
+</data>
+<data name="register_note3" xml:space="preserve">
+<value>Automatiske p&#229;mindelser vil blive sendt til de bed&#248;mmere, som &lt;u&gt;ikke&lt;/u&gt; har svaret inden svarfristens udl&#248;b.</value>
+</data>
+<data name="register_previewemails" xml:space="preserve">
+<value>Se e-mails</value>
+</data>
+<data name="register_reminders" xml:space="preserve">
+<value>P&#229;mindelses-e-mails vil automatisk blive sendt til de bed&#248;mmere, som ikke har svaret inden ovenst&#229;ende svarfrist. Datoen for sidst fremsendte p&#229;mindelser vises herunder. Du kan ogs&#229; v&#230;lge selv at sende p&#229;mindelser ved at klikke &quot;Send p&#229;mindelser&quot;. </value>
+</data>
+<data name="register_reminders2" xml:space="preserve">
+<value>Datoen for sidst fremsendte p&#229;mindelser vises til venstre. Hvis du gerne vil sende p&#229;mindelser selv, skal du blot klikke p&#229; knappen &quot;Send p&#229;mindelser&quot;. P&#229;mindelser bliver kun sendt til de bed&#248;mmere, som endnu ikke har svaret.</value>
+</data>
+<data name="register_respcount" xml:space="preserve">
+<value>Antal svar modtaget indtil nu: |nn|</value>
+</data>
+<data name="register_respinstr" xml:space="preserve">
+<value>(Af hensyn til fortrolighed vil du ikke kunne se, hvem der har gennemf&#248;rt profilen.)</value>
+</data>
+<data name="register_save" xml:space="preserve">
+<value>Gem</value>
+</data>
+<data name="register_savesend" xml:space="preserve">
+<value>Gem (send e-mails)</value>
+</data>
+<data name="register_sendreminders" xml:space="preserve">
+<value>Send p&#229;mindelser</value>
+</data>
+<data name="register_sentcount" xml:space="preserve">
+<value>|nn| besked(er) er sendt.</value>
+</data>
+<data name="register_step1" xml:space="preserve">
+<value>Trin 1: Brug tabellen til venstre til at indtaste navne og e-mail-adresser p&#229; dine bed&#248;mmere.</value>
+</data>
+<data name="register_step1a" xml:space="preserve">
+<value>Bem&#230;rk: E-mail-adresser med endelserne att.com, shaw.ca og sbcglobal.net vil muligvis have sv&#230;rt ved at modtage disse e-mails. For at sikre, at informationen n&#229;r frem, bedes du om muligt bruge e-mail-adresser uden for disse dom&#230;ner.</value>
+</data>
+<data name="rel_heading" xml:space="preserve">
+<value>V&#230;lg forhold</value>
+</data>
+<data name="rel_instr1" xml:space="preserve">
+<value>Trin 1: Brug tabellen til venstre til at indtaste navne og e-mail-adresser p&#229; dine bed&#248;mmere.</value>
+</data>
+<data name="rel_instr2" xml:space="preserve">
+<value>Hvis du er et barn mellem 7 og 18 &#229;r, skal du v&#230;lge &quot;BARN&quot; som forhold. Hvis du er et barn over 18 &#229;r, skal du v&#230;lge &quot;FAMILIE&quot; som forhold.</value>
+</data>
+<data name="selfhome_datecompleted" xml:space="preserve">
+<value>Gennemf&#248;rt den (dato)</value>
+</data>
+<data name="selfhome_datestarted" xml:space="preserve">
+<value>P&#229;begyndt den (dato)</value>
+</data>
+<data name="selfhome_instr" xml:space="preserve">
+<value>Gennemf&#248;r nedenst&#229;ende opgave(r). Du kan gennemf&#248;re punkterne i hvilken som helst r&#230;kkef&#248;lge. Dine svar gemmes, s&#229; du n&#229;r som helst inden svarfristens udl&#248;b kan vende tilbage for at gennemf&#248;re opgaverne.</value>
+</data>
+<data name="selfhome_instr2" xml:space="preserve">
+<value>Gennemf&#248;rer du opgaverne inden svarfristens udl&#248;b, modtager du din(e) rapport(er), inden tr&#230;ningsforl&#248;bet starter.</value>
+</data>
+<data name="selfhome_instr3" xml:space="preserve">
+<value>BEM&#198;RK: Du vil modtage din(e) rapport(er) via e-mail efter svarfristens udl&#248;b og f&#248;r forl&#248;bets start.</value>
+</data>
+<data name="selfhome_reportrequested" xml:space="preserve">
+<value>Rapportrekvirering er blevet sendt</value>
+</data>
+<data name="selfhome_requestreport" xml:space="preserve">
+<value>Rekvir&#233;r rapport</value>
+</data>
+<data name="selfhome_takesurvey" xml:space="preserve">
+<value>Start</value>
+</data>
+<data name="selfhome_task" xml:space="preserve">
+<value>Opgave</value>
+</data>
+<data name="selfonly_intro" xml:space="preserve">
+<value>Efter at have indtastet din information nedenfor kan du begynde din besvarelse. Du vil ogs&#229; modtage en e-mail med personlige login-koder, hvis du vil vende tilbage senere for at gennemf&#248;re testen.</value>
+</data>
+<data name="selfonly_login" xml:space="preserve">
+<value>Registr&#233;r</value>
+</data>
+<data name="selfonly_register" xml:space="preserve">
+<value>Registr&#233;r og start analysen</value>
+</data>
+<data name="st_clickonce" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_heading" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_instr" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_invalidranks" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_legend" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_noresponse" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_rateall" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_requiredfield" xml:space="preserve">
+<value></value>
+</data>
+<data name="st_total" xml:space="preserve">
+<value></value>
+</data>
+<data name="thanks_partial" xml:space="preserve">
+<value>Din delvist gennemf&#248;rte analyse er blevet gemt. Du kan vende tilbage for at gennemf&#248;re den p&#229; et senere tidspunkt. Du kan nu &lt;a href=”javascript:close()”&gt;lukke&lt;/a&gt; dette sk&#230;rmbillede.</value>
+</data>
+<data name="thanks_rater" xml:space="preserve">
+<value>Tak, fordi du gennemf&#248;rte analysen. Dine svar vil blive kombineret med andres og inkluderet i deltagerens feedbackrapport.</value>
+</data>
+<data name="master_prework" xml:space="preserve">
+<value></value>
+</data>
+<data name="rel_continue" xml:space="preserve">
+<value>Forts&#230;t</value>
+</data>
+<data name="emails_invitation" xml:space="preserve">
+<value>Indbydelse</value>
+</data>
+<data name="emails_reminder" xml:space="preserve">
+<value>P&#229;mindelse</value>
+</data>
+<data name="emails_note" xml:space="preserve">
+<value>Bem&#230;rk: Dette vil blive efterfulgt af inbydelses e-mail teksten som vist herover.</value>
+</data>
+<data name="master_keepworking" xml:space="preserve">
+<value>Forts&#230;t med besvarelsen</value>
+</data>
+<data name="register_invalidemailaddress" xml:space="preserve">
+<value>Error Alert: One or more email addresses is invalid. Please see the entry marked with a red asterisk and re-enter the correct address.</value>
+</data>
+<data name="selfhome_raterreg" xml:space="preserve">
+<value>|x| har svaret ud af |y| tilmeldte</value>
+</data>
+<data name="rel_instr3" xml:space="preserve">
+<value>* De fleste sp&#248;rgsm&#229;l er multible og disse svar bliver rapporteret sammen med andres svar.</value>
+</data>
+<data name="consent_agree" xml:space="preserve">
+<value>Jeg er enig</value>
+</data>
+<data name="consent_disagree" xml:space="preserve">
+<value>Jeg er uenig</value>
+</data>
+<data name="consent_finaltext" xml:space="preserve">
+<value>Jeg har l&#230;st og samtykker i ovenst&#229;ende betingelser og betingelser beskrevet i &lt;a href=&quot;https://www.hpinstitute.com/privacy&quot; target=&quot;hpi&quot;&gt;Privacy Statement&lt;/a&gt; og &lt;a href=&quot;https://www.hpinstitute.com/legal&quot; target=&quot;hpi&quot;&gt;Legal Notice&lt;/a&gt; samt i bearbejdningen af personlig information i USA og andre steder, hvor regler om databeskyttelse kan v&#230;re forskellig fra det land, hvor jeg bor.</value>
+</data>
+<data name="consent_heading" xml:space="preserve">
+<value>Bekr&#230;ftelse</value>
+</data>
+<data name="consent_no" xml:space="preserve">
+<value>Vi beklager. Skulle du &#230;ndre mening, log da ind igen.</value>
+</data>
+<data name="consentrater_para1" xml:space="preserve">
+<value>Tak, fordi du har sagt ja til at give feedback til en deltager p&#229; et af vores kurser.</value>
+</data>
+<data name="consentrater_para2" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (“Wellness &amp; Prevention”) tilbyder dette website og sp&#248;rgeskema med henblik p&#229; at forberede den enkelte deltager til vores energi- og performance-programmer. Vi ved, at den information, du videregiver om deltageren, kan v&#230;re meget personlig. Denne Privacy Notice beskriver Wellness &amp; Preventions praksis i relation til indsamling af data samt anvendelse og videregivelse af den information, du giver.</value>
+</data>
+<data name="consentrater_para3" xml:space="preserve">
+<value>Ved at besvare unders&#248;gelsens sp&#248;rgsm&#229;l samtykker du i indsamlingen, bearbejdningen, opbevaringen og videregivelse af dine svar (information om deltageren fx adf&#230;rdsm&#230;ssigt og livsstilsm&#230;ssigt). Wellness &amp; Prevention, vores samarbejdspartnere og serviceleverand&#248;rer anvender denne information i forbindelse med administrationen af programmet. Vi vil ikke p&#229; anden vis s&#230;lge eller videregive information, du har givet, til andre parter i sammenh&#230;nge, som ikke er relateret til programmet.</value>
+</data>
+<data name="consentrater_para4" xml:space="preserve">
+<value>Wellness &amp; Prevention tr&#230;ffer passende foranstaltninger til beskyttelse af s&#229;dan information i forhold til bortkomst, misbrug og uautoriseret adgang, offentligg&#248;relse, &#230;ndring eller destruktion.</value>
+</data>
+<data name="consentrater_para5" xml:space="preserve">
+<value>Du er velkommen til at kontakte os, hvis du har sp&#248;rgsm&#229;l eller har brug for hj&#230;lp vedr&#248;rende unders&#248;gelsen:</value>
+</data>
+<data name="consentrater_para6" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc.9757 Lake Nona Rd. Orlando, FL 32827 USA+1.407.438.9911 
+&lt;a href=mailto:info@corporateathlete.com&quot;&gt;info@corporateathlete.com&lt;/a&gt;&quot;</value>
+</data>
+<data name="consentrater_para7" xml:space="preserve">
+<value>For yderligere information om vores generelle anonymitetskrav henviser vi til vores &lt;a href=&quot;https://www.hpinstitute.com/privacy&quot; target=&quot;hpi&quot;&gt;Privacy Statement&lt;/a&gt;. Brugen af dette website er underlagt &lt;a href=&quot;https://www.hpinstitute.com/legal&quot; target=&quot;hpi&quot;&gt;Legal Notice&lt;/a&gt;.</value>
+</data>
+<data name="consentself_bullet1" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (“Wellness &amp; Prevention”) forpligter sig til ikke at offentligg&#248;re personlig information om mig og vil ikke tilsigtet videregive s&#229;dan information bortset fra tilf&#230;lde beskrevet i Privacy Statement.</value>
+</data>
+<data name="consentself_bullet2" xml:space="preserve">
+<value>Personlig information om mig m&#229; videregives til de personer, som coacher mig i forbindelse med de programmer, jeg deltager i.</value>
+</data>
+<data name="consentself_bullet3" xml:space="preserve">
+<value>Wellness &amp; Prevention m&#229; videregive anonymiseret og statistisk information vedr&#248;rende deltagere til:</value>
+</data>
+<data name="consentself_bullet3a" xml:space="preserve">
+<value>Min sponsor (hvis der er en s&#229;dan) og andre st&#248;ttende organisationer i forbindelse med administrationen af programmerne.</value>
+</data>
+<data name="consentself_bullet3b" xml:space="preserve">
+<value>Andre parter med henblik p&#229; analyse og forskning.</value>
+</data>
+<data name="consentself_bullet4" xml:space="preserve">
+<value>Wellness &amp; Prevention og st&#248;ttende organisationer m&#229; kontakte mig ang. programinformation og foresp&#248;rgsler.</value>
+</data>
+<data name="consentself_intro" xml:space="preserve">
+<value>Du bedes l&#230;se nedenst&#229;ende samt &lt;a href=&quot;https://www.hpinstitute.com/privacy&quot; target=&quot;hpi&quot;&gt;Privacy Statement&lt;/a&gt; og &lt;a href=&quot;https://www.hpinstitute.com/legal&quot; target=&quot;hpi&quot;&gt;Legal Notice&lt;/a&gt; grundigt igennem, idet deltagelse i Human Performance Institutes programmer kr&#230;ver, at du forst&#229;r og samtykker i f&#248;lgende betingelser:</value>
+</data>
+<data name="default_surveyclosed" xml:space="preserve">
+<value>The survey is no longer open.</value>
+</data>
+<data name="st_noresponse_choice" xml:space="preserve">
+<value>No response</value>
+</data>
+<data name="emails_notstarted" xml:space="preserve">
+<value>not started</value>
+</data>
+<data name="emails_startedon" xml:space="preserve">
+<value>started on</value>
+</data>
+<data name="emails_completedon" xml:space="preserve">
+<value>completed on</value>
+</data>
+</root>

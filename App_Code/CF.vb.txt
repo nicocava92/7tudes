@@ -1,0 +1,329 @@
+Imports Microsoft.VisualBasic
+Imports System.Data
+Public Class CF
+    Public Shared Sub Runquery(ByVal s1 As String, Optional ByVal iTimeoutSecs As Integer = 60)
+        Dim c1 As SqlClient.SqlConnection, cmd1 As SqlClient.SqlCommand
+        Dim sConn As String
+        sConn = ConfigurationManager.ConnectionStrings("cHPI2010").ConnectionString
+        c1 = New SqlClient.SqlConnection(sConn)
+        cmd1 = New SqlClient.SqlCommand(s1, c1)
+        cmd1.CommandTimeout = iTimeoutSecs
+        Try
+            c1.Open()
+            cmd1.ExecuteNonQuery()
+        Catch e As System.Data.SqlClient.SqlException
+            s1 = s1 & " Errors: " & e.ToString
+            Call Email_Send("HPI2010@perfprog.com", "", "", "HPI Admin DataBase Error", s1)
+        Catch e As System.Exception
+            s1 = s1 & " Errors: " & e.ToString
+            Call Email_Send("HPI2010@perfprog.com", "", "", "HPI Admin DataBase Error", s1)
+        Finally
+            Call Email_Send("HPI2010@perfprog.com", "", "", "HPI Admin DataBase Update", s1)
+            c1.Close()
+        End Try
+    End Sub
+
+    Public Shared Function NullToString(ByVal obj) As String
+        If obj.Equals(DBNull.Value) Then
+            NullToString = ""
+        Else
+            NullToString = obj
+        End If
+
+    End Function
+
+
+    
+
+    Public Shared Function NullToZero(ByVal obj) As Double
+        If obj.Equals(DBNull.Value) Then
+            NullToZero = 0
+        Else
+            NullToZero = obj
+        End If
+
+    End Function
+    Public Shared Sub RunParamQuery(ByVal s1 As String, ByVal aNames() As String, ByVal aValues() As String)
+        Dim c1 As SqlClient.SqlConnection, cmd1 As SqlClient.SqlCommand
+        Dim sConn As String, i1 As Int16
+
+        sConn = ConfigurationManager.ConnectionStrings("cHPI2010").ConnectionString
+        'Response.Write(sConn & " " & s1 & "<br>")
+        c1 = New SqlClient.SqlConnection(sConn)
+        cmd1 = New SqlClient.SqlCommand(s1, c1)
+
+
+        If aValues.Length > 0 Then
+            For i1 = 0 To aValues.Length - 1
+                cmd1.Parameters.Add(New System.Data.SqlClient.SqlParameter(aNames(i1), aValues(i1)))
+            Next
+        End If
+        c1.Open()
+        cmd1.CommandType = Data.CommandType.StoredProcedure
+        cmd1.ExecuteNonQuery()
+        c1.Close()
+    End Sub
+
+    Public Shared Function DataView_Get(ByVal sSql As String) As System.Data.DataView
+        Dim c1 As SqlClient.SqlConnection, cmd1 As SqlClient.SqlCommand
+        Dim da As New System.Data.SqlClient.SqlDataAdapter
+        Dim ds As New System.Data.DataSet
+
+        c1 = New SqlClient.SqlConnection(ConfigurationManager.ConnectionStrings("cHPI2010").ConnectionString)
+        cmd1 = New SqlClient.SqlCommand(sSql, c1)
+        da.SelectCommand = cmd1
+        da.Fill(ds, "tempTable")
+        DataView_Get = New DataView(ds.Tables("tempTable"))
+
+        c1.Close()
+    End Function
+
+
+    Public Shared Function RoundIt(ByVal aNumberToRound As Double, Optional ByVal aDecimalPlaces As Double = 0) As Double
+        Dim nFactor As Double, nTemp As Double
+
+        nFactor = 10 ^ aDecimalPlaces
+        nTemp = (aNumberToRound * nFactor) + 0.5
+        RoundIt = Int(CDec(nTemp)) / nFactor
+
+    End Function
+
+    'Public Shared Sub Email_Send(ByVal from As String, ByVal recepient As String, ByVal cc As String, ByVal subject As String, ByVal body As String)
+    '    Dim objMail
+
+    '    objMail = System.Web.HttpContext.Current.Server.CreateObject("CDO.Message")
+    '    objMail.From = from
+    '    objMail.To = recepient
+    '    If InStr(LCase(recepient), "disney.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "db.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "exxonmobil.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "sas.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "cvs.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "cvscaremark.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    If InStr(LCase(recepient), "kcc.com") > 0 Then
+    '        objMail.ReplyTo = from
+    '        objMail.Sender = "surveys@performanceprograms.com"
+    '    End If
+
+    '    objMail.Bcc = ConfigurationManager.AppSettings("bcc")
+    '    objMail.Subject = subject
+    '    objMail.HTMLBody = body
+    '    On Error Resume Next
+    '    objMail.Send()
+    '    objMail = Nothing
+    'End Sub
+
+
+    Public Shared Sub Email_Send_EngOnly(ByVal from1 As String, ByVal recepient As String, ByVal cc As String, ByVal subject As String, ByVal body As String)
+        Dim objMail
+
+        objMail = System.Web.HttpContext.Current.Server.CreateObject("CDO.Message")
+        objMail.From = From_Get(from1, recepient)
+        objMail.To = recepient
+
+        objMail.Bcc = ConfigurationManager.AppSettings("bcc")
+        objMail.Subject = subject
+        objMail.HTMLBody = body
+        On Error Resume Next
+        objMail.Send()
+        objMail = Nothing
+    End Sub
+
+    
+    '9/12/2012
+    Public Shared Sub Email_Send(ByVal from1 As String, ByVal recepient As String, ByVal cc As String, ByVal subject As String, ByVal body As String)
+        Dim MailFrom As New System.Net.Mail.MailAddress(From_Get(from1, recepient), "")
+        Dim MailObj As New System.Net.Mail.MailMessage
+         
+        
+        MailObj.From = MailFrom
+        If recepient <> "" Then MailObj.To.Add(recepient)
+        MailObj.Bcc.Add(ConfigurationManager.AppSettings("bcc"))
+        MailObj.Subject = subject
+        MailObj.SubjectEncoding = System.Text.Encoding.UTF8
+
+        MailObj.Body = body
+        MailObj.IsBodyHtml = True
+        MailObj.BodyEncoding = System.Text.Encoding.UTF8
+        System.Web.HttpContext.Current.Trace.Warn(body)
+
+        On Error Resume Next
+        Dim smtp = New System.Net.Mail.SmtpClient("localhost") 'smtp.nerdsintheknow.com
+
+        smtp.Send(MailObj)
+
+    End Sub
+
+
+    Public Shared Function From_Get(sFrom As String, sTo As String) As String
+        Dim sFromDomain As String, sToDomain As String, i1 As Integer
+        Dim dvD As System.Data.DataView
+
+        sFromDomain = Replace(Mid(sFrom, InStr(sFrom, "@") + 1), ">", "")
+        sToDomain = Replace(Mid(sTo, InStr(sTo, "@") + 1), ">", "")
+        System.Web.HttpContext.Current.Trace.Warn(sFromDomain)
+        System.Web.HttpContext.Current.Trace.Warn(sToDomain)
+
+        If UCase(sFromDomain) = UCase(sToDomain) Then
+            dvD = Domains.DomainsList_Get()
+            System.Web.HttpContext.Current.Trace.Warn("Count=" & dvD.Table.Rows.Count)
+            For i1 = 0 To dvD.Table.Rows.Count - 1
+                If UCase(dvD.Table.Rows(i1)("DomainName")) = UCase(sFromDomain) Then
+                    From_Get = ConfigurationManager.AppSettings("sender")
+                    System.Web.HttpContext.Current.Trace.Warn("AAA " & ConfigurationManager.AppSettings("sender"))
+                    Exit Function
+                End If
+            Next
+        End If
+
+        System.Web.HttpContext.Current.Trace.Warn("BBB " & sFrom)
+
+        From_Get = sFrom
+
+    End Function
+
+
+    Public Shared Function MaxDay(ByVal iMonth As Integer, ByVal iYear As Integer) As Integer
+        Select Case iMonth
+            Case 1, 3, 5, 7, 8, 10, 12
+                MaxDay = 31
+            Case 4, 6, 9, 11
+                MaxDay = 30
+            Case 2
+                If (iYear Mod 4) = 0 Then
+                    MaxDay = 29
+                Else
+                    MaxDay = 28
+                End If
+        End Select
+    End Function
+
+    Public Shared Function FlipName(ByVal s1 As String) As String
+        'change "Kaiser, Rob' to "Rob Kaiser"
+        Dim a1 As Array
+        a1 = Split(s1, ",")
+        If a1.Length = 2 Then
+            FlipName = Trim(a1(1)) & " " & Trim(a1(0))
+        Else
+            FlipName = s1
+        End If
+    End Function
+
+    
+
+    Public Shared Function fsDate(ByVal dDate As DateTime) As String
+        Dim sCulture As String
+        sCulture = "es-Mx"
+
+        fsDate = dDate.ToString("d", New System.Globalization.CultureInfo(sCulture))
+
+    End Function
+
+    Public Shared Function FileExists(ByVal FileFullPath As String) As Boolean
+
+        Dim f As New IO.FileInfo(FileFullPath)
+        Return f.Exists
+    End Function
+
+    Public Shared Function JustFileName(ByVal sFullFileName As String) As String
+        JustFileName = Mid(sFullFileName, InStrRev(sFullFileName, "\") + 1)
+    End Function
+
+    Public Shared Sub File_Delete(ByVal FileFullPath As String)
+        Dim f As New IO.FileInfo(FileFullPath)
+        f.Delete()
+    End Sub
+
+    Public Shared Sub File_Rename(ByVal fromFileFullPath As String, tofilefullpath As String)
+        If CF.FileExists(fromFileFullPath) Then
+            If Not CF.FileExists(tofilefullpath) Then
+                System.IO.File.Move(fromFileFullPath, tofilefullpath)
+            Else
+                CF.Email_Send("HPI2010@perfprog.com", "", "", "Dest file exists Error", fromFileFullPath & " ====> " & tofilefullpath)
+            End If
+        End If
+
+    End Sub
+
+    Public Shared Sub Email_SendAttachment_EngOnly(ByVal from As String, ByVal recepient As String, ByVal cc As String, ByVal subject As String, ByVal body As String, ByVal sAttachmentName() As String)
+        Dim objMail
+        Dim i1 As Integer
+
+        objMail = System.Web.HttpContext.Current.Server.CreateObject("CDO.Message")
+        objMail.From = "surveys@performanceprograms.com"
+        objMail.Replyto = from
+        objMail.To = recepient
+        objMail.Bcc = ConfigurationManager.AppSettings("bcc")
+        objMail.Subject = subject
+        objMail.HTMLBody = body
+        System.Web.HttpContext.Current.Trace.Warn(body)
+
+        For i1 = 0 To UBound(sAttachmentName)
+            If sAttachmentName(i1) <> "" Then
+                System.Web.HttpContext.Current.Trace.Warn("Attachment=" & sAttachmentName(i1))
+                objMail.AddAttachment(sAttachmentName(i1))
+            End If
+        Next
+
+        On Error Resume Next
+        objMail.Send()
+        objMail = Nothing
+    End Sub
+
+    Public Shared Sub Email_SendAttachment(ByVal from1 As String, ByVal recepient As String, ByVal cc As String, ByVal subject As String, ByVal body As String, ByVal sAttachmentName() As String)
+        Dim Mailobj As New System.Net.Mail.MailMessage
+        Dim i1 As Integer
+        Dim MailFrom As New System.Net.Mail.MailAddress(from1, "")
+        Dim MailAttach As System.Net.Mail.Attachment
+
+        Mailobj.From = MailFrom '"surveys@performanceprograms.com"
+        Mailobj.To.Add(recepient)
+        Mailobj.Bcc.Add(ConfigurationManager.AppSettings("bcc"))
+        Mailobj.Subject = subject
+        Mailobj.SubjectEncoding = System.Text.Encoding.UTF8
+        Mailobj.Body = body
+        Mailobj.IsBodyHtml = True
+        Mailobj.BodyEncoding = System.Text.Encoding.UTF8
+        System.Web.HttpContext.Current.Trace.Warn(body)
+
+        For i1 = 0 To UBound(sAttachmentName)
+            If sAttachmentName(i1) <> "" Then
+                System.Web.HttpContext.Current.Trace.Warn("Attachment=" & sAttachmentName(i1))
+                MailAttach = New System.Net.Mail.Attachment(sAttachmentName(i1))
+                Mailobj.Attachments.Add(MailAttach)
+            End If
+        Next
+
+
+        On Error Resume Next
+
+        Dim smtp = New System.Net.Mail.SmtpClient("localhost") 'smtp.nerdsintheknow.com
+        smtp.Send(Mailobj)
+
+    End Sub
+
+End Class

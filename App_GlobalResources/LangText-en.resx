@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="audit_fullydisengaged" xml:space="preserve">
+    <value>Fully Disengaged</value>
+  </data>
+  <data name="audit_fullyengaged" xml:space="preserve">
+    <value>Fully Engaged</value>
+  </data>
+  <data name="audit_heading" xml:space="preserve">
+    <value>Life Engagement Audit</value>
+  </data>
+  <data name="audit_instr" xml:space="preserve">
+    <value>Answer all of the questions using the time frame of the last six months. Select the number on a scale of 1-7 that corresponds to your engagement level.</value>
+  </data>
+  <data name="comments_charsleft" xml:space="preserve">
+    <value>characters left:</value>
+  </data>
+  <data name="comments_heading" xml:space="preserve">
+    <value>Open-Ended Comment Questions</value>
+  </data>
+  <data name="comments_instr" xml:space="preserve">
+    <value>You can enter a maximum of 300 characters in each comment.</value>
+  </data>
+  <data name="default_checkemail" xml:space="preserve">
+    <value>Check your Inbox to retrieve the requested info.</value>
+  </data>
+  <data name="default_enablecookies" xml:space="preserve">
+    <value>Please enable cookies</value>
+  </data>
+  <data name="default_groupcode" xml:space="preserve">
+    <value>Group Code</value>
+  </data>
+  <data name="default_heading" xml:space="preserve">
+    <value>Welcome to the Seven Tudes</value>
+  </data>
+  <data name="default_instr" xml:space="preserve">
+    <value>Please use the codes provided to you to begin your assessment(s).</value>
+  </data>
+  <data name="default_invalid_input" xml:space="preserve">
+    <value>Invalid input. Please try again</value>
+  </data>
+  <data name="default_loginagain" xml:space="preserve">
+    <value>For security purposes, you may not be logged into two surveys at once. Please return to your first window.</value>
+  </data>
+  <data name="default_participantid" xml:space="preserve">
+    <value>Participant Code</value>
+  </data>
+  <data name="default_participants" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_hpi" xml:space="preserve">
+    <value>We are excited about your upcoming Corporate Athlete/Energy Management training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_jnj" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance in Life training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_wp" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_raterpassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="default_raters" xml:space="preserve">
+    <value>Thank you for taking the time to complete this assessment. You should be able to complete the questions in 10-15 minutes.</value>
+  </data>
+  <data name="default_reload" xml:space="preserve">
+    <value>Click here to try logging in again</value>
+  </data>
+  <data name="default_report" xml:space="preserve">
+    <value>Request Report</value>
+  </data>
+  <data name="default_reportsent" xml:space="preserve">
+    <value>Your report has been sent to your email address.</value>
+  </data>
+  <data name="default_submit" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="default_unknownemailaddress" xml:space="preserve">
+    <value>This email address is not in the system.</value>
+  </data>
+  <data name="demog_chooseone" xml:space="preserve">
+    <value>Choose One</value>
+  </data>
+  <data name="demog_heading" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="demog_instr" xml:space="preserve">
+    <value>Items in red are required</value>
+  </data>
+  <data name="demog_rptnote" xml:space="preserve">
+    <value>&lt;b&gt;REMINDER: &lt;/b&gt;You will receive your report(s) via email after the due date and prior to your course date. Please complete all tasks in the main menu prior to the deadline provided.</value>
+  </data>
+  <data name="demog_valsumm1" xml:space="preserve">
+    <value>Please answer the following questions.</value>
+  </data>
+  <data name="health_heading" xml:space="preserve">
+    <value>Health Profile</value>
+  </data>
+  <data name="health_hour" xml:space="preserve">
+    <value>hour</value>
+  </data>
+  <data name="health_hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="health_q16_1" xml:space="preserve">
+    <value>Think about days you were limited in the amount or kind of work you could do, days you accomplished less than you would like, or days you could not do your work as carefully as usual. If low or negative energy affected your work only a little, choose a low number. Choose a high number if low or negative energy affected your work a great deal. </value>
+  </data>
+  <data name="health_q16_2" xml:space="preserve">
+    <value>Consider only how much low (or negative) energy affected productivity &lt;u&gt;while you were working. &lt;/u&gt;</value>
+  </data>
+  <data name="health_q17_1" xml:space="preserve">
+    <value>By regular activities, we mean the usual activities you do, such as work around the house, shopping, childcare, exercising, studying, etc. Think about times you were limited in the amount or kind of activities you could do and times you accomplished less than you would like. If health problems affected your activities only a little, choose a low number. Choose a high number if health problems affected your activities a great deal. </value>
+  </data>
+  <data name="health_q17_2" xml:space="preserve">
+    <value>Consider only how much &lt;u&gt;low or negative energy levels&lt;/u&gt; affected your ability to do your regular daily activities, other than work at a job. </value>
+  </data>
+  <data name="logout_loginagain" xml:space="preserve">
+    <value>Login again</value>
+  </data>
+  <data name="logout_msg" xml:space="preserve">
+    <value>Your session has expired due to inactivity. Please log in to continue the survey, using the access codes in your email.</value>
+  </data>
+  <data name="master_copyright" xml:space="preserve">
+    <value>© 2016 Thunderbird School of Global Management and University of Hartford Barney School of Business. All rights reserved.</value>
+  </data>
+  <data name="master_logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="master_pname" xml:space="preserve">
+    <value>Please evaluate:</value>
+  </data>
+  <data name="master_relname" xml:space="preserve">
+    <value>As your:</value>
+  </data>
+  <data name="master_rname" xml:space="preserve">
+    <value>Welcome: </value>
+  </data>
+  <data name="master_savepartial" xml:space="preserve">
+    <value>Return to menu</value>
+  </data>
+  <data name="master_support" xml:space="preserve">
+    <value>To learn more about Seven Tudes, go to our website at &lt;a href="http://www.seventudes.com" target="_blank"&gt;www.seventudes.com&lt;/a&gt;</value>
+  </data>
+  <data name="misc_instr" xml:space="preserve">
+    <value>Please answer the following questions by selecting the option that most closely reflects your answer. Place your mouse arrow over the number rating to read the text associated with that choice.</value>
+  </data>
+  <data name="misc_instr2" xml:space="preserve">
+    <value>Please answer the following questions by selecting the option that most closely reflects your answer.</value>
+  </data>
+  <data name="misc_mandatory" xml:space="preserve">
+    <value>Responses to all questions are required.</value>
+  </data>
+  <data name="pagexofy" xml:space="preserve">
+    <value>Page "xx" of "yy"</value>
+  </data>
+  <data name="profile_checkbox" xml:space="preserve">
+    <value>Please mark the highlighted checkbox if the question is confusing.</value>
+  </data>
+  <data name="profile_family" xml:space="preserve">
+    <value>Since you are a family member or friend, please answer all questions from the perspective of "home."</value>
+  </data>
+  <data name="profile_heading" xml:space="preserve">
+    <value>Seven Tudes</value>
+  </data>
+  <data name="profile_reqdmissing" xml:space="preserve">
+    <value>Please rate all items with a red asterisk.</value>
+  </data>
+  <data name="profile_valsumm1" xml:space="preserve">
+    <value>Please provide ratings for the following questions.</value>
+  </data>
+  <data name="progress_audit" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="progress_comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="progress_demographics" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="progress_ratings" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="questions_btncomplete" xml:space="preserve">
+    <value>Submit Completed Survey</value>
+  </data>
+  <data name="questions_btnnext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="questions_btnprev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="questions_nextmsg" xml:space="preserve">
+    <value>Your answers will be saved when you go to the next page.</value>
+  </data>
+  <data name="register_addheading" xml:space="preserve">
+    <value>Add raters</value>
+  </data>
+  <data name="register_bullet1" xml:space="preserve">
+    <value>&lt;font color=red&gt;Recommended volume of raters is 5 or more&lt;/font&gt;, as follows:&lt;ul&gt;&lt;li&gt;Supervisor/manager:  1 (minimum )&lt;/li&gt;&lt;li&gt;Peers:  2 or more&lt;/li&gt;&lt;li&gt;Direct reports:  2 or more&lt;/li&gt;&lt;li&gt;Friends/Family:  any&lt;/li&gt;&lt;li&gt;Children:  any&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="register_bullet2" xml:space="preserve">
+    <value>If you do not have a &lt;b&gt;minimum of 2 peers and 2 direct reports&lt;/b&gt;, the categories are combined in your report to preserve anonymity.</value>
+  </data>
+  <data name="register_bullet3" xml:space="preserve">
+    <value>Children questions are targeted at ages 7-18, and answer 6 questions designed for that age group. Any child over 18 is recommended to select "Family Member" to take the in-depth question set.</value>
+  </data>
+  <data name="register_bullet4" xml:space="preserve">
+    <value>You may use your own email address for children, if they don’t have one. Once they login, they should choose "child" as their relationship to you.</value>
+  </data>
+  <data name="register_currentheading" xml:space="preserve">
+    <value>Current Raters</value>
+  </data>
+  <data name="register_detail1" xml:space="preserve">
+    <value>Detailed Rater Information</value>
+  </data>
+  <data name="register_duedate" xml:space="preserve">
+    <value>All Responses Due by</value>
+  </data>
+  <data name="register_emailaddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="register_emailssent" xml:space="preserve">
+    <value>|Count| emails sent.</value>
+  </data>
+  <data name="register_exists" xml:space="preserve">
+    <value>This email address is in use. Please try again.</value>
+  </data>
+  <data name="register_firstname" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="register_groupheading" xml:space="preserve">
+    <value>Register to access the Seven Tudes</value>
+  </data>
+  <data name="register_ch_groupheading" xml:space="preserve">
+    <value>Register to access the NorthStar Assessment</value>
+  </data>
+  <data name="register_heading" xml:space="preserve">
+    <value>Register Raters </value>
+  </data>
+  <data name="register_instr" xml:space="preserve">
+    <value>Please select the persons you would like to provide feedback for your 360 Seven Tudes. The raters you select will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends &amp; family.&lt;/b&gt; For example, personal habit-related items like nutrition or exercise are only asked of friends and family. There is no maximum on the number of raters, so please register as many as you would like.</value>
+  </data>
+  <data name="register_instr2" xml:space="preserve">
+    <value>&lt;u&gt;INSTRUCTIONS: &lt;/u&gt;Enter the required information for each person, and click “Save (send emails)”. The system will then send out the invitation to the raters selected.</value>
+  </data>
+  <data name="register_lastname" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="register_maxdate" xml:space="preserve">
+    <value>Reminders Sent</value>
+  </data>
+  <data name="register_nocurrentdata" xml:space="preserve">
+    <value>You don't have any raters registered at this time.</value>
+  </data>
+  <data name="register_note2" xml:space="preserve">
+    <value>Please Note: Email addresses ending with att.com, shaw.ca and sbcglobal.net may have difficulty in receiving these emails. To ensure delivery of the information, please utilize email addresses outside these domains, if possible.</value>
+  </data>
+  <data name="register_note3" xml:space="preserve">
+    <value>Automated reminders are sent to any rater who has &lt;u&gt;not&lt;/u&gt; provided feedback by the response deadline.</value>
+  </data>
+  <data name="register_previewemails" xml:space="preserve">
+    <value>Preview Emails</value>
+  </data>
+  <data name="register_reminders" xml:space="preserve">
+    <value>Automatic reminder emails will be sent to any rater who has not provided feedback by the response deadline above. The date the most recent reminders were sent is shown below. You may choose to send reminders yourself by clicking on ’Send Reminders’.</value>
+  </data>
+  <data name="register_reminders2" xml:space="preserve">
+    <value>The most recent date that reminders were sent is displayed to the left. If you would like to send reminders yourself, simply click on the “Send Reminders” button. Reminders are sent only to those who have not completed their survey.</value>
+  </data>
+  <data name="register_respcount" xml:space="preserve">
+    <value>Number of responses received so far: |nn|</value>
+  </data>
+  <data name="register_respinstr" xml:space="preserve">
+    <value>(For confidentiality reasons, you will not see who has completed the profile.) </value>
+  </data>
+  <data name="register_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="register_savesend" xml:space="preserve">
+    <value>Save (send emails)</value>
+  </data>
+  <data name="register_sendreminders" xml:space="preserve">
+    <value>Send Reminders</value>
+  </data>
+  <data name="register_sentcount" xml:space="preserve">
+    <value>|nn| message(s) sent</value>
+  </data>
+  <data name="register_step1" xml:space="preserve">
+    <value>&lt;b&gt;Step 1:&lt;/b&gt; Use the table to the left to enter the names and email addresses of your raters.</value>
+  </data>
+  <data name="register_step1a" xml:space="preserve">
+    <value>Please note: Email addresses ending at &lt;i&gt;att.com&lt;/i&gt;, &lt;i&gt;shaw.ca&lt;/i&gt; and &lt;i&gt;sbcglobal.net&lt;/i&gt; may have difficulty in receiving these emails. To ensure delivery of information to your raters, please utilize email addresses outside of these domains, if possible.</value>
+  </data>
+  <data name="rel_heading" xml:space="preserve">
+    <value>Please select the relationship</value>
+  </data>
+  <data name="rel_instr1" xml:space="preserve">
+    <value>Step 1: Use the table to the left to enter the names and email addresses of your raters.</value>
+  </data>
+  <data name="rel_instr2" xml:space="preserve">
+    <value>If you are a child between the ages of 7 and 18, please select "Child" as the relationship. If you are a child over 18, please select "Family" as the relationship.</value>
+  </data>
+  <data name="selfhome_datecompleted" xml:space="preserve">
+    <value>Date Completed</value>
+  </data>
+  <data name="selfhome_datestarted" xml:space="preserve">
+    <value>Date Started</value>
+  </data>
+  <data name="selfhome_instr" xml:space="preserve">
+    <value>Please complete the task(s) listed below. You may complete these item(s) in whatever order you choose. Your answers will be saved, so you can come back at any time before the deadline to complete the items.</value>
+  </data>
+  <data name="selfhome_instr2" xml:space="preserve">
+    <value>Completion of these tasks by the deadline provided will ensure that you receive your report(s) prior to your training session.</value>
+  </data>
+  <data name="selfhome_instr3" xml:space="preserve">
+    <value>NOTE: You will receive your report(s) via email after the due date and prior to your course date.</value>
+  </data>
+  <data name="selfhome_reportrequested" xml:space="preserve">
+    <value>Report request has been sent</value>
+  </data>
+  <data name="selfhome_requestreport" xml:space="preserve">
+    <value>Request Report</value>
+  </data>
+  <data name="selfhome_takesurvey" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="selfhome_task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="selfonly_intro" xml:space="preserve">
+    <value>Upon entering your information below, you will be able to begin your survey. You will also receive an email that contains personal login codes, should you choose to return later and complete the survey.</value>
+  </data>
+  <data name="selfonly_login" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="selfonly_register" xml:space="preserve">
+    <value>Register and Begin Survey</value>
+  </data>
+  <data name="st_clickonce" xml:space="preserve">
+    <value>After clicking the 'Submit' button, your report will be processed. This may take some time. Please be patient and only 'click' once.</value>
+  </data>
+  <data name="st_heading" xml:space="preserve">
+    <value>Storytelling Profile</value>
+  </data>
+  <data name="st_instr" xml:space="preserve">
+    <value>&lt;b&gt;Important Note: &lt;/b&gt;Some questions on this profile will not always provide the choices that are a perfect fit for you. In that case, we ask you to select the answer that is closest to the reality of your story (the way you see yourself).</value>
+  </data>
+  <data name="st_invalidranks" xml:space="preserve">
+    <value>Invalid ranks entered for question |nn|</value>
+  </data>
+  <data name="st_legend" xml:space="preserve">
+    <value>Legend:</value>
+  </data>
+  <data name="st_noresponse" xml:space="preserve">
+    <value>No response selected for question |nn|</value>
+  </data>
+  <data name="st_rateall" xml:space="preserve">
+    <value>Please rate all items in question |nn|</value>
+  </data>
+  <data name="st_requiredfield" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="st_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="thanks_partial" xml:space="preserve">
+    <value>Your partially completed survery has been saved. You can return and complete it at a later time.&lt;br&gt;&lt;br&gt;You can now &lt;a href="javascript:window.close();"&gt;close&lt;/a&gt; this window.</value>
+  </data>
+  <data name="thanks_rater" xml:space="preserve">
+    <value>Thank you for completing the profile. Your responses will be combined with those from other raters and included in this person's feedback report.</value>
+  </data>
+  <data name="master_prework" xml:space="preserve">
+    <value>For questions about completing the survey please contact us at &lt;a class=alink href="mailto:surveys@performanceprograms.com"&gt;email&lt;/a&gt;.</value>
+  </data>
+  <data name="rel_continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="emails_invitation" xml:space="preserve">
+    <value>Invitation</value>
+  </data>
+  <data name="emails_reminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="emails_note" xml:space="preserve">
+    <value>Note: This will be followed by the invitation email message shown above.</value>
+  </data>
+  <data name="master_keepworking" xml:space="preserve">
+    <value>Keep working</value>
+  </data>
+  <data name="register_invalidemailaddress" xml:space="preserve">
+    <value>Error Alert: One or more email addresses is invalid. Please see the entry marked with a red asterisk and re-enter the correct address.</value>
+  </data>
+  <data name="selfhome_raterreg" xml:space="preserve">
+    <value>|x| responded out of |y| registered</value>
+  </data>
+  <data name="rel_instr3" xml:space="preserve">
+    <value>* Most questions are multiple choice and those responses are reported in aggregate. Responses to open-ended (write in) questions may be identifiable as your response by the person you are rating based on the specifics of what you state in your response. </value>
+  </data>
+  <data name="consent_agree" xml:space="preserve">
+    <value>I agree</value>
+  </data>
+  <data name="consent_disagree" xml:space="preserve">
+    <value>I do not agree</value>
+  </data>
+  <data name="consent_finaltext" xml:space="preserve">
+    <value>I have read and consent to the these terms and those detailed in the &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt; and &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;, and to the processing of personal information in the United States and other locations where data protection rules may differ from those of the country in which I reside.</value>
+  </data>
+  <data name="consent_heading" xml:space="preserve">
+    <value>Consent Form</value>
+  </data>
+  <data name="consent_no" xml:space="preserve">
+    <value>We are sorry. If you change your mind, please login again.</value>
+  </data>
+  <data name="consentrater_para1" xml:space="preserve">
+    <value>Thank you for agreeing to provide survey responses for a participant in our courses.</value>
+  </data>
+  <data name="consentrater_para2" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (“Wellness &amp; Prevention”) provides this website and survey for the purpose of preparing individuals for our energy and performance programs (the “Program”). We understand that the information you will be sharing about the Program participant may be very personal. This Privacy Notice is designed to tell you about Wellness &amp; Prevention’s practices regarding collection, use, and disclosure of the information you provide.</value>
+  </data>
+  <data name="consentrater_para3" xml:space="preserve">
+    <value>By completing these survey questions, you consent to the collection, processing, retention, and disclosure of the responses (e.g., related to the participant’s behavioral and lifestyle information, and other information that you provide us) by Wellness &amp; Prevention, our business partners, and our service providers, together who use this information to administer the Program. We will not otherwise sell or give information you provide to other parties for purposes unrelated to the Program.</value>
+  </data>
+  <data name="consentrater_para4" xml:space="preserve">
+    <value>Wellness &amp; Prevention takes reasonable steps to protect such information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction.</value>
+  </data>
+  <data name="consentrater_para5" xml:space="preserve">
+    <value>You may reach us with questions and for other support regarding this survey by contacting:</value>
+  </data>
+  <data name="consentrater_para6" xml:space="preserve">
+    <value>Human Performance Institute 
+Division of Wellness &amp; Prevention, Inc.
+9757 Lake Nona Rd. 
+Orlando, FL 32827 USA
++1.407.438.9911  
+&lt;a href="mailto:info@corporateathlete.com"&gt;info@corporateathlete.com&lt;/a&gt;</value>
+  </data>
+  <data name="consentrater_para7" xml:space="preserve">
+    <value>More information about our overall privacy practices, you may review our Program &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt;. Use of this website is governed by its &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;.</value>
+  </data>
+  <data name="consentself_bullet1" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc., will keep information about me private, and will not voluntarily disclose the information except as described in the Privacy Statement.</value>
+  </data>
+  <data name="consentself_bullet2" xml:space="preserve">
+    <value>Information about me may be provided to the coaches supporting me related to these energy and performance programs.</value>
+  </data>
+  <data name="consentself_bullet3" xml:space="preserve">
+    <value>Wellness &amp; Prevention may provide de-identified aggregate and statistical information about its participants:</value>
+  </data>
+  <data name="consentself_bullet3a" xml:space="preserve">
+    <value>To my sponsor (if applicable) and other supporting organizations for administering the programs</value>
+  </data>
+  <data name="consentself_bullet3b" xml:space="preserve">
+    <value>To other parties for their analysis and research.</value>
+  </data>
+  <data name="consentself_bullet4" xml:space="preserve">
+    <value>Wellness &amp; Prevention and supporting organizations may contact me with program information and requests.</value>
+  </data>
+  <data name="consentself_intro" xml:space="preserve">
+    <value>Please carefully read the following along with our &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt; and &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;, as participation in the various Human Performance Institute programs require that you fully understand and consent to these terms:</value>
+  </data>
+  <data name="default_surveyclosed" xml:space="preserve">
+    <value>The survey is no longer open.</value>
+  </data>
+  <data name="st_noresponse_choice" xml:space="preserve">
+    <value>No response</value>
+  </data>
+  <data name="emails_notstarted" xml:space="preserve">
+    <value>not started</value>
+  </data>
+  <data name="emails_startedon" xml:space="preserve">
+    <value>started on</value>
+  </data>
+  <data name="emails_completedon" xml:space="preserve">
+    <value>completed on</value>
+  </data>
+  <data name="date_tasks" xml:space="preserve">
+    <value>MMM dd, yyyy</value>
+  </data>
+  <data name="date_report" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="register_forgotpassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="viewemail_instr" xml:space="preserve">
+    <value>Click here for instructions in other languages</value>
+  </data>
+  <data name="prev_rater_header" xml:space="preserve">
+    <value>Select Previous Raters.</value>
+  </data>
+  <data name="prev_rater_addnew" xml:space="preserve">
+    <value>Add Raters</value>
+  </data>
+  <data name="prev_rater_instr" xml:space="preserve">
+    <value>On the next two pages you will select the people who you would like to give feedback for your 360 Seven Tudes. The raters will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends and family.&lt;/b&gt;</value>
+  </data>
+  <data name="prev_rater_instr2" xml:space="preserve">
+    <value>This page shows all the raters that you had selected for your previous 360. &lt;font color="red"&gt;&lt;b&gt;We highly encourage you to select all of these raters again&lt;/b&gt;&lt;/font&gt;. However, you are not required to do so. You will have the opportunity to add additional raters on the following screen.
+
+Please review the list of previous raters below and select those you would like to participate in this assessment. When finished, click Next to continue.</value>
+  </data>
+  <data name="prev_rater_next_alert" xml:space="preserve">
+    <value>Please review your selections. You will not be able to return to this screen.</value>
+  </data>
+  <data name="default_instr_t2" xml:space="preserve">
+    <value>Please use the codes you have been provided to begin your Seven Tudes</value>
+  </data>
+  <data name="default_participants_t2" xml:space="preserve">
+    <value>The Seven Tudes is the Human Performance Institute’s most comprehensive online assessment tool. The profile focuses on behaviors in each of the four energy dimensions (physical, mental, emotional, and spiritual). It provides awareness of strengths as well as uncovers opportunities for growth in each energy dimension.</value>
+  </data>
+  <data name="thanks_rater_ch" xml:space="preserve">
+    <value>Thank you for completing the Northstar Assessment.  Your responses will be combined with those from other raters and included in this person's feedback report.</value>
+  </data>
+  <data name="default_instr_ch" xml:space="preserve">
+    <value>Please use the codes provided to you to begin your assessment.</value>
+  </data>
+  <data name="default_heading_ch" xml:space="preserve">
+    <value>Welcome to the NorthStar Assessment</value>
+  </data>
+  <data name="default_participants_ch" xml:space="preserve">
+    <value>We are excited about your upcoming training with the Human Performance Institute. The assessment(s) you will be completing are an integral part of the training you will be attending.</value>
+  </data>
+</root>

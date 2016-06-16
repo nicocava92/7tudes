@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="audit_fullydisengaged" xml:space="preserve">
+<value>Totalmente desconectado</value>
+</data>
+<data name="audit_fullyengaged" xml:space="preserve">
+<value>Totalmente comprometido</value>
+</data>
+<data name="audit_heading" xml:space="preserve">
+<value>Auditor&#237;a de compromiso en en la vida</value>
+</data>
+<data name="audit_instr" xml:space="preserve">
+<value>Responda todas las preguntas en el marco de tiempo de los &#250;ltimos 6 meses. Seleccione el n&#250;mero en una escala de 1 a 7 que corresponda a su nivel de compromiso.</value>
+</data>
+<data name="comments_charsleft" xml:space="preserve">
+<value>caracteres que quedan:</value>
+</data>
+<data name="comments_heading" xml:space="preserve">
+<value>Preguntas abiertas sobre comentarios</value>
+</data>
+<data name="comments_instr" xml:space="preserve">
+<value>Puede ingresar un m&#225;ximo de 300 caracteres en cada comentario.</value>
+</data>
+<data name="consent_agree" xml:space="preserve">
+<value>Acepto</value>
+</data>
+<data name="consent_disagree" xml:space="preserve">
+<value>No acepto</value>
+</data>
+<data name="consent_finaltext" xml:space="preserve">
+<value>Le&#237; y acepto estos t&#233;rminos y los detallados en la Declaraci&#243;n de Privacidad y Notificaci&#243;n Legal y el procesamiento de la informaci&#243;n personal en los Estados Unidos y otros lugares donde las reglas de protecci&#243;n de la informaci&#243;n pueden ser diferentes de las del pa&#237;s donde resido.</value>
+</data>
+<data name="consent_heading" xml:space="preserve">
+<value>Formulario de consentimiento</value>
+</data>
+<data name="consent_no" xml:space="preserve">
+<value>Lo lamentamos. Si cambia de idea, inicie la sesi&#243;n nuevamente.</value>
+</data>
+<data name="consentrater_para1" xml:space="preserve">
+<value>Gracias por aceptar responder las preguntas de la encuesta para participantes en nuestros cursos.</value>
+</data>
+<data name="consentrater_para2" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (&quot;Wellness &amp; Prevention) proporciona este sitio Web y la encuesta con el fin de preparar a las personas para nuestros programas de energ&#237;a y desempe&#241;o (el &quot;Programa&quot;). Entendemos que la informaci&#243;n que compartir&#225; sobre el participante en el Programa puede ser muy personal. Esta Notificaci&#243;n de Privacidad tiene como fin informarle sobre las pr&#225;cticas de Wellness &amp; Prevention sobre la recopilaci&#243;n, uso y divulgaci&#243;n de la informaci&#243;n que proporcione.</value>
+</data>
+<data name="consentrater_para3" xml:space="preserve">
+<value>Al completar estas preguntas de la encuesta, acepta la recopilaci&#243;n, el procesamiento, la conservaci&#243;n y divulgaci&#243;n de las respuestas (p. ej., relacionadas con la informaci&#243;n sobre la conducta y el estilo de vida del participante y otra informaci&#243;n que nos proporcione) por parte de Wellness &amp; Prevention, nuestros socios comerciales y proveedores de servicios, que usan esta informaci&#243;n para administrar el Programa. No venderemos o daremos a terceros de otra manera la informaci&#243;n que proporcione con fines no relacionados con el Programa.</value>
+</data>
+<data name="consentrater_para4" xml:space="preserve">
+<value>Wellness &amp; Prevention toma las medidas razonables para proteger la informaci&#243;n de p&#233;rdida, uso indebido, acceso no autorizado, divulgaci&#243;n, alteraci&#243;n o destrucci&#243;n.</value>
+</data>
+<data name="consentrater_para5" xml:space="preserve">
+<value>Puede comunicarse con nosotros para preguntar u obtener otra ayuda sobre esta encuesta a trav&#233;s de:</value>
+</data>
+<data name="consentrater_para6" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. 9757 Lake Nona Rd. Orlando, FL 32827 EE.UU. + 1.407.438.991 info@corporateathlete.com&quot;</value>
+</data>
+<data name="consentrater_para7" xml:space="preserve">
+<value>Para obtener m&#225;s informaci&#243;n sobre nuestras pr&#225;cticas de privacidad generales, puede revisar nuestra Declaraci&#243;n de Privacidad del Programa. La Notificaci&#243;n Legal rige el uso de este sitio Web.</value>
+</data>
+<data name="consentself_bullet1" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. conservar&#225; mi informaci&#243;n de manera privada y no la divulgar&#225; voluntariamente excepto en los t&#233;rminos que se describen en la Declaraci&#243;n de Privacidad.</value>
+</data>
+<data name="consentself_bullet2" xml:space="preserve">
+<value>La informaci&#243;n sobre m&#237; puede proporcionarse a los instructores que me apoyan con relaci&#243;n a estos programas de energ&#237;a y desempe&#241;o.</value>
+</data>
+<data name="consentself_bullet3" xml:space="preserve">
+<value>Wellness &amp; Prevention puede proporcionar informaci&#243;n general y estad&#237;stica no identificada sobre sus participantes:</value>
+</data>
+<data name="consentself_bullet3a" xml:space="preserve">
+<value>A mi patrocinador (si corresponde) y otras organizaciones de apoyo para administrar los programas.</value>
+</data>
+<data name="consentself_bullet3b" xml:space="preserve">
+<value>A otras partes para su an&#225;lisis e investigaci&#243;n.</value>
+</data>
+<data name="consentself_bullet4" xml:space="preserve">
+<value>Wellness &amp; Prevention y las organizaciones de apoyo pueden contactarme con informaci&#243;n sobre el programa y solicitudes.</value>
+</data>
+<data name="consentself_intro" xml:space="preserve">
+<value>Lea con cuidado lo siguiente junto con nuestra Declaraci&#243;n de Privacidad y Notificaci&#243;n Legal, ya que la participaci&#243;n en los diversos programas del Human Performance Institute requiere que entienda bien y acepte estos t&#233;rminos:</value>
+</data>
+<data name="default_checkemail" xml:space="preserve">
+<value>Marque la casilla de entrada para recuperar la informaci&#243;n solicitada.</value>
+</data>
+<data name="default_enablecookies" xml:space="preserve">
+<value>Habilite cookies</value>
+</data>
+<data name="default_groupcode" xml:space="preserve">
+<value>C&#243;digo de grupo</value>
+</data>
+<data name="default_heading" xml:space="preserve">
+<value>Bienvenido al Perfil de energ&#237;a</value>
+</data>
+<data name="default_instr" xml:space="preserve">
+<value>Use los c&#243;digos proporcionados para comenzar su(s) evaluaci&#243;n(es)</value>
+</data>
+<data name="default_invalid_input" xml:space="preserve">
+<value>Entrada no v&#225;lida. Intente de nuevo</value>
+</data>
+<data name="default_loginagain" xml:space="preserve">
+<value>Por razones de seguridad, no puede estar registrado en dos encuestas al mismo tiempo. Regrese a la primera ventana.</value>
+</data>
+<data name="default_participantid" xml:space="preserve">
+<value>C&#243;digo del participante</value>
+</data>
+<data name="default_participants" xml:space="preserve">
+<value>Estamos muy contentos con su pr&#243;xima capacitaci&#243;n en Energ&#237;a para el desempe&#241;o. Los perfiles que completar&#225; son una parte integral y esencial de la capacitaci&#243;n a la que asistir&#225;.</value>
+</data>
+<data name="default_participants_hpi" xml:space="preserve">
+<value>Estamos muy contentos con su pr&#243;xima capacitaci&#243;n en Corporate Athlete/Energy Management (Manejo de la energ&#237;a/Atleta corporativo). Los perfiles que completar&#225; son una parte integral y esencial de la capacitaci&#243;n a la que asistir&#225;.</value>
+</data>
+<data name="default_participants_jnj" xml:space="preserve">
+<value>Estamos muy contentos con su pr&#243;xima capacitaci&#243;n en Energ&#237;a para el desempe&#241;o en la vida. Los perfiles que completar&#225; son una parte integral y esencial de la capacitaci&#243;n a la que asistir&#225;.</value>
+</data>
+<data name="default_participants_wp" xml:space="preserve">
+<value>Estamos muy contentos con su pr&#243;xima capacitaci&#243;n en Energ&#237;a para el desempe&#241;o. Los perfiles que completar&#225; son una parte integral y esencial de la capacitaci&#243;n a la que asistir&#225;.</value>
+</data>
+<data name="default_raterpassword" xml:space="preserve">
+<value>Contrase&#241;a</value>
+</data>
+<data name="default_raters" xml:space="preserve">
+<value>Gracias por el tiempo que dedica a completar esta evaluaci&#243;n. Deber&#237;a completar las preguntas en 10 a 15 minutos.</value>
+</data>
+<data name="default_reload" xml:space="preserve">
+<value>Haga clic aqu&#237; para iniciar la sesi&#243;n de nuevo.</value>
+</data>
+<data name="default_report" xml:space="preserve">
+<value>Solicitar informe</value>
+</data>
+<data name="default_reportsent" xml:space="preserve">
+<value>Su informe fue enviado a su direcci&#243;n de correo electr&#243;nico.</value>
+</data>
+<data name="default_submit" xml:space="preserve">
+<value>Comenzar</value>
+</data>
+<data name="default_surveyclosed" xml:space="preserve">
+<value>La encuesta ya no est&#225; abierta.</value>
+</data>
+<data name="default_unknownemailaddress" xml:space="preserve">
+<value>Esta direcci&#243;n de correo electr&#243;nico no est&#225; en el sistema.</value>
+</data>
+<data name="demog_chooseone" xml:space="preserve">
+<value>Elegir uno</value>
+</data>
+<data name="demog_heading" xml:space="preserve">
+<value>Datos personales</value>
+</data>
+<data name="demog_instr" xml:space="preserve">
+<value>Los puntos en rojo son obligatorios</value>
+</data>
+<data name="demog_rptnote" xml:space="preserve">
+<value>RECORDATORIO: recibir&#225; los informes por correo electr&#243;nico despu&#233;s de la fecha de vencimiento y antes de la fecha del curso. Complete todas las tareas en el men&#250; principal antes de la fecha final proporcionada.</value>
+</data>
+<data name="demog_valsumm1" xml:space="preserve">
+<value>Responda las preguntas siguientes.</value>
+</data>
+<data name="emails_completedon" xml:space="preserve">
+<value>completado el</value>
+</data>
+<data name="emails_invitation" xml:space="preserve">
+<value>Invitaci&#243;n</value>
+</data>
+<data name="emails_note" xml:space="preserve">
+<value>Nota: a esto le seguir&#225; el mensaje de invitaci&#243;n por correo electr&#243;nico que aparece arriba.</value>
+</data>
+<data name="emails_notstarted" xml:space="preserve">
+<value>no iniciado</value>
+</data>
+<data name="emails_reminder" xml:space="preserve">
+<value>Recordatorio</value>
+</data>
+<data name="emails_startedon" xml:space="preserve">
+<value>iniciado el</value>
+</data>
+<data name="health_heading" xml:space="preserve">
+<value>Perfil de salud</value>
+</data>
+<data name="health_hour" xml:space="preserve">
+<value>hora</value>
+</data>
+<data name="health_hours" xml:space="preserve">
+<value>horas</value>
+</data>
+<data name="health_q16_1" xml:space="preserve">
+<value>Piense en los d&#237;as en que estaba limitado por la cantidad o el tipo de trabajo que pod&#237;a hacer, d&#237;as en que logr&#243; menos de lo deseado o d&#237;as en que no pudo trabajar con el mismo cuidado habitual. Si la energ&#237;a baja o negativa afectaba su trabajo solo un poco, elija un n&#250;mero bajo. Elija un n&#250;mero alto si la energ&#237;a baja o negativa afect&#243; en gran medida su trabajo. </value>
+</data>
+<data name="health_q16_2" xml:space="preserve">
+<value>Considere solo en qu&#233; medida la energ&#237;a baja (o negativa) afect&#243; la productividad &lt;u&gt;mientras trabajaba.&lt;/u&gt;</value>
+</data>
+<data name="health_q17_1" xml:space="preserve">
+<value>Por actividades habituales nos referimos a las actividades usuales que realiza, como el trabajo en el hogar, compras, cuidado de los ni&#241;os, ejercicio, estudios. Piense en las veces que estuvo limitado/a por la cantidad o el tipo de actividades que pod&#237;a hacer y cuando logr&#243; menos de lo deseado. Si los problemas de salud afectaron sus actividades un poco, elija un n&#250;mero bajo. Elija un n&#250;mero alto si la salud afect&#243; en gran medida sus actividades.</value>
+</data>
+<data name="health_q17_2" xml:space="preserve">
+<value>Considere solo en qu&#233; medida los&lt;u&gt;niveles bajos o negativos de energ&#237;a&lt;/u&gt; afectaron su capacidad de realizar las actividades diarias habituales sin incluir el trabajo en un puesto.</value>
+</data>
+<data name="logout_loginagain" xml:space="preserve">
+<value>Inicie la sesi&#243;n de nuevo</value>
+</data>
+<data name="logout_msg" xml:space="preserve">
+<value>Su sesi&#243;n venci&#243; por inactividad. Inicie la sesi&#243;n para continuar la encuesta con los c&#243;digos de acceso en el correo electr&#243;nico.</value>
+</data>
+<data name="master_copyright" xml:space="preserve">
+<value>&#169; Human Perfomance Institute Division of Wellness &amp; Prevention, Inc. 2003 - 2012 - Declaraci&#243;n de Privacidad - Notificaci&#243;n Legal</value>
+</data>
+<data name="master_keepworking" xml:space="preserve">
+<value>Seguir trabajando</value>
+</data>
+<data name="master_logout" xml:space="preserve">
+<value>Terminar la sesi&#243;n</value>
+</data>
+<data name="master_pname" xml:space="preserve">
+<value>Eval&#250;e:</value>
+</data>
+<data name="master_prework" xml:space="preserve">
+<value>Para hacer preguntas sobre c&#243;mo completar la encuesta, cont&#225;ctenos al 1.407.438.9911 o por correo electr&#243;nico. </value>
+</data>
+<data name="master_relname" xml:space="preserve">
+<value>Como su:</value>
+</data>
+<data name="master_rname" xml:space="preserve">
+<value>Bienvenido/a:</value>
+</data>
+<data name="master_savepartial" xml:space="preserve">
+<value>Regresar al men&#250;</value>
+</data>
+<data name="master_support" xml:space="preserve">
+<value>Si tiene problemas para acceder a su perfil, cont&#225;ctenos por correo electr&#243;nico.</value>
+</data>
+<data name="misc_instr" xml:space="preserve">
+<value>Responda las preguntas siguientes seleccionando la opci&#243;n que refleja m&#225;s su respuesta. Coloque la flecha del rat&#243;n sobre el n&#250;mero calificador para leer el texto asociado a esa opci&#243;n.</value>
+</data>
+<data name="misc_instr2" xml:space="preserve">
+<value>Responda las preguntas siguientes seleccionando la opci&#243;n que refleja m&#225;s su respuesta.</value>
+</data>
+<data name="misc_mandatory" xml:space="preserve">
+<value>Es obligatorio responder todas las preguntas.</value>
+</data>
+<data name="pagexofy" xml:space="preserve">
+<value>P&#225;gina &quot;xx&quot; de &quot;yy&quot;</value>
+</data>
+<data name="profile_checkbox" xml:space="preserve">
+<value>Marque la casilla resaltada si la pregunta es confusa.</value>
+</data>
+<data name="profile_family" xml:space="preserve">
+<value>Como es familiar o amigo, responda todas las preguntas desde la perspectiva del &quot;hogar&quot;.</value>
+</data>
+<data name="profile_heading" xml:space="preserve">
+<value>Perfil de energ&#237;a</value>
+</data>
+<data name="profile_reqdmissing" xml:space="preserve">
+<value>Eval&#250;e todos los puntos con un asterisco rojo.</value>
+</data>
+<data name="profile_valsumm1" xml:space="preserve">
+<value>Eval&#250;e las preguntas siguientes.</value>
+</data>
+<data name="progress_audit" xml:space="preserve">
+<value>Auditor&#237;a</value>
+</data>
+<data name="progress_comments" xml:space="preserve">
+<value>Comentarios</value>
+</data>
+<data name="progress_demographics" xml:space="preserve">
+<value>Datos personales</value>
+</data>
+<data name="progress_ratings" xml:space="preserve">
+<value>Perfil</value>
+</data>
+<data name="questions_btncomplete" xml:space="preserve">
+<value>Env&#237;e la encuesta completada</value>
+</data>
+<data name="questions_btnnext" xml:space="preserve">
+<value>Siguiente</value>
+</data>
+<data name="questions_btnprev" xml:space="preserve">
+<value>Prev</value>
+</data>
+<data name="questions_nextmsg" xml:space="preserve">
+<value>Las respuestas se guardar&#225;n cuando vaya a la p&#225;gina siguiente.</value>
+</data>
+<data name="register_addheading" xml:space="preserve">
+<value>Agregar evaluadores</value>
+</data>
+<data name="register_bullet1" xml:space="preserve">
+<value>El volumen de calificadores recomendados es 5 o m&#225;s, a saber:&lt;br&gt;&lt;ul&gt;&lt;li&gt; Supervisor/gerente 1 (m&#237;nimo)&lt;/li&gt;&lt;li&gt; Pares: 2 o m&#225;s&lt;/li&gt;&lt;li&gt; Subordinados directos: 2 o m&#225;s&lt;/li&gt;&lt;li&gt; Amigos/familia: cualquiera&lt;/li&gt;&lt;li&gt; Hijos: cualquiera&lt;/li&gt;&lt;/ul&gt;</value>
+</data>
+<data name="register_bullet2" xml:space="preserve">
+<value>Si no tiene un &lt;b&gt;m&#237;nimo de 2 pares y 2 subordinados directos&lt;/b&gt;, las categor&#237;as se combinan en su informe para preservar el anonimato.</value>
+</data>
+<data name="register_bullet3" xml:space="preserve">
+<value>Las preguntas de los hijos se dirigen a las edades 7 a 18 a&#241;os y se responden 6 preguntas en ese grupo etario. Se recomienda que los hijos de m&#225;s de 18 a&#241;os seleccionen &quot;Miembro de familia&quot; para tomar el conjunto de preguntas en detalle.</value>
+</data>
+<data name="register_bullet4" xml:space="preserve">
+<value>Puede usar su propia direcci&#243;n de correo electr&#243;nico para los hijos si ellos no tienen una. Una vez que inicien la sesi&#243;n, deben elegir &quot;hijo&quot; como relaci&#243;n con usted.</value>
+</data>
+<data name="register_currentheading" xml:space="preserve">
+<value>Evaluadores actuales</value>
+</data>
+<data name="register_detail1" xml:space="preserve">
+<value>Informaci&#243;n detallada del evaluador</value>
+</data>
+<data name="register_duedate" xml:space="preserve">
+<value>Todas las respuestas vencen el</value>
+</data>
+<data name="register_emailaddress" xml:space="preserve">
+<value>Direcci&#243;n de correo electr&#243;nico</value>
+</data>
+<data name="register_emailssent" xml:space="preserve">
+<value>|Count| de correos electr&#243;nicos enviados.</value>
+</data>
+<data name="register_exists" xml:space="preserve">
+<value>Esta direcci&#243;n de correo electr&#243;nico est&#225; en uso. Intente de nuevo.</value>
+</data>
+<data name="register_firstname" xml:space="preserve">
+<value>Primer nombre</value>
+</data>
+<data name="register_groupheading" xml:space="preserve">
+<value>Registrar para acceder al Perfil de energ&#237;a</value>
+</data>
+<data name="register_heading" xml:space="preserve">
+<value>Registrar evaluadores</value>
+</data>
+<data name="register_instr" xml:space="preserve">
+<value>Seleccione las personas que desea que brinden retroalimentaci&#243;n para su Perfil de energ&#237;a 360. Los evaluadores que seleccione recibir&#225;n un subconjunto de las preguntas que se hacen sobre usted. &lt;b&gt;Las preguntas que ellos reciben se basan en su relaci&#243;n con usted, con su trabajo y amigos y familia.&lt;/b&gt; Por ejemplo, los puntos relacionados con h&#225;bitos personales como nutrici&#243;n o ejercicio solo se hacen a amigos y familia. No hay un m&#225;ximo en el n&#250;mero de evaluadores, por lo tanto, que registre todos los que desee.</value>
+</data>
+<data name="register_instr2" xml:space="preserve">
+<value>&lt;u&gt;INSTRUCCIONES:&lt;/u&gt; ingrese la informaci&#243;n requerida de cada persona y haga clic en (&quot;Guardar (enviar correos electr&#243;nicos)&quot;. El sistema enviar&#225; la invitaci&#243;n a los evaluadores seleccionados.</value>
+</data>
+<data name="register_invalidemailaddress" xml:space="preserve">
+<value>Alerta de error: una o m&#225;s direcciones de correo electr&#243;nico no son v&#225;lidas. Vea la entrada marcada con un asterisco rojo y reingrese la direcci&#243;n correcta.</value>
+</data>
+<data name="register_lastname" xml:space="preserve">
+<value>Apellido</value>
+</data>
+<data name="register_maxdate" xml:space="preserve">
+<value>Recordatorios enviados</value>
+</data>
+<data name="register_nocurrentdata" xml:space="preserve">
+<value>No hay evaluadores registrados en este momento.</value>
+</data>
+<data name="register_note2" xml:space="preserve">
+<value>Note: las direcciones de correo electr&#243;nico que terminan con att.com, shaw.ca y sbcglobal.net pueden tener problemas para recibir estos correos electr&#243;nicos. Para asegurar la recepci&#243;n de la informaci&#243;n, si es posible utilice direcciones fuera de estos dominios. </value>
+</data>
+<data name="register_note3" xml:space="preserve">
+<value>Se env&#237;an recordatorios automatizados al evaluador que &lt;u&gt;no&lt;/u&gt; proporcion&#243; la retroalimentaci&#243;n en la fecha final de respuesta.</value>
+</data>
+<data name="register_previewemails" xml:space="preserve">
+<value>Vista previa de correos electr&#243;nicos</value>
+</data>
+<data name="register_reminders" xml:space="preserve">
+<value>Los correos electr&#243;nicos de recordatorios autom&#225;ticos se enviar&#225;n al evaluador que no brind&#243; la retroalimentaci&#243;n en la fecha final de respuesta indicada arriba. Abajo se muestra la fecha en que se enviaron los recordatorios m&#225;s recientes. Puede elegir enviar los recordatorios haciendo clic en &quot;Enviar recordatorios&quot;.</value>
+</data>
+<data name="register_reminders2" xml:space="preserve">
+<value>La fecha m&#225;s reciente en que se enviaron los recordatorios aparece a la izquierda. Si desea enviar los recordatorios usted mismo, haga clic en el bot&#243;n &quot;Enviar recordatorios&quot;. Los recordatorios se env&#237;an solo a quienes no completaron la encuesta.</value>
+</data>
+<data name="register_respcount" xml:space="preserve">
+<value>N&#250;mero de respuesta recibidas hasta ahora:  |nn| </value>
+</data>
+<data name="register_respinstr" xml:space="preserve">
+<value>(Por razones de confidencialidad, no ver&#225; qui&#233;n ha completado el perfil.)</value>
+</data>
+<data name="register_save" xml:space="preserve">
+<value>Guardar</value>
+</data>
+<data name="register_savesend" xml:space="preserve">
+<value>Guardar (enviar correos electr&#243;nicos)</value>
+</data>
+<data name="register_sendreminders" xml:space="preserve">
+<value>Enviar recordatorios</value>
+</data>
+<data name="register_sentcount" xml:space="preserve">
+<value>|nn| mensajes enviados</value>
+</data>
+<data name="register_step1" xml:space="preserve">
+<value>&lt;b&gt;Paso 1:&lt;/b&gt; Use la tabla que aparece a la izquierda para ingresar los nombres y las direcciones de correo electr&#243;nico de sus evaluadores.</value>
+</data>
+<data name="register_step1a" xml:space="preserve">
+<value>Tenga en cuenta: las direcciones de correo electr&#243;nico que terminan con &lt;i&gt;att.com, shaw.co&lt;/i&gt; y &lt;i&gt;sbcglobal.net&lt;/i&gt; pueden tener problemas para recibir estos correos electr&#243;nicos. Para asegurar la entrega de la informaci&#243;n a sus evaluadores, de ser posible utilice direcciones que est&#233;n fuera de estos dominios.</value>
+</data>
+<data name="rel_continue" xml:space="preserve">
+<value>Continuar</value>
+</data>
+<data name="rel_heading" xml:space="preserve">
+<value>Seleccione la relaci&#243;n</value>
+</data>
+<data name="rel_instr1" xml:space="preserve">
+<value>Paso 1: use la tabla de la izquierda para ingresar los nombres y direcciones de correo electr&#243;nico de sus evaluadores.</value>
+</data>
+<data name="rel_instr2" xml:space="preserve">
+<value>Si es hijo de entre 7 y 18 a&#241;os, seleccione &quot;Hijo&quot; como relaci&#243;n. Si tiene m&#225;s de 18 a&#241;os, seleccione &quot;Familia&quot; como relaci&#243;n.</value>
+</data>
+<data name="rel_instr3" xml:space="preserve">
+<value>*La mayor&#237;a de las preguntas son de opciones m&#250;ltiples y las respuestas se dan a conocer en general. Las respuesta a preguntas abiertas (insertadas) pueden identificarse como su respuesta por la persona que usted eval&#250;a de acuerdo con los detalles espec&#237;ficos de lo que menciona en su respuesta.</value>
+</data>
+<data name="selfhome_datecompleted" xml:space="preserve">
+<value>Fecha en que se complet&#243;</value>
+</data>
+<data name="selfhome_datestarted" xml:space="preserve">
+<value>Fecha de inicio</value>
+</data>
+<data name="selfhome_instr" xml:space="preserve">
+<value>Complete las tareas enumeradas abajo. Puede responder estas preguntas en el orden que desee. Las respuestas se guardar&#225;n de manera que puede regresar en cualquier momento antes de la fecha final para completar las preguntas.</value>
+</data>
+<data name="selfhome_instr2" xml:space="preserve">
+<value>Completar estas tareas en la fecha final proporcionada asegurar&#225; que reciba los informes antes de la sesi&#243;n de capacitaci&#243;n.</value>
+</data>
+<data name="selfhome_instr3" xml:space="preserve">
+<value>NOTA: recibir&#225; sus informes por correo electr&#243;nico despu&#233;s de la fecha final y antes de la fecha del curso.</value>
+</data>
+<data name="selfhome_raterreg" xml:space="preserve">
+<value>|x| respondidos de |y| registrados</value>
+</data>
+<data name="selfhome_reportrequested" xml:space="preserve">
+<value>Se envi&#243; la solicitud de informe</value>
+</data>
+<data name="selfhome_requestreport" xml:space="preserve">
+<value>Solicitar informe</value>
+</data>
+<data name="selfhome_takesurvey" xml:space="preserve">
+<value>Ir</value>
+</data>
+<data name="selfhome_task" xml:space="preserve">
+<value>Tarea</value>
+</data>
+<data name="selfonly_intro" xml:space="preserve">
+<value>Al ingresar la informaci&#243;n abajo podr&#225; comenzar la encuesta. Tambi&#233;n recibir&#225; un correo electr&#243;nico que contiene c&#243;digos personales de inicio de sesi&#243;n si deseara regresar despu&#233;s y completar la encuesta.</value>
+</data>
+<data name="selfonly_login" xml:space="preserve">
+<value>Registrar</value>
+</data>
+<data name="selfonly_register" xml:space="preserve">
+<value>Registrar y comenzar la encuesta</value>
+</data>
+<data name="st_clickonce" xml:space="preserve">
+<value>Despu&#233;s de hacer clic en el bot&#243;n &quot;Enviar&quot;, se procesar&#225; el informe. Esto lleva un cierto tiempo. Tenga paciencia y haga &quot;clic&quot; una sola vez.</value>
+</data>
+<data name="st_heading" xml:space="preserve">
+<value>Perfil del relato</value>
+</data>
+<data name="st_instr" xml:space="preserve">
+<value>&lt;b&gt;Nota importante:&lt;/b&gt; algunas preguntas de este perfil no siempre proporcionan las opciones que se adecuan perfectamente a usted. En ese caso, le pedimos que seleccione la respuesta m&#225;s cercana a la realidad de su relato (c&#243;mo se ve usted mismo/a).</value>
+</data>
+<data name="st_invalidranks" xml:space="preserve">
+<value>Categor&#237;as no v&#225;lidas ingresadas para la pregunta |nn|</value>
+</data>
+<data name="st_legend" xml:space="preserve">
+<value>Leyenda:</value>
+</data>
+<data name="st_noresponse" xml:space="preserve">
+<value>No se seleccion&#243; la respuesta para la pregunta |nn|</value>
+</data>
+<data name="st_noresponse_choice" xml:space="preserve">
+<value>Sin respuesta</value>
+</data>
+<data name="st_rateall" xml:space="preserve">
+<value>Eval&#250;e todos los puntos en la pregunta |nn|</value>
+</data>
+<data name="st_requiredfield" xml:space="preserve">
+<value>Campo obligatorio</value>
+</data>
+<data name="st_total" xml:space="preserve">
+<value>Total</value>
+</data>
+<data name="thanks_partial" xml:space="preserve">
+<value>La encuesta completada parcialmente se guard&#243;. Regresar y completarla despu&#233;s. Ahora puede cerrar esta ventana.</value>
+</data>
+<data name="thanks_rater" xml:space="preserve">
+<value>Gracias por completar el perfil. Sus respuestas se combinar&#225;n con las de otros evaluadores y se incluir&#225;n en el informe de retroalimentaci&#243;n de esta persona.</value>
+</data>
+<data name="date_report" xml:space="preserve">
+<value>MMM yyyy</value>
+</data>
+<data name="date_tasks" xml:space="preserve">
+<value>MMM dd, yyyy</value>
+</data>
+<data name="register_forgotpassword" xml:space="preserve">
+<value>#lang Forgot Password</value>
+</data>
+  <data name="prev_rater_header" xml:space="preserve">
+    <value>#lang Select Previous Raters.</value>
+  </data>
+  <data name="prev_rater_addnew" xml:space="preserve">
+    <value>#lang Add Raters</value>
+  </data>
+  <data name="prev_rater_instr" xml:space="preserve">
+    <value>#lang On the next two pages you will select the people who you would like to give feedback for your 360 Seven Tudes. The raters will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends and family.&lt;/b&gt;</value>
+  </data>
+  <data name="prev_rater_instr2" xml:space="preserve">
+    <value>#lang This page shows all the raters that you had selected for your previous 360. &lt;font color="red"&gt;&lt;b&gt;We highly encourage you to select all of these raters again&lt;/b&gt;&lt;/font&gt;. However, you are not required to do so. You will have the opportunity to add additional raters on the following screen.
+
+Please review the list of previous raters below and select those you would like to participate in this assessment. When finished, click Next to continue.</value>
+  </data>
+  <data name="prev_rater_next_alert" xml:space="preserve">
+    <value>#lang Please review your selections. You will not be able to return to this screen.</value>
+  </data>
+  <data name="rater_dup_alert" xml:space="preserve">
+    <value>#lang The following duplicate email addresses have been found.  Please review and update:</value>
+  </data>
+  <data name="default_instr_t2" xml:space="preserve">
+    <value>#lang Please use the codes you have been provided to begin your Seven Tudes.</value>
+  </data>
+  <data name="default_participants_t2" xml:space="preserve">
+    <value>#lang The Seven Tudes is the Human Performance Institute's most comprehensive online assessment tool. The profile focuses on behaviors in each of the four energy dimensions (physical, mental, emotional, and spiritual). It provides awareness of strengths as well as uncovers opportunities for growth in each energy dimension.</value>
+  </data>
+</root>

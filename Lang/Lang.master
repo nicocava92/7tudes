@@ -1,0 +1,93 @@
+<%@ Master Language="VB" CodeFile="Lang.master.vb" Inherits="Lang_Lang" %>
+
+<%@ Register Src="~/Controls/PageBanner.ascx" TagPrefix="uc1" TagName="PageBanner" %>
+<%@ Register Src="~/Controls/GA.ascx" TagPrefix="uc1" TagName="GA" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <script src="charsleft.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+    <uc1:PageBanner runat="server" ID="PageBanner" />
+    <form id="form1" runat="server">
+        <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td align="left">
+                    <img src="../images/hpilogo.jpg" />
+                </td>
+                <td width="20"></td>
+                <td class="Section">Seven Tudes
+                <br />
+                    Translation Administration System
+                <br />
+                    Current language:
+                <asp:Label runat="server" ID="LanguageName" ForeColor="Maroon" Font-Bold="True"></asp:Label>
+                </td>
+                <td width="20"></td>
+                <td valign="bottom">Section:
+                <asp:DropDownList runat="server" ID="TableName" AutoPostBack="True">
+                    <%--<asp:ListItem Text="Logout" Value="default.aspx"></asp:ListItem>--%>
+                    <asp:ListItem Text="*** Search ***" Value="Search.aspx"></asp:ListItem>
+                    <asp:ListItem Text="D1--Demographics" Value="Demographics.aspx"></asp:ListItem>
+                    <asp:ListItem Text="D2--Demog. Values" Value="DemoValues.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q1--Profile Questions" Value="Questions.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q2--Audit Questions" Value="Questions_Audit.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q3--Comment Questions" Value="Questions_Comment.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q4--Children Questions" Value="Questions_Kid.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q5--Health Questions" Value="Questions_Health.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q6--Health Questions Scale" Value="Questions_Health_Scale.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q7--Storytelling Questions" Value="Questions_ST.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q8--Storytelling Questions Scale" Value="Questions_ST_Scale.aspx"></asp:ListItem>
+<%--                <asp:ListItem Text="Q9--Character Questions" Value="Questions_CH.aspx"></asp:ListItem>
+                    <asp:ListItem Text="Q10--Character Comment Questions" Value="Questions_CHComment.aspx"></asp:ListItem>--%>
+                    <asp:ListItem Text="E1--Invitation Emails" Value="Emails.aspx"></asp:ListItem>
+                    <asp:ListItem Text="E2--Service Emails" Value="Emails_Service.aspx"></asp:ListItem>
+                    <asp:ListItem Text="S3--Relationships" Value="Rels.aspx"></asp:ListItem>
+                    <asp:ListItem Text="S4--Scale Labels" Value="Scale.aspx"></asp:ListItem>
+                    <asp:ListItem Text="S4--Scale Life Engagement Audit Labels" Value="Scale_LEA.aspx"></asp:ListItem>
+                    <asp:ListItem Text="S5--Survey Labels" Value="SurveyLabels.aspx"></asp:ListItem>
+                    <asp:ListItem Text="S6--Survey Types" Value="SurveyTypes.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R1--Categories" Value="Categories.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R2--Dimensions" Value="Dimensions.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R3--Report Content" Value="ReportContent.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R4--Report Labels" Value="ReportLabels.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R5--SRDimensions" Value="SRDims.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R6--SRCategories" Value="SRCats.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R7--Table Of Contents" Value="TableOfContents.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R8--ST Report Sections" Value="ST_ReportSections.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R9--ST Q22 Text" Value="ST_ReportText_Q22.aspx"></asp:ListItem>
+                    <asp:ListItem Text="R10--ST Report Labels" Value="ST_ReportLabelsa.aspx"></asp:ListItem>
+                </asp:DropDownList>
+                    <asp:Button runat="server" ID="btnLogout" Text="Logout" />
+                </td>
+            </tr>
+        </table>
+        <hr style="color: black;" />
+        <div class="note" runat="server" id="div1" style="width: 700px;">
+            Color Key: <span class="langmissing">missing translation</span> &nbsp; &nbsp; &nbsp;
+        <span class="altrow">alternate row</span>&nbsp; &nbsp; &nbsp;
+        <span class="selrow">selected row</span>
+            <br />
+            <ul>
+                <li>Please enter the appropriate translation for all items listed below.</li>
+                <li>Please click Save Changes often to save your entries.</li>
+                <li>If the below page has page number links, you must complete all entries on each linked page.</li>
+                <li>Text that appears between pipe symbols, for example |ParticipantName|, is a placeholder.
+                <br />
+                    This should not be translated and should be used as-is in the translated text.
+                </li>
+                <li>Please note the “Max. Allowed” character limit is a recommendation for best formatting, but it is not a strict rule and accuracy in translation should supersede.</li>
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <uc1:GA runat="server" ID="GA1" /> 
+
+</body>
+</html>

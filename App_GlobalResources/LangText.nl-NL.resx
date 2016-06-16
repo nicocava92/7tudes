@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="audit_fullydisengaged" xml:space="preserve">
+    <value>Helemaal niet geëngageerd</value>
+  </data>
+  <data name="audit_fullyengaged" xml:space="preserve">
+    <value>Volledig geëngageerd</value>
+  </data>
+  <data name="audit_heading" xml:space="preserve">
+    <value>Onderzoek naar engagement in uw leven</value>
+  </data>
+  <data name="audit_instr" xml:space="preserve">
+    <value>Beantwoord alle vragen met als tijdsperiode de laatste 6 maanden. Selecteer het cijfer op een schaal van 1-7 dat uw huidige betrokkenheidsniveau aangeeft.</value>
+  </data>
+  <data name="comments_charsleft" xml:space="preserve">
+    <value>tekens over:</value>
+  </data>
+  <data name="comments_heading" xml:space="preserve">
+    <value>Open beschrijvende vragen</value>
+  </data>
+  <data name="comments_instr" xml:space="preserve">
+    <value>U kunt maximaal 300 tekens gebruiken voor elke opmerking.</value>
+  </data>
+  <data name="default_checkemail" xml:space="preserve">
+    <value>Controleer uw Postvak IN en haal de gewenste info op.</value>
+  </data>
+  <data name="default_enablecookies" xml:space="preserve">
+    <value>Schakel cookies in a.u.b.</value>
+  </data>
+  <data name="default_groupcode" xml:space="preserve">
+    <value>Groepscode</value>
+  </data>
+  <data name="default_heading" xml:space="preserve">
+    <value>Welkom bij het energieprofiel</value>
+  </data>
+  <data name="default_instr" xml:space="preserve">
+    <value>Gebruik de aan u gegeven codes om met uw assessment(s) te beginnen.</value>
+  </data>
+  <data name="default_invalid_input" xml:space="preserve">
+    <value>Ongeldige invoer. Probeer het opnieuw.</value>
+  </data>
+  <data name="default_loginagain" xml:space="preserve">
+    <value>Voor veiligheidsdoeleinden kunt u niet bij twee onderzoeken tegelijk zijn aangemeld. Ga terug naar het eerste venster.</value>
+  </data>
+  <data name="default_participantid" xml:space="preserve">
+    <value>Deelnemerscode</value>
+  </data>
+  <data name="default_participants" xml:space="preserve">
+    <value>Wij zijn enthousiast over uw aanstaande Energy for Performance training. De door u in te vullen profielen zijn een integraal en belangrijk onderdeel van de training die u gaat bijwonen.</value>
+  </data>
+  <data name="default_participants_hpi" xml:space="preserve">
+    <value>Wij zijn enthousiast over uw aanstaande Corporate Athlete/Energy Management training. De door u in te vullen profielen zijn een integraal en belangrijk onderdeel van de training die u gaat bijwonen.</value>
+  </data>
+  <data name="default_participants_jnj" xml:space="preserve">
+    <value>Wij zijn enthousiast over uw aanstaande Energy for Performance in Life training. De door u in te vullen profielen zijn een integraal en belangrijk onderdeel van de training die u gaat bijwonen.</value>
+  </data>
+  <data name="default_participants_wp" xml:space="preserve">
+    <value>Wij zijn enthousiast over uw aanstaande Energy for Performance training. De door u in te vullen profielen zijn een integraal en belangrijk onderdeel van de training die u gaat bijwonen.</value>
+  </data>
+  <data name="default_raterpassword" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="default_raters" xml:space="preserve">
+    <value>Bedankt dat u de tijd neemt om deze assessment in te vullen. Het invullen van de vragen neemt 10-15 minuten in beslag.</value>
+  </data>
+  <data name="default_reload" xml:space="preserve">
+    <value>Klik hier om opnieuw aan te melden</value>
+  </data>
+  <data name="default_report" xml:space="preserve">
+    <value>Rapport verzoeken</value>
+  </data>
+  <data name="default_reportsent" xml:space="preserve">
+    <value>Uw rapport is naar uw e-mailadres verzonden.</value>
+  </data>
+  <data name="default_submit" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="default_unknownemailaddress" xml:space="preserve">
+    <value>Dit e-mailadres staat niet in het systeem.</value>
+  </data>
+  <data name="demog_chooseone" xml:space="preserve">
+    <value>Kies een optie</value>
+  </data>
+  <data name="demog_heading" xml:space="preserve">
+    <value>Statistieken</value>
+  </data>
+  <data name="demog_instr" xml:space="preserve">
+    <value>Items in rood zijn verplicht</value>
+  </data>
+  <data name="demog_rptnote" xml:space="preserve">
+    <value>HERINNERING: U ontvangt uw rapport(en) via e-mail na de einddatum en voor de aanvang van de cursus. Vul alle taken in het hoofdmenu in voor de gegeven deadline.</value>
+  </data>
+  <data name="demog_valsumm1" xml:space="preserve">
+    <value>Beantwoord de volgende vragen.</value>
+  </data>
+  <data name="emails_invitation" xml:space="preserve">
+    <value>Uitnodiging</value>
+  </data>
+  <data name="emails_note" xml:space="preserve">
+    <value>Opmerking: hierna volgt de uitnodiging in de hierboven getoonde e-mail.</value>
+  </data>
+  <data name="emails_reminder" xml:space="preserve">
+    <value>Herinnering</value>
+  </data>
+  <data name="health_heading" xml:space="preserve">
+    <value>Gezondheidsprofiel</value>
+  </data>
+  <data name="health_hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="health_hours" xml:space="preserve">
+    <value>uren</value>
+  </data>
+  <data name="health_q16_1" xml:space="preserve">
+    <value>Denk aan de dagen dat u beperkt was in de hoeveelheid of het soort werk dat u kon doen, of minder werk deed dan u zou willen of waarop u uw werk niet zo zorgvuldig kon doen als normaal. Kies een laag cijfer als weinig energie slechts een beetje van invloed was op uw werk. Kies een hoog cijfer als weinig energie uw werk sterk heeft beïnvloed.</value>
+  </data>
+  <data name="health_q16_2" xml:space="preserve">
+    <value>In hoeverre heeft weinig (of negatieve) energie uw productiviteit &lt;u&gt;tijdens het werk&lt;/u&gt; beïnvloed?</value>
+  </data>
+  <data name="health_q17_1" xml:space="preserve">
+    <value>Met normale activiteiten bedoelen we de dagelijkse activiteiten die u doet, zoals huishoudelijk werk, boodschappen, op kinderen passen, sporten, studeren, e.d. Denk aan tijden dat u beperkt was in de hoeveelheid of soort activiteiten die u kon doen, of minder kon doen dan u zou willen. Kies een laag cijfer als gezondheidsproblemen slechts een beetje van invloed waren op uw activiteiten. Kies een hoog cijfer als gezondheidsproblemen uw activiteiten sterk hebben beïnvloed.</value>
+  </data>
+  <data name="health_q17_2" xml:space="preserve">
+    <value>In hoeverre was &lt;u&gt;weinig of negatieve energie&lt;/u&gt; van invloed op uw gewone, dagelijkse actviteiten, anders dan uw werk?</value>
+  </data>
+  <data name="logout_loginagain" xml:space="preserve">
+    <value>Opnieuw aanmelden</value>
+  </data>
+  <data name="logout_msg" xml:space="preserve">
+    <value>Uw sessie is door inactiviteit verlopen. Meld u aan om het onderzoek te vervolgen met de toegangscodes in uw e-mail.</value>
+  </data>
+  <data name="master_copyright" xml:space="preserve">
+    <value>© Human Performance Institute Division of Wellness &amp; Prevention, Inc. 2003 – 2012   &lt;a href="https://energyprofile.perfprog.com/survey/privacystatement_nl.pdf" target="hpi"&gt;Privacyverklaring&lt;/a&gt;    &lt;a href="https://energyprofile.perfprog.com/survey/legalnotice_nl.pdf" target="hpi"&gt;Juridische kennisgeving&lt;/a&gt;</value>
+  </data>
+  <data name="master_keepworking" xml:space="preserve">
+    <value>Blijven werken</value>
+  </data>
+  <data name="master_logout" xml:space="preserve">
+    <value>Afmelden</value>
+  </data>
+  <data name="master_pname" xml:space="preserve">
+    <value>Geef beoordeling:</value>
+  </data>
+  <data name="master_prework" xml:space="preserve">
+    <value>Als u vragen hebt over het invullen van de onderzoeksvragen, dan kunt u contact opnemen met ons op 1.407.438.9911 of per e-mail.</value>
+  </data>
+  <data name="master_relname" xml:space="preserve">
+    <value>Als uw:</value>
+  </data>
+  <data name="master_rname" xml:space="preserve">
+    <value>Welkom:</value>
+  </data>
+  <data name="master_savepartial" xml:space="preserve">
+    <value>Terug naar menu</value>
+  </data>
+  <data name="master_support" xml:space="preserve">
+    <value>Als u problemen hebt met het toegang krijgen tot uw profiel, neem dan per e-mail contact met ons op.</value>
+  </data>
+  <data name="misc_instr" xml:space="preserve">
+    <value>Beantwoord de volgende vragen door de optie te kiezen die uw antwoord het dichtst benadert. Houd uw muis boven het cijfer om te lezen wat de tekst voor die optie is.</value>
+  </data>
+  <data name="misc_instr2" xml:space="preserve">
+    <value>Beantwoord de volgende vragen door de optie te kiezen die uw antwoord het dichtst benadert.</value>
+  </data>
+  <data name="misc_mandatory" xml:space="preserve">
+    <value>Alle vragen moeten worden beantwoord.</value>
+  </data>
+  <data name="pagexofy" xml:space="preserve">
+    <value>Pagina "xx" van "yy"</value>
+  </data>
+  <data name="profile_checkbox" xml:space="preserve">
+    <value>Schakel het gemarkeerde selectievakje in als de vraag verwarrend is.</value>
+  </data>
+  <data name="profile_family" xml:space="preserve">
+    <value>Beantwoord alle vragen vanuit het perspectief van "thuis" omdat u een familielid of vriend bent.</value>
+  </data>
+  <data name="profile_heading" xml:space="preserve">
+    <value>Energieprofiel</value>
+  </data>
+  <data name="profile_reqdmissing" xml:space="preserve">
+    <value>Beoordeel alle items met een rood sterretje.</value>
+  </data>
+  <data name="profile_valsumm1" xml:space="preserve">
+    <value>Geef uw scores voor de volgende vragen.</value>
+  </data>
+  <data name="progress_audit" xml:space="preserve">
+    <value>Onderzoek</value>
+  </data>
+  <data name="progress_comments" xml:space="preserve">
+    <value>Opmerkingen</value>
+  </data>
+  <data name="progress_demographics" xml:space="preserve">
+    <value>Statistieken</value>
+  </data>
+  <data name="progress_ratings" xml:space="preserve">
+    <value>Profiel</value>
+  </data>
+  <data name="questions_btncomplete" xml:space="preserve">
+    <value>Voltooid onderzoek verzenden</value>
+  </data>
+  <data name="questions_btnnext" xml:space="preserve">
+    <value>Volg.</value>
+  </data>
+  <data name="questions_btnprev" xml:space="preserve">
+    <value>Vorige</value>
+  </data>
+  <data name="questions_nextmsg" xml:space="preserve">
+    <value>Uw antwoorden worden opgeslagen als u naar de volgende pagina gaat.</value>
+  </data>
+  <data name="register_addheading" xml:space="preserve">
+    <value>Beoordelaars toevoegen</value>
+  </data>
+  <data name="register_bullet1" xml:space="preserve">
+    <value>Aanbevolen aantal beoordelaars is 5 of meer, bijv: &lt;ul&gt;&lt;li&gt;Supervisor/manager: 1 (minimaal)&lt;/li&gt;&lt;li&gt;Collega's: 2 of meer&lt;/li&gt;&lt;li&gt;Personen aan wie u leiding geeft: 2 of meer&lt;/li&gt;&lt;li&gt;Vrienden/familie: willekeurig&lt;/li&gt;&lt;li&gt;Kinderen: willekeurig&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="register_bullet2" xml:space="preserve">
+    <value>Als u niet &lt;b&gt;minstens 2 collega's en 2 personen aan wie u leiding geeft hebt&lt;/b&gt;, worden de categorieën in uw rapport gecombineerd om anonimiteit te behouden.</value>
+  </data>
+  <data name="register_bullet3" xml:space="preserve">
+    <value>Vragen aan kinderen zijn gericht op leeftijd 7-18 die 6 vragen voor die leeftijdsgroep moeten beantwoorden. Kinderen ouder dan 18 wordt aangeraden "Familielid" te selecteren voor diepgaandere vragen.</value>
+  </data>
+  <data name="register_bullet4" xml:space="preserve">
+    <value>U kunt uw eigen e-mailadres gebruiken voor kinderen als ze geen e-mailadres hebben. Nadat ze zijn aangemeld, moeten ze "kind" kiezen als relatie met u.</value>
+  </data>
+  <data name="register_currentheading" xml:space="preserve">
+    <value>Huidige beoordelaars</value>
+  </data>
+  <data name="register_detail1" xml:space="preserve">
+    <value>Gedetailleerde info beoordelaar</value>
+  </data>
+  <data name="register_duedate" xml:space="preserve">
+    <value>Geef alle antwoorden voor</value>
+  </data>
+  <data name="register_emailaddress" xml:space="preserve">
+    <value>E-mailadres</value>
+  </data>
+  <data name="register_emailssent" xml:space="preserve">
+    <value>|Count| e-mails verzonden.</value>
+  </data>
+  <data name="register_exists" xml:space="preserve">
+    <value>Dit e-mailadres is in gebruik. Probeer het opnieuw.</value>
+  </data>
+  <data name="register_firstname" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="register_groupheading" xml:space="preserve">
+    <value>Registreer voor toegang tot het energieprofiel</value>
+  </data>
+  <data name="register_heading" xml:space="preserve">
+    <value>Beoordelaars registreren</value>
+  </data>
+  <data name="register_instr" xml:space="preserve">
+    <value>Selecteer de personen die u feedback wilt laten geven op uw 360° energieprofiel. De geselecteerde beoordelaars krijgen een subset van de vragen die aan u zijn gesteld. &lt;b&gt;Ze krijgen vragen op basis van hun relatie met u, werkgerelateerd versus vrienden &amp; familie.&lt;/b&gt; Bijvoorbeeld, vragen over persoonlijke gewoonten zoals voeding of lichaamsbeweging worden alleen aan vrienden of familie gesteld. Er is geen maximum voor het aantal beoordelaars, dus registreer zo veel personen als u wilt.</value>
+  </data>
+  <data name="register_instr2" xml:space="preserve">
+    <value>INSTRUCTIES: Vul voor iedere persoon de vereiste informatie in en klik op "Opslaan (e-mails verzenden)". De uitnodiging wordt daarop naar de geselecteerde beoordelaars gestuurd.</value>
+  </data>
+  <data name="register_invalidemailaddress" xml:space="preserve">
+    <value>Foutmelding: Een of meer e-mailadressen is ongeldig. Zie het adres aangeduid met een rood sterretje en voer het juiste adres in.</value>
+  </data>
+  <data name="register_lastname" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="register_maxdate" xml:space="preserve">
+    <value>Verzonden herinneringen</value>
+  </data>
+  <data name="register_nocurrentdata" xml:space="preserve">
+    <value>Er zijn momenteel geen beoordelaars voor u geregistreerd.</value>
+  </data>
+  <data name="register_note2" xml:space="preserve">
+    <value>Opmerking: E-mailadressen die eindigen op att.com, shaw.ca en sbcglobal.net kunnen deze e-mails mogelijk niet ontvangen. Kies indien mogelijk een e-mailadres buiten deze domeinen om verzekerd te zijn dat u informatie ontvangt.</value>
+  </data>
+  <data name="register_note3" xml:space="preserve">
+    <value>Iedere beoordelaar die geen feedback heeft gegeven voor de deadline, ontvangt een automatische herinnering.</value>
+  </data>
+  <data name="register_previewemails" xml:space="preserve">
+    <value>Voorbeeld e-mails bekijken</value>
+  </data>
+  <data name="register_reminders" xml:space="preserve">
+    <value>Beoordelaars die geen feedback hebben gegeven voor bovengenoemde deadline, ontvangen een automatische herinnering. De datum waarop de recentste herinnering is verzonden, wordt hieronder vermeld. Klik op 'Herinneringen verzenden' om zelf een herinnering te sturen.</value>
+  </data>
+  <data name="register_reminders2" xml:space="preserve">
+    <value>Linksonder wordt de meest recente datum getoond dat herinneringen zijn verzonden. Als u zelf een herinnering wilt sturen, klikt u op de knop "Herinneringen verzenden". Alleen diegenen die de vragenlijst niet hebben ingevuld, ontvangen een herinnering.</value>
+  </data>
+  <data name="register_respcount" xml:space="preserve">
+    <value>Aantal tot dusver ontvangen antwoorden: |nn|</value>
+  </data>
+  <data name="register_respinstr" xml:space="preserve">
+    <value>(Omwille van vertrouwelijkheid ziet u niet wie het profiel heeft ingevuld.)</value>
+  </data>
+  <data name="register_save" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="register_savesend" xml:space="preserve">
+    <value>Opslaan (e-mails verzenden)</value>
+  </data>
+  <data name="register_sendreminders" xml:space="preserve">
+    <value>Herinneringen verzenden</value>
+  </data>
+  <data name="register_sentcount" xml:space="preserve">
+    <value>|nn| bericht(en) verzonden</value>
+  </data>
+  <data name="register_step1" xml:space="preserve">
+    <value>Stap 1: gebruik de tabel links om de namen en e-mailadressen van uw beoordelaars in te voeren.</value>
+  </data>
+  <data name="register_step1a" xml:space="preserve">
+    <value>Opmerking: E-mailadressen die eindigen op att.com, shaw.ca en sbcglobal.net kunnen deze e-mails mogelijk niet ontvangen. Kies indien mogelijk een e-mailadres buiten deze domeinen om verzekerd te zijn dat uw beoordelaars deze informatie ontvangen.</value>
+  </data>
+  <data name="rel_continue" xml:space="preserve">
+    <value>Verdergaan</value>
+  </data>
+  <data name="rel_heading" xml:space="preserve">
+    <value>Selecteer de relatie</value>
+  </data>
+  <data name="rel_instr1" xml:space="preserve">
+    <value>Stap 1: gebruik de tabel links om de namen en e-mailadressen van uw beoordelaars in te voeren.</value>
+  </data>
+  <data name="rel_instr2" xml:space="preserve">
+    <value>Als je een kind bent tussen 7-18 jaar, selecteer je "Kind" als relatie. Als je een kind bent en ouder bent dan 18, selecteer je "Familielid" als relatie.</value>
+  </data>
+  <data name="rel_instr3" xml:space="preserve">
+    <value>* De meeste vragen zijn multiple-choice en die antwoorden worden getotaliseerd in rapporten. Antwoorden op open vragen zijn mogelijk herkenbaar als afkomstig van u voor de persoon die u beoordeelt afhankelijk van wat u in uw antwoorden schrijft.</value>
+  </data>
+  <data name="selfhome_datecompleted" xml:space="preserve">
+    <value>Voltooiingsdatum</value>
+  </data>
+  <data name="selfhome_datestarted" xml:space="preserve">
+    <value>Begindatum</value>
+  </data>
+  <data name="selfhome_instr" xml:space="preserve">
+    <value>Vul de hieronder vermelde taken uit. U kunt deze taken in willekeurige volgorde uitvoeren. Uw antwoorden worden opgeslagen, zodat u te allen tijde voor de deadline kunt teruggaan om antwoorden te voltooien.</value>
+  </data>
+  <data name="selfhome_instr2" xml:space="preserve">
+    <value>Door deze taken voor de deadline te voltooien, bent u verzekerd van ontvangst van uw rapport(en) voor aanvang van de training.</value>
+  </data>
+  <data name="selfhome_instr3" xml:space="preserve">
+    <value>OPMERKING: u ontvangt uw rapport(en) via e-mail na de einddatum en voor de aanvangsdatum van uw cursus.</value>
+  </data>
+  <data name="selfhome_raterreg" xml:space="preserve">
+    <value>|x| van de |y| geregistreerden heeft gereageerd</value>
+  </data>
+  <data name="selfhome_reportrequested" xml:space="preserve">
+    <value>Rapportverzoek is verzonden</value>
+  </data>
+  <data name="selfhome_requestreport" xml:space="preserve">
+    <value>Rapport verzoeken</value>
+  </data>
+  <data name="selfhome_takesurvey" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="selfhome_task" xml:space="preserve">
+    <value>Taak</value>
+  </data>
+  <data name="selfonly_intro" xml:space="preserve">
+    <value>Na het invoeren van uw gegevens hieronder, kunt u beginnen met de vragenlijst. U ontvangt ook een e-mail met persoonlijke aanmeldcodes als u de vragen op een later tijdstip wilt voltooien.</value>
+  </data>
+  <data name="selfonly_login" xml:space="preserve">
+    <value>Registreren</value>
+  </data>
+  <data name="selfonly_register" xml:space="preserve">
+    <value>Registreren en onderzoek starten</value>
+  </data>
+  <data name="st_clickonce" xml:space="preserve">
+    <value>Na het klikken op de knop 'Verzenden' wordt uw rapport verwerkt. Dit kan enige tijd duren. Wees geduldig en klik slechts één keer.</value>
+  </data>
+  <data name="st_heading" xml:space="preserve">
+    <value>Profiel dat uw verhaal vertelt</value>
+  </data>
+  <data name="st_instr" xml:space="preserve">
+    <value>Belangrijk: De antwoorden op sommige vragen van dit profiel zijn niet altijd exact op u van toepassing. Selecteer in dat geval het antwoord dat de realiteit van uw verhaal (hoe u uzelf ziet) het dichtst benadert.</value>
+  </data>
+  <data name="st_invalidranks" xml:space="preserve">
+    <value>Ongeldige posities ingevuld voor vraag |nn|</value>
+  </data>
+  <data name="st_legend" xml:space="preserve">
+    <value>Legenda:</value>
+  </data>
+  <data name="st_noresponse" xml:space="preserve">
+    <value>Geen antwoord geselecteerd voor vraag |nn|</value>
+  </data>
+  <data name="st_rateall" xml:space="preserve">
+    <value>Score alle items in vraag |nn|</value>
+  </data>
+  <data name="st_requiredfield" xml:space="preserve">
+    <value>Verplicht veld</value>
+  </data>
+  <data name="st_total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="thanks_partial" xml:space="preserve">
+    <value>Uw gedeeltelijk ingevulde vragenlijst is opgeslagen. U kunt deze op een later tijdstip voltooien. U kunt dit venster nu sluiten.</value>
+  </data>
+  <data name="thanks_rater" xml:space="preserve">
+    <value>Dank u voor het voltooien van het profiel. Uw antwoorden worden samen met die van andere beoordelaars in het feedbackrapport van deze persoon opgenomen.</value>
+  </data>
+  <data name="consent_agree" xml:space="preserve">
+    <value>Ik ga akkoord</value>
+  </data>
+  <data name="consent_disagree" xml:space="preserve">
+    <value>Ik ga niet akkoord</value>
+  </data>
+  <data name="consent_finaltext" xml:space="preserve">
+    <value>Ik heb de voorwaarden gelezen en ga akkoord met deze voorwaarden en die beschreven in de &lt;a href="https://energyprofile.perfprog.com/survey/privacystatement_nl.pdf" target="hpi"&gt;Privacyverklaring&lt;/a&gt; en &lt;a href="https://energyprofile.perfprog.com/survey/legalnotice_nl.pdf" target="hpi"&gt;Juridische kennisgeving&lt;/a&gt;, en met de verwerking van persoonsgegevens in de Verenigde Staten en andere landen waar de regels over  gegevensbescherming kunnen verschillen van het land waarin ik woon.</value>
+  </data>
+  <data name="consent_heading" xml:space="preserve">
+    <value>Toestemmingsformulier</value>
+  </data>
+  <data name="consent_no" xml:space="preserve">
+    <value>U hebt geen toestemming gegeven.</value>
+  </data>
+  <data name="consentrater_para1" xml:space="preserve">
+    <value>Dank u voor het beantwoorden van onderzoeksvragen voor een van onze cursusdeelnemers.</value>
+  </data>
+  <data name="consentrater_para2" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (“Wellness &amp; Prevention”) stelt deze website en onderzoeksvragen ter beschikking voor de voorbereiding van personen op onze energie- en prestatieprogramma's (het “Programma”). Wij begrijpen dat de informatie die u deelt over de deelnemer aan het Programma zeer persoonlijk kan zijn. In deze privacyverklaring wordt informatie gegeven over de werkwijzen van Wellness &amp; Prevention bij het verzamelen, gebruiken en openbaar maken van door u verstrekte informatie.</value>
+  </data>
+  <data name="consentrater_para3" xml:space="preserve">
+    <value>Door het invullen van deze onderzoeksvragen gaat u akkoord met de verzameling, verwerking, het bewaren en de openbaarmaking van de antwoorden (bijv. informatie over iemand's gedrag en levensstijl en andere door u verstrekte informatie) door Wellness &amp; Prevention, onze zakenpartners en onze dienstverleners die deze informatie gebruiken om het Programma uit te voeren. Wij zullen de door u verstrekte informatie niet anderszins verkopen of aan derden geven voor andere doeleinden dan het Programma.</value>
+  </data>
+  <data name="consentrater_para4" xml:space="preserve">
+    <value>Wellness &amp; Prevention neemt redelijke voorzorgsmaatregelen ter bescherming van deze informatie tegen verlies, oneigenlijk gebruik, ongeoorloofde toegang, openbaarmaking, wijziging of vernietiging.</value>
+  </data>
+  <data name="consentrater_para5" xml:space="preserve">
+    <value>Als u vragen hebt of voor andere ondersteuning bij deze vragenlijst, dan kunt u contact opnemen met:</value>
+  </data>
+  <data name="consentrater_para6" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc.9757 Lake Nona Rd. Orlando, FL 32827 VS +1.407.438.9911 
+&lt;a href=mailto:info@corporateathlete.com"&gt;info@corporateathlete.com&lt;/a&gt;"</value>
+  </data>
+  <data name="consentrater_para7" xml:space="preserve">
+    <value>Zie voor meer informatie over onze algemene privacywerkwijzen de &lt;a href="https://energyprofile.perfprog.com/survey/privacystatement_nl.pdf" target="hpi"&gt;Privacyverklaring&lt;/a&gt; van ons Programma. Het gebruik van deze website is onderhevig aan deze &lt;a href="https://energyprofile.perfprog.com/survey/legalnotice_nl.pdf" target="hpi"&gt;Juridische kennisgeving&lt;/a&gt;.</value>
+  </data>
+  <data name="consentself_bullet1" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. houdt informatie over mij vertrouwelijk en zal de informatie niet vrijwillig openbaar maken, behalve zoals beschreven in de Privacyverklaring.</value>
+  </data>
+  <data name="consentself_bullet2" xml:space="preserve">
+    <value>Informatie over mij kan beschikbaar worden gesteld aan de coaches die mij ondersteunen voor deze energie- en prestatieprogramma's.</value>
+  </data>
+  <data name="consentself_bullet3" xml:space="preserve">
+    <value>Wellness &amp; Prevention kan geanonimiseerde totaal- en statistische gegevens over haar deelnemers beschikbaar stellen:</value>
+  </data>
+  <data name="consentself_bullet3a" xml:space="preserve">
+    <value>Aan mijn sponsor (indien van toepassing) en andere ondersteunende organisaties voor het uitvoeren van de programma's</value>
+  </data>
+  <data name="consentself_bullet3b" xml:space="preserve">
+    <value>Aan derden voor analyse en onderzoek.</value>
+  </data>
+  <data name="consentself_bullet4" xml:space="preserve">
+    <value>Wellness &amp; Prevention en ondersteunende organisaties kunnen contact opnemen over programma-informatie en verzoeken.</value>
+  </data>
+  <data name="consentself_intro" xml:space="preserve">
+    <value>Lees het volgende aandachtig door naast onze &lt;a href="https://energyprofile.perfprog.com/survey/privacystatement_nl.pdf" target="hpi"&gt;Privacyverklaring&lt;/a&gt; en &lt;a href="https://energyprofile.perfprog.com/survey/legalnotice_nl.pdf" target="hpi"&gt;Juridische kennisgeving&lt;/a&gt;, omdat deelname aan verschillende programma's van het Human Performance Institute vereist dat u deze voorwaarden volledig begrijpt en hiermee akkoord gaat:</value>
+  </data>
+  <data name="default_surveyclosed" xml:space="preserve">
+    <value>Het onderzoek is afgesloten.</value>
+  </data>
+  <data name="st_noresponse_choice" xml:space="preserve">
+    <value>Geen antwoord/niet van toepassing</value>
+  </data>
+  <data name="emails_notstarted" xml:space="preserve">
+    <value>niet begonnen</value>
+  </data>
+  <data name="emails_startedon" xml:space="preserve">
+    <value>begonnen op</value>
+  </data>
+  <data name="emails_completedon" xml:space="preserve">
+    <value>voltooid op</value>
+  </data>
+  <data name="date_report" xml:space="preserve">
+    <value>MMM yyyy</value>
+  </data>
+  <data name="date_tasks" xml:space="preserve">
+    <value>dd MMM yyyy</value>
+  </data>
+  <data name="register_forgotpassword" xml:space="preserve">
+    <value>Vergeten wachtwoord</value>
+  </data>
+  <data name="viewemail_instr" xml:space="preserve">
+    <value>Klik hier voor instructies in andere talen</value>
+  </data>
+  <data name="prev_rater_header" xml:space="preserve">
+    <value>Select Previous Raters.</value>
+  </data>
+  <data name="prev_rater_addnew" xml:space="preserve">
+    <value>Add Raters</value>
+  </data>
+  <data name="prev_rater_instr" xml:space="preserve">
+    <value>On the next two pages you will select the people who you would like to give feedback for your 360 Seven Tudes. The raters will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends and family.&lt;/b&gt;</value>
+  </data>
+  <data name="prev_rater_instr2" xml:space="preserve">
+    <value>This page shows all the raters that you had selected for your previous 360. &lt;font color="red"&gt;&lt;b&gt;We highly encourage you to select all of these raters again&lt;/b&gt;&lt;/font&gt;. However, you are not required to do so. You will have the opportunity to add additional raters on the following screen.
+
+Please review the list of previous raters below and select those you would like to participate in this assessment. When finished, click Next to continue.</value>
+  </data>
+  <data name="prev_rater_next_alert" xml:space="preserve">
+    <value>Please review your selections. You will not be able to return to this screen.</value>
+  </data>
+  <data name="rater_dup_alert" xml:space="preserve">
+    <value>The following duplicate email addresses have been found.  Please review and update:</value>
+  </data>
+  <data name="default_instr_t2" xml:space="preserve">
+    <value>Please use the codes you have been provided to begin your Seven Tudes.</value>
+  </data>
+  <data name="default_participants_t2" xml:space="preserve">
+    <value>The Seven Tudes is the Human Performance Institute's most comprehensive online assessment tool. The profile focuses on behaviors in each of the four energy dimensions (physical, mental, emotional, and spiritual). It provides awareness of strengths as well as uncovers opportunities for growth in each energy dimension.</value>
+  </data>
+</root>

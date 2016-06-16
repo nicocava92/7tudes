@@ -1,0 +1,15 @@
+﻿body 
+{
+    font-family: Calibri;
+    
+}
+
+.small 
+{
+    font-size: 14px;
+    }
+    
+.medium 
+{
+    font-size:18px;
+}

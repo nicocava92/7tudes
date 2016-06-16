@@ -1,0 +1,23 @@
+Translation tables to be created for:
+
+1. DONE Categories
+2. DONE Demographics
+3. DONE Demo Values
+4. DONE Dimensions
+5. DONE Emails
+6.      Emails_Service
+7. DONE Questions
+8. DONE Questions_Audit
+9. DONE Questions_Comment
+10. NOT NEEDED Questions_Health
+11. NOT NEEDED Questions_Health_Scale
+12. DONE Questions_Kid
+13. NOT NEEDED Questions_ST
+14. DONE Rels
+15.     ReportText
+16. DONE    Scale
+17. DONE    SRCategories
+18. DONE    SRDimensions
+19.     SurveyText
+20. DONE    TableofContents
+21. DONE    SurveyTypes

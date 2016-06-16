@@ -1,0 +1,115 @@
+﻿body 
+{
+    /*font-family: Tahoma;*/
+    font-family: Arial;
+    font-size:16px;
+}
+
+.altrow 
+{
+    background-color:#EEEEEE;
+}
+
+.headrow 
+{
+    background-color:#CCCCCC;
+    font-weight:bold;
+}
+    
+.selrow 
+{
+    background-color:Green;
+}
+
+.reqd 
+{
+    color:Red;
+}
+
+.error 
+{
+    color:Maroon;
+}
+
+
+.fixedwidth 
+{
+    table-layout:fixed;
+}
+
+.hide {
+    display:none;
+}
+
+.question 
+{
+    font-weight:bold;
+}
+
+.heading1 
+{
+    font-size:24px;
+    color: #002d5d;
+}
+
+.newpage 
+{
+    page-break-after:always;    
+}
+.pageheading 
+{
+     border-bottom: 2px solid black;
+}
+.pname 
+{
+    font-size:14px;
+}
+
+.note 
+{
+    /*background-color: #FFFFCC;*/
+    background-color: #EBEBEB;
+    padding:10px;
+    border:solid 1px #0090FE;
+}
+li
+{
+    padding-bottom:10px;
+}
+
+.heading2 
+{
+    font-size:20px;
+}
+
+.heading3 
+{
+    font-size:20px;
+}
+
+.heading4 
+{
+    font-size:16px;
+}
+    
+.profilename 
+{
+   font-size:32px;
+   color:#003399;
+   font-weight:bold;
+}
+
+.cover_info 
+{
+    font-size:48px;
+    font-weight:bold;
+}
+.heading5 
+{
+      font-family:Arial;
+     font-size:11px;
+}
+.scale 
+{
+    font-size:10px;
+}

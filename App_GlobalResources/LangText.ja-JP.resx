@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="audit_fullydisengaged" xml:space="preserve">
+<value>まったく関わっていない</value>
+</data>
+<data name="audit_fullyengaged" xml:space="preserve">
+<value>大きく関わっている</value>
+</data>
+<data name="audit_heading" xml:space="preserve">
+<value>ライフエンゲージメントチェック</value>
+</data>
+<data name="audit_instr" xml:space="preserve">
+<value>すべての質問に最近 6 か月の時間枠で回答してください。あなたの関与レベルに相当する 1～7 の等級を選択してください。</value>
+</data>
+<data name="comments_charsleft" xml:space="preserve">
+<value>残りの文字数：</value>
+</data>
+<data name="comments_heading" xml:space="preserve">
+<value>自由回答形式の質問</value>
+</data>
+<data name="comments_instr" xml:space="preserve">
+<value>それぞれのコメントには、300 文字まで入力できます。</value>
+</data>
+<data name="default_checkemail" xml:space="preserve">
+<value>受信トレイをチェックして、要求した情報を取得します。</value>
+</data>
+<data name="default_enablecookies" xml:space="preserve">
+<value>クッキーを有効にしてください</value>
+</data>
+<data name="default_groupcode" xml:space="preserve">
+<value>グループコード</value>
+</data>
+<data name="default_heading" xml:space="preserve">
+<value>エネルギープロファイルへようこそ</value>
+</data>
+<data name="default_instr" xml:space="preserve">
+<value>指定のコードを使用して評価を始めてください。</value>
+</data>
+<data name="default_invalid_input" xml:space="preserve">
+<value>入力が無効です。もう一度やり直してください。</value>
+</data>
+<data name="default_loginagain" xml:space="preserve">
+<value>セキュリティのため、一度に 2 つの調査票にログインしないでください。最初のウィンドウに戻ってください。</value>
+</data>
+<data name="default_participantid" xml:space="preserve">
+<value>参加者コード</value>
+</data>
+<data name="default_participants" xml:space="preserve">
+<value>近々実施されるパフォーマンスのためのエネルギートレーニングの受講申込みをありがとうございます。ご入力いただくプロファイルは、受講していただくトレーニングにおいて不可欠で重要な部分です。</value>
+</data>
+<data name="default_participants_hpi" xml:space="preserve">
+<value>近々実施される企業アスリート/エネルギー管理トレーニングの受講申込みをありがとうございます。ご入力いただくプロファイルは、受講していただくトレーニングにおいて不可欠で重要な部分です。</value>
+</data>
+<data name="default_participants_jnj" xml:space="preserve">
+<value>近々実施される Energy for Performance in Life トレーニングの受講申込みをありがとうございます。ご入力いただくプロファイルは、ご参加いただくトレーニングの不可欠で重要な部分です。 </value>
+</data>
+<data name="default_participants_wp" xml:space="preserve">
+<value>近々実施されるパフォーマンスのためのエネルギートレーニングの受講申込みをありがとうございます。ご入力いただくプロファイルは、受講していただくトレーニングにおいて不可欠で重要な部分です。</value>
+</data>
+<data name="default_raterpassword" xml:space="preserve">
+<value>パスワード</value>
+</data>
+<data name="default_raters" xml:space="preserve">
+<value>お忙しいところ、評価のためご入力ありがとうございます。すべての質問は 10～15 分でご回答いただけます。</value>
+</data>
+<data name="default_reload" xml:space="preserve">
+<value>もう一度ログインするには、ここをクリックしてください。</value>
+</data>
+<data name="default_report" xml:space="preserve">
+<value>レポートのリクエスト</value>
+</data>
+<data name="default_reportsent" xml:space="preserve">
+<value>あなたのレポートは、あなたの電子メールアドレスに送信されました。</value>
+</data>
+<data name="default_submit" xml:space="preserve">
+<value>開始する</value>
+</data>
+<data name="default_unknownemailaddress" xml:space="preserve">
+<value>開始する</value>
+</data>
+<data name="demog_chooseone" xml:space="preserve">
+<value>いずれかを選択</value>
+</data>
+<data name="demog_heading" xml:space="preserve">
+<value>対象者属性</value>
+</data>
+<data name="demog_instr" xml:space="preserve">
+<value>赤い項目は必須項目です</value>
+</data>
+<data name="demog_rptnote" xml:space="preserve">
+<value>&lt;b&gt;再通知：&lt;/b&gt;レポートは、期限後、コース受講日の前に電子メールで送付されます。メインメニューのすべてのタスクを指定された期限までに完了してください。</value>
+</data>
+<data name="demog_valsumm1" xml:space="preserve">
+<value>次の質問にご回答ください。</value>
+</data>
+<data name="emails_invitation" xml:space="preserve">
+<value>インビテーション</value>
+</data>
+<data name="emails_note" xml:space="preserve">
+<value>注意：この後で、上記のようなインビテーションの電子メールメッセージが送付されます。</value>
+</data>
+<data name="emails_reminder" xml:space="preserve">
+<value>再通知</value>
+</data>
+<data name="health_heading" xml:space="preserve">
+<value>健康プロファイル</value>
+</data>
+<data name="health_hour" xml:space="preserve">
+<value>時間</value>
+</data>
+<data name="health_hours" xml:space="preserve">
+<value>時間</value>
+</data>
+<data name="health_q16_1" xml:space="preserve">
+<value>行える業務の量や種類が限られてしまった日、思うように達成できなかった日、いつもと比べて注意が足りなかった日を思い出してください。低い、または負のエネルギーが少ししか業務に影響しなかった場合は、小さい数を選択してください。低い、または負のエネルギーが仕事に大きく影響した場合は、大きい数を選択してください。</value>
+</data>
+<data name="health_q16_2" xml:space="preserve">
+<value>仕事中、低い（または、負の）エネルギーがどのくらい生産性に影響したかのみを考慮してください。</value>
+</data>
+<data name="health_q17_1" xml:space="preserve">
+<value>通常の活動とは、家事、買い物、子供の世話、運動、勉強など、通常あなたが行う活動のことです。行える活動の量や種類が限られてしまった時や、思うように達成できなかった時のことを思い出してください。健康上の問題があなたの活動に少ししか影響しなかった場合は、小さい数を選択してください。健康上の問題があなたの活動に大きく影響した場合は、大きい数を選択してください。 </value>
+</data>
+<data name="health_q17_2" xml:space="preserve">
+<value>低いまたは負のエネルギーレベルが、職場の仕事ではなく、あなたの日常の活動を行う能力にどのくらい影響したかのみを考慮してください。</value>
+</data>
+<data name="logout_loginagain" xml:space="preserve">
+<value>もう一度ログインしてください</value>
+</data>
+<data name="logout_msg" xml:space="preserve">
+<value>一定時間操作されなかったため、セッションの有効期限が切れました。電子メールにあるアクセスコードを使用してログインし、調査票への回答を続けてください。</value>
+</data>
+<data name="master_copyright" xml:space="preserve">
+<value>&#169; Human Performance Institute Division of Wellness &amp; Prevention, Inc. 2003 - 2012　　　&lt;a href=&quot;PrivacyStatement_jp.pdf&quot; target=&quot;hpi&quot;&gt;個人情報の取扱いについて&lt;/a&gt;       &lt;a href=&quot;LegalNotice_jp.pdf&quot; target=&quot;hpi&quot;&gt;法定通知&lt;/a&gt;</value>
+</data>
+<data name="master_keepworking" xml:space="preserve">
+<value>続行してください</value>
+</data>
+<data name="master_logout" xml:space="preserve">
+<value>ログアウト</value>
+</data>
+<data name="master_pname" xml:space="preserve">
+<value>評価してください：</value>
+</data>
+<data name="master_prework" xml:space="preserve">
+<value>調査票への入力に関するご質問は、1.407.438.9911 までお電話で、または&lt;a href=mailto:prework@hpinstitute.com&quot;&gt;電子メール&lt;/a&gt;でお問い合わせください。</value>
+</data>
+<data name="master_relname" xml:space="preserve">
+<value>～として：</value>
+</data>
+<data name="master_rname" xml:space="preserve">
+<value>ようこそ：</value>
+</data>
+<data name="master_savepartial" xml:space="preserve">
+<value>メニューに戻る</value>
+</data>
+<data name="master_support" xml:space="preserve">
+<value>プロファイルへのアクセスに問題がある場合は、&lt;a class=alink href=&quot;mailto:surveys@performanceprograms.com&quot;&gt;電子メール&lt;/a&gt;にてお問い合わせください。</value>
+</data>
+<data name="misc_instr" xml:space="preserve">
+<value>次の質問にご回答ください（最もよくあてはまる数値を選択してください）。数値にマウスを合わせると、数値の解説が表示されます。</value>
+</data>
+<data name="misc_instr2" xml:space="preserve">
+<value>次の質問にご回答ください（ご回答に最もよく当てはまるものを選択してください）。</value>
+</data>
+<data name="misc_mandatory" xml:space="preserve">
+<value>すべての質問にご回答ください。</value>
+</data>
+<data name="pagexofy" xml:space="preserve">
+<value>&quot;xx&quot; / &quot;yy&quot; ページ</value>
+</data>
+<data name="profile_checkbox" xml:space="preserve">
+<value>質問の意味がわからない場合は、ハイライトされたチェックボックスをオンにしてください。</value>
+</data>
+<data name="profile_family" xml:space="preserve">
+<value>家族の方やご友人がご回答いただく場合、「家族」の視点から全質問に回答してください。</value>
+</data>
+<data name="profile_heading" xml:space="preserve">
+<value>エネルギープロファイル</value>
+</data>
+<data name="profile_reqdmissing" xml:space="preserve">
+<value>赤いアスタリスクが付いている項目はすべて評価してください。</value>
+</data>
+<data name="profile_valsumm1" xml:space="preserve">
+<value>次の質問について評価してください。</value>
+</data>
+<data name="progress_audit" xml:space="preserve">
+<value>チェック</value>
+</data>
+<data name="progress_comments" xml:space="preserve">
+<value>コメント</value>
+</data>
+<data name="progress_demographics" xml:space="preserve">
+<value>対象者属性</value>
+</data>
+<data name="progress_ratings" xml:space="preserve">
+<value>プロファイル</value>
+</data>
+<data name="questions_btncomplete" xml:space="preserve">
+<value>入力した調査票を送信する</value>
+</data>
+<data name="questions_btnnext" xml:space="preserve">
+<value>次へ</value>
+</data>
+<data name="questions_btnprev" xml:space="preserve">
+<value>前へ</value>
+</data>
+<data name="questions_nextmsg" xml:space="preserve">
+<value>回答は、次のページに進むと保存されます。</value>
+</data>
+<data name="register_addheading" xml:space="preserve">
+<value>評価者を追加する</value>
+</data>
+<data name="register_bullet1" xml:space="preserve">
+<value>次のような &lt;font color=&quot;red&quot;&gt;5 名以上の評価者を推奨します。&lt;/font&gt;</value>
+</data>
+<data name="register_bullet2" xml:space="preserve">
+<value>&lt;b&gt;最低 2 人の同僚および 2 人の直属の部下&lt;/b&gt;がいない場合は、匿名性を確保するために、レポートでカテゴリを組み合わせられます。</value>
+</data>
+<data name="register_bullet3" xml:space="preserve">
+<value>子供用の質問では、7～18 歳の子供を対象とし、その年齢群のための 6 つの質問に回答させてください。子供の年齢が 18 歳を超える場合は、「家族の一員」を選択して内容の深い質問に回答することをお勧めします。</value>
+</data>
+<data name="register_bullet4" xml:space="preserve">
+<value>子供に電子メールアドレスがない場合、ご自身の電子メールアドレスを使用しても構いません。子供がログインしたら、あなたとの関係には「子供」を選択してください。</value>
+</data>
+<data name="register_currentheading" xml:space="preserve">
+<value>現在の評価者</value>
+</data>
+<data name="register_detail1" xml:space="preserve">
+<value>評価者の詳細情報</value>
+</data>
+<data name="register_duedate" xml:space="preserve">
+<value>回答の期限</value>
+</data>
+<data name="register_emailaddress" xml:space="preserve">
+<value>電子メールアドレス</value>
+</data>
+<data name="register_emailssent" xml:space="preserve">
+<value>|Count| 本の電子メールが送信されました。</value>
+</data>
+<data name="register_exists" xml:space="preserve">
+<value>この電子メールアドレスは使用中です。もう一度やり直してください。</value>
+</data>
+<data name="register_firstname" xml:space="preserve">
+<value>名</value>
+</data>
+<data name="register_groupheading" xml:space="preserve">
+<value>エネルギープロファイルにアクセスするための登録</value>
+</data>
+<data name="register_heading" xml:space="preserve">
+<value>評価者の登録</value>
+</data>
+<data name="register_instr" xml:space="preserve">
+<value>360 度エネルギープロファイルのフィードバックの提供先を選択してください。選択した評価者は、あなたが尋ねられた質問のサブセットを受け取ります。&lt;b&gt;評価者が受け取る質問は、家族や友人と対比した仕事関連、あなたとの関係に基づいています。&lt;/b&gt;たとえば、栄養や運動などの個人の習慣に関する項目については、家族や友人にのみ尋ねられます。評価者の数には上限がないため、ご希望の人数をご登録ください。</value>
+</data>
+<data name="register_instr2" xml:space="preserve">
+<value>&lt;u&gt;利用方法：&lt;/u&gt;各人に必要な情報を入力し、[保存 (電子メールを送信)] をクリックします。選択した評価者にインビテーションが送信されます。</value>
+</data>
+<data name="register_invalidemailaddress" xml:space="preserve">
+<value>エラー警告： 無効な電子メールアドレスが含まれています。赤いアスタリスクが付いたエントリを確認し、正しいアドレスを入力し直してください。</value>
+</data>
+<data name="register_lastname" xml:space="preserve">
+<value>姓</value>
+</data>
+<data name="register_maxdate" xml:space="preserve">
+<value>送信された再通知</value>
+</data>
+<data name="register_nocurrentdata" xml:space="preserve">
+<value>現在、評価者は登録されていません。</value>
+</data>
+<data name="register_note2" xml:space="preserve">
+<value>注意：att.com、shaw.ca、および sbcglobal.net で終わる電子メールアドレスでは、これらの電子メールを受信できない場合があります。情報を確実に配信するために、できる限りこれらのドメイン以外の電子メールアドレスを利用してください。</value>
+</data>
+<data name="register_note3" xml:space="preserve">
+<value>自動再通知は、回答期限までにフィードバックを提供しなかった評価者に送信されます。</value>
+</data>
+<data name="register_previewemails" xml:space="preserve">
+<value>電子メールのプレビュー</value>
+</data>
+<data name="register_reminders" xml:space="preserve">
+<value>自動再通知電子メールは、上記の回答期限までにフィードバックを提供しなかった評価者に送信されます。最新の再通知が送信された日付は以下のとおりです。[再通知の送信] をクリックすると、再通知を自分に送信できます。</value>
+</data>
+<data name="register_reminders2" xml:space="preserve">
+<value>再通知が送信された最新の日付が左側に表示されます。再通知を自分に送信する場合は、[再通知の送信] ボタンをクリックしてください。再通知は、調査に回答していない人だけに送信されます。</value>
+</data>
+<data name="register_respcount" xml:space="preserve">
+<value>現在までに受け取った回答数：|nn|</value>
+</data>
+<data name="register_respinstr" xml:space="preserve">
+<value>（守秘義務により、誰がプロファイルへの入力を完了したかは表示されません。）</value>
+</data>
+<data name="register_save" xml:space="preserve">
+<value>保存</value>
+</data>
+<data name="register_savesend" xml:space="preserve">
+<value>保存（電子メールを送信）</value>
+</data>
+<data name="register_sendreminders" xml:space="preserve">
+<value>再通知の送信</value>
+</data>
+<data name="register_sentcount" xml:space="preserve">
+<value>|nn| 個のメッセージが送信されました</value>
+</data>
+<data name="register_step1" xml:space="preserve">
+<value>&lt;b&gt;ステップ 1：&lt;/b&gt;左側にある表を使用して、評価者の名前と電子メールアドレスを入力してください。</value>
+</data>
+<data name="register_step1a" xml:space="preserve">
+<value>注意：att.com、shaw.ca、および sbcglobal.net で終わる電子メールアドレスでは、これらの電子メールを受信できない場合があります。評価者に情報を確実に配信するために、できる限りこれらのドメイン以外の電子メールアドレスを利用してください。</value>
+</data>
+<data name="rel_continue" xml:space="preserve">
+<value>続行</value>
+</data>
+<data name="rel_heading" xml:space="preserve">
+<value>関係を選択してください。</value>
+</data>
+<data name="rel_instr1" xml:space="preserve">
+<value>ステップ 1：左側にある表を使用して、評価者の名前と電子メールアドレスを入力してください。</value>
+</data>
+<data name="rel_instr2" xml:space="preserve">
+<value>7 ～ 18 歳の子供である場合は、関係として [子供] を選択してください。19 歳以上の子供である場合は、関係として [家族] を選択してください。</value>
+</data>
+<data name="rel_instr3" xml:space="preserve">
+<value>* 大部分の質問が多肢選択式であり、それらの回答の総計が報告されます。自由形式（記述形式）の質問への回答は、回答に記載する具体的な内容を基に、評価対象者によってあなたの回答として特定される場合があります。 </value>
+</data>
+<data name="selfhome_datecompleted" xml:space="preserve">
+<value>終了日</value>
+</data>
+<data name="selfhome_datestarted" xml:space="preserve">
+<value>開始日</value>
+</data>
+<data name="selfhome_instr" xml:space="preserve">
+<value>以下のタスクを完了してください。これらの項目は、どのような順序でも入力できます。期限の前にいつでも戻って項目に入力できるように、回答が保存されます。</value>
+</data>
+<data name="selfhome_instr2" xml:space="preserve">
+<value>指定された期限までにこれらのタスクを完了すると、トレーニングセッションの前にレポートが確実に送信されます。</value>
+</data>
+<data name="selfhome_instr3" xml:space="preserve">
+<value>注意：レポートは、期限後、コース日の前に電子メールで送付されます。</value>
+</data>
+<data name="selfhome_raterreg" xml:space="preserve">
+<value>登録された |y| の中から回答された |x|</value>
+</data>
+<data name="selfhome_reportrequested" xml:space="preserve">
+<value>レポートリクエストが送信されました</value>
+</data>
+<data name="selfhome_requestreport" xml:space="preserve">
+<value>レポートのリクエスト</value>
+</data>
+<data name="selfhome_takesurvey" xml:space="preserve">
+<value>進む</value>
+</data>
+<data name="selfhome_task" xml:space="preserve">
+<value>タスク</value>
+</data>
+<data name="selfonly_intro" xml:space="preserve">
+<value>以下の情報を入力すると、調査を開始できるようになります。また、後で戻って調査に回答するように選択した場合は、個人用ログインコードが記載された電子メールが送信されます。</value>
+</data>
+<data name="selfonly_login" xml:space="preserve">
+<value>登録</value>
+</data>
+<data name="selfonly_register" xml:space="preserve">
+<value>登録して調査を開始</value>
+</data>
+<data name="st_clickonce" xml:space="preserve">
+<value>[送信する] ボタンをクリックすると、あなたのレポートが処理されます。これには時間がかかる場合があります。1 回だけクリックしてください。</value>
+</data>
+<data name="st_heading" xml:space="preserve">
+<value>ストーリーテリングプロファイル</value>
+</data>
+<data name="st_instr" xml:space="preserve">
+<value>&lt;b&gt;重要な注意&lt;/b&gt;：このプロファイルの一部の質問では、自分にぴったり合う選択肢が用意されていない場合があります。 その場合は、自分のストーリー (自分自身をどう見ているか) の現実に最も近い回答を選択してください。</value>
+</data>
+<data name="st_invalidranks" xml:space="preserve">
+<value>質問 |nn| に無効なランクが入力されました</value>
+</data>
+<data name="st_legend" xml:space="preserve">
+<value>凡例：</value>
+</data>
+<data name="st_noresponse" xml:space="preserve">
+<value>質問 |nn| の回答が選択されていません</value>
+</data>
+<data name="st_rateall" xml:space="preserve">
+<value>質問 |nn| のすべての項目を評価してください</value>
+</data>
+<data name="st_requiredfield" xml:space="preserve">
+<value>必須フィールド</value>
+</data>
+<data name="st_total" xml:space="preserve">
+<value>合計</value>
+</data>
+<data name="thanks_partial" xml:space="preserve">
+<value>一部回答された調査が保存されました。後で戻って回答できます。  このウィンドウを&lt;a href=&quot;javascript:window.close();&quot;&gt;閉じる&lt;/a&gt;ことができます。</value>
+</data>
+<data name="thanks_rater" xml:space="preserve">
+<value>プロファイルに入力していただき、ありがとうございました。あなたの回答は、他の評価者の回答とあわせて、本人のフィードバックレポートに盛り込まれます。</value>
+</data>
+<data name="consent_agree" xml:space="preserve">
+<value>同意する</value>
+</data>
+<data name="consent_disagree" xml:space="preserve">
+<value>同意しない</value>
+</data>
+<data name="consent_finaltext" xml:space="preserve">
+<value>私は&lt;a href=&quot;PrivacyStatement_jp.pdf&quot; target=&quot;hpi&quot;&gt;プライバシー保護方針&lt;/a&gt;と&lt;a href=&quot;LegalNotice_jp.pdf&quot; target=&quot;hpi&quot;&gt;法的通知&lt;/a&gt;の条項と詳細な内容を読み、同意します。 また、米国およびデータ保護規則が私が居住する国のものとは異なる可能性のある他の場所で個人情報が処理されることに同意します。 </value>
+</data>
+<data name="consent_heading" xml:space="preserve">
+<value>同意書</value>
+</data>
+<data name="consent_no" xml:space="preserve">
+<value>申し訳ありません。考えが変わった場合は、ログインし直してください。</value>
+</data>
+<data name="consentrater_para1" xml:space="preserve">
+<value>コースの参加者に調査の回答を提供することに同意していただき、ありがとうございます。</value>
+</data>
+<data name="consentrater_para2" xml:space="preserve">
+<value>Wellness &amp; Prevention, Inc. の Human Performance Institute 部門 (以下「Wellness &amp; Prevention」) は、個人がエネルギーおよびパフォーマンスプログラム (以下「本プログラム」) の準備をすることを目的として、このウェブサイトおよび調査を提供します。本プログラムの参加者について共有する情報は非常に個人的なものである可能性があることを理解しています。このプライバシーに関する通知は、あなたが提供する情報の収集、使用、および開示に関連する Wellness &amp; Prevention の業務についてお伝えすることを目的に作成されています。</value>
+</data>
+<data name="consentrater_para3" xml:space="preserve">
+<value>この調査の質問に回答することで、本プログラムを運営するためにこの情報を共に使用する Wellness &amp; Prevention、ビジネスパートナー、およびサービスプロバイダーが、回答 (たとえば、参加者の行動やライフスタイルに関する情報のほか、あなたが提供したその他の情報に関するもの) を収集、処理、保持、および開示することに同意したとみなします。本プログラムとは無関係な目的で、提供された情報を他の団体に販売したり提供したりことはありません。 </value>
+</data>
+<data name="consentrater_para4" xml:space="preserve">
+<value>Wellness &amp; Prevention は、この情報の紛失、誤用、許可のないアクセス、開示、変更、破壊を防ぐための合理的な手段を講じます。</value>
+</data>
+<data name="consentrater_para5" xml:space="preserve">
+<value>この調査に関する質問やその他のサポートについては、以下までご連絡ください。</value>
+</data>
+<data name="consentrater_para6" xml:space="preserve">
+<value>Wellness &amp; Prevention, Inc.、Human Performance Institute 部門 9757 Lake Nona Rd. Orlando, FL 32827 USA +1.407.438.9911   &lt;a href=mailto:info@corporateathlete.com&quot;&gt;info@corporateathlete.com&lt;/a&gt;&quot; </value>
+</data>
+<data name="consentrater_para7" xml:space="preserve">
+<value>プライバシー慣行全般の詳細については、当社のプログラム&lt;a href=&quot;PrivacyStatement_jp.pdf&quot; target=&quot;hpi&quot;&gt;プライバシー保護方針&lt;/a&gt;をご覧ください。 </value>
+</data>
+<data name="consentself_bullet1" xml:space="preserve">
+<value>Wellness &amp; Prevention, Inc. の Human Performance Institute 部門は私に関する情報の機密性を維持し、プライバシー保護方針に記載された内容を除いてその情報を自発的に開示することはありません。</value>
+</data>
+<data name="consentself_bullet2" xml:space="preserve">
+<value>私に関する情報は、これらのエネルギーおよびパフォーマンスプログラムに関して私をサポートするコーチに提供される場合があります。</value>
+</data>
+<data name="consentself_bullet3" xml:space="preserve">
+<value>Wellness &amp; Prevention は、以下に対し、その参加者に関する匿名化された全体情報および統計情報を提供する場合があります。</value>
+</data>
+<data name="consentself_bullet3a" xml:space="preserve">
+<value>私のスポンサー (該当する場合) およびプログラムを管理する支援組織</value>
+</data>
+<data name="consentself_bullet3b" xml:space="preserve">
+<value>分析と研究を行う他の団体。</value>
+</data>
+<data name="consentself_bullet4" xml:space="preserve">
+<value>Wellness &amp; Prevention および支援組織は、プログラムの情報とリクエストを使用して私に連絡を取る場合があります。</value>
+</data>
+<data name="consentself_intro" xml:space="preserve">
+<value>&lt;a href=&quot;PrivacyStatement_jp.pdf&quot; target=&quot;hpi&quot;&gt;プライバシー保護方針&lt;/a&gt;および&lt;a href=&quot;LegalNotice_jp.pdf&quot; target=&quot;hpi&quot;&gt;法的通知&lt;/a&gt;だけでなく以下の内容を注意深く読んでください。さまざまな Human Performance Institute のプログラムに参加するにはこれらの条項をよく理解し同意することが必要です。</value>
+</data>
+<data name="default_surveyclosed" xml:space="preserve">
+<value>調査は公開ではありません。</value>
+</data>
+<data name="st_noresponse_choice" xml:space="preserve">
+<value>回答なし</value>
+</data>
+<data name="emails_notstarted" xml:space="preserve">
+<value>開始されていません</value>
+</data>
+<data name="emails_startedon" xml:space="preserve">
+<value>開始日</value>
+</data>
+<data name="emails_completedon" xml:space="preserve">
+<value>完了日</value>
+</data>
+</root>

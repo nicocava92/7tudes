@@ -1,0 +1,72 @@
+﻿<%@ Master Language="VB" CodeFile="free.master.vb" Inherits="Free_free1" %>
+
+<%@ Register Src="~/Controls/GA.ascx" TagPrefix="uc1" TagName="GA" %>
+<%--<%@ Register Src="~/Controls/PageBanner.ascx" TagPrefix="uc1" TagName="PageBanner" %>--%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]>      <html xmlns="http://www.w3.org/1999/xhtml" class="ie6"> <![endif]-->
+<!--[if IE 7]>         <html xmlns="http://www.w3.org/1999/xhtml" class="ie7"> <![endif]-->
+<!--[if IE 8]>         <html xmlns="http://www.w3.org/1999/xhtml" class="ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" class="js">
+<!--<![endif]-->
+<head runat="server">
+    <title>Training Corporate Executive Leadership for Enhanced Performance | HPI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Offering Solutions That Help Business Executives and Employees Expand and Manage Their Energy For Increased Performance Even Under Intense Pressure.">
+    <meta name="keywords" content="Human Performance Institute,HPI,Corporate Athlete,Employee Engagement,Johnson and Johnson,Human Performance Management,Executive Performance,Energy Management,Jim Loehr,Jack Groppel">
+    <meta name="robots" content="index,follow">
+    <meta name="DC.title" content="Training Corporate Executive Leadership for Enhanced Performance">
+    <link rel="shortcut icon" href="/sites/all/themes/hpinstitute_theme/favicon.ico"
+        type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<%--    <link type="text/css" rel="stylesheet" media="all" href="https://www.hpinstitute.com/sites/all/themes/hpinstitute_theme/css/general.css?2">
+    <link type="text/css" rel="stylesheet" media="all" href="https://www.hpinstitute.com/sites/all/themes/hpinstitute_theme/css/content.css?2">--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%--<uc1:PageBanner runat="server" ID="PageBanner" />--%>
+    <form runat="server" id="form1">
+        <table class="main" style="margin: 0px auto; margin-bottom: 0px;">
+        <tr>
+            <td><img runat="server" id="brandlogo" src="../images/jnjhpi_free_trans_logo.png" alt="logo"/></td>
+        </tr>
+        <tr>
+            <td class="content">
+
+                <table border="1" style="border:1px solid #e2e2e2;">
+                    <tr>
+                        <td>
+
+                        <!-- PLACE SITE CONTENT HERE -->
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+
+                        </td>
+                    </tr>
+                <tr>
+                    <td class="pagefooter">
+                    <asp:Label runat="server" ID="lSupport" Text='<%$ Resources:LangText, master_support %>' CssClass="footer"></asp:Label>
+                    <br />
+                    <asp:Label runat="server" ID="master_prework" Text='<%$ Resources:LangText, master_prework %>' CssClass="footer"></asp:Label>
+                    <br />
+                    <asp:Label runat="server" ID="lCopyright" Text='<%$ Resources:LangText, master_copyright %>' CssClass="footer"></asp:Label>
+                    </td>
+                </tr>
+                </table>
+
+
+            </td>
+        </tr>
+        </table>
+
+    </form>
+
+    <uc1:GA runat="server" ID="GA1" /> 
+
+</body>
+</html>

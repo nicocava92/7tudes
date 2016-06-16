@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Menu"  description="">
+    <siteMapNode url="~/Admin/GroupCodes.aspx" title="Groups and Cycles"  description="" />
+    <siteMapNode url="~/Admin/Brands.aspx" title="Brands"  description="" />
+    <siteMapNode url="~/Admin/EmailText.aspx" title="Email Text"  description="" />
+    <siteMapNode url="~/Admin/BillingCodes.aspx" title="Billing Codes"  description="" />
+    <siteMapNode url="~/Admin/Search.aspx" title="Search Participants/Raters"  description="" />
+    <siteMapNode url="~/Admin/AdminUsers.aspx" title="Manage Admin Users (TBD)"  description="" />
+    <siteMapNode url="~/Admin/Default.aspx" title="Logout"  description="" />
+  </siteMapNode>
+</siteMap>
