@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="audit_fullydisengaged" xml:space="preserve">
+    <value>Fully Disengaged</value>
+  </data>
+  <data name="audit_fullyengaged" xml:space="preserve">
+    <value>Fully Engaged</value>
+  </data>
+  <data name="audit_heading" xml:space="preserve">
+    <value>Life Engagement Audit</value>
+  </data>
+  <data name="audit_instr" xml:space="preserve">
+    <value>Answer all of the questions using the time frame of the last six months. Select the number on a scale of 1-7 that corresponds to your engagement level.</value>
+  </data>
+  <data name="ch_heading" xml:space="preserve">
+    <value>Character Profile</value>
+  </data>
+  <data name="ch_intro_extreme" xml:space="preserve">
+    <value>Extreme/Gut-wrenching</value>
+  </data>
+  <data name="ch_intro_para1" xml:space="preserve">
+    <value>This questionnaire is designed to help you assess how you respond during periods of great stress or pain in your professional or personal life. The intent is to identify the strengths and weaknesses that surfaced when you are pushed well beyond your comfort zone physically, emotionally, mental or spiritually. Be as truthful and honest as you can. Resist the temptation to make yourself look better or worse than you were at the time of the stress exposure. An answer of 1 indicates this crisis exposed a significant weakness and a 5 indicates a significant strength was exposed.</value>
+  </data>
+  <data name="ch_intro_para2" xml:space="preserve">
+    <value>Below are examples of possible major stressors that may have occurred that could be referenced for responding to the items in this questionnaire. The intended purpose of this questionnaire is to surface who you really are during the worst of times in your life, when the forces of life have seemingly turned against you. It’s important that you reference a stressor that was more a deep personal crisis for you than for those around you.</value>
+  </data>
+  <data name="ch_intro_q1" xml:space="preserve">
+    <value>List the stressor or stressors that you will use as a reference for taking this questionnaire (preferably stressors that have occurred in the last 2 years).</value>
+  </data>
+  <data name="ch_intro_q2" xml:space="preserve">
+    <value>On a scale of 1 to 10, how intense was the stress?</value>
+  </data>
+  <data name="ch_intro_title" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="ch_intro_verymild" xml:space="preserve">
+    <value>Very mild</value>
+  </data>
+  <data name="ch_profile_i" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="ch_profile_stem" xml:space="preserve">
+    <value>During times of personal crisis, |ParticipantName|:</value>
+  </data>
+  <data name="ch_progress_intro" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="comments_charsleft" xml:space="preserve">
+    <value>characters left:</value>
+  </data>
+  <data name="comments_heading" xml:space="preserve">
+    <value>Open-Ended Comment Questions</value>
+  </data>
+  <data name="comments_instr" xml:space="preserve">
+    <value>You can enter a maximum of 300 characters in each comment.</value>
+  </data>
+  <data name="consentrater_para1" xml:space="preserve">
+    <value>Thank you for agreeing to provide survey responses for a participant in our courses.</value>
+  </data>
+  <data name="consentrater_para2" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. (“Wellness &amp; Prevention”) provides this website and survey for the purpose of preparing individuals for our energy and performance programs (the “Program”). We understand that the information you will be sharing about the Program participant may be very personal. This Privacy Notice is designed to tell you about Wellness &amp; Prevention’s practices regarding collection, use, and disclosure of the information you provide.</value>
+  </data>
+  <data name="consentrater_para3" xml:space="preserve">
+    <value>By completing these survey questions, you consent to the collection, processing, retention, and disclosure of the responses (e.g., related to the participant’s behavioral and lifestyle information, and other information that you provide us) by Wellness &amp; Prevention, our business partners, and our service providers, together who use this information to administer the Program. We will not otherwise sell or give information you provide to other parties for purposes unrelated to the Program.</value>
+  </data>
+  <data name="consentrater_para4" xml:space="preserve">
+    <value>Wellness &amp; Prevention takes reasonable steps to protect such information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction.</value>
+  </data>
+  <data name="consentrater_para5" xml:space="preserve">
+    <value>You may reach us with questions and for other support regarding this survey by contacting:</value>
+  </data>
+  <data name="consentrater_para6" xml:space="preserve">
+    <value>Human Performance Institute 
+Division of Wellness &amp; Prevention, Inc.
+9757 Lake Nona Rd. 
+Orlando, FL 32827 USA
++1.407.438.9911 
+
+&lt;a href="mailto:info@corporateathlete.com"&gt;info@corporateathlete.com&lt;/a&gt;</value>
+  </data>
+  <data name="consentrater_para7" xml:space="preserve">
+    <value>More information about our overall privacy practices, you may review our Program &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt;. Use of this website is governed by its &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;.</value>
+  </data>
+  <data name="consentself_bullet1" xml:space="preserve">
+    <value>Human Performance Institute Division of Wellness &amp; Prevention, Inc., will keep information about me private, and will not voluntarily disclose the information except as described in the Privacy Statement.</value>
+  </data>
+  <data name="consentself_bullet2" xml:space="preserve">
+    <value>Information about me may be provided to the coaches supporting me related to these energy and performance programs.</value>
+  </data>
+  <data name="consentself_bullet3" xml:space="preserve">
+    <value>Wellness &amp; Prevention may provide de-identified aggregate and statistical information about its participants:</value>
+  </data>
+  <data name="consentself_bullet3a" xml:space="preserve">
+    <value>To my sponsor (if applicable) and other supporting organizations for administering the programs</value>
+  </data>
+  <data name="consentself_bullet3b" xml:space="preserve">
+    <value>To other parties for their analysis and research.</value>
+  </data>
+  <data name="consentself_bullet4" xml:space="preserve">
+    <value>Wellness &amp; Prevention and supporting organizations may contact me with program information and requests.</value>
+  </data>
+  <data name="consentself_intro" xml:space="preserve">
+    <value>Please carefully read the following along with our &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt; and &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;, as participation in the various Human Performance Institute programs require that you fully understand and consent to these terms:</value>
+  </data>
+  <data name="consent_agree" xml:space="preserve">
+    <value>I agree</value>
+  </data>
+  <data name="consent_disagree" xml:space="preserve">
+    <value>I do not agree</value>
+  </data>
+  <data name="consent_finaltext" xml:space="preserve">
+    <value>I have read and consent to the these terms and those detailed in the &lt;a href="https://www.hpinstitute.com/privacy" target="hpi"&gt;Privacy Statement&lt;/a&gt; and &lt;a href="https://www.hpinstitute.com/legal" target="hpi"&gt;Legal Notice&lt;/a&gt;, and to the processing of personal information in the United States and other locations where data protection rules may differ from those of the country in which I reside.</value>
+  </data>
+  <data name="consent_heading" xml:space="preserve">
+    <value>Consent Form</value>
+  </data>
+  <data name="consent_no" xml:space="preserve">
+    <value>We are sorry. If you change your mind, please login again.</value>
+  </data>
+  <data name="default_checkemail" xml:space="preserve">
+    <value>Check your Inbox to retrieve the requested info.</value>
+  </data>
+  <data name="default_enablecookies" xml:space="preserve">
+    <value>Please enable cookies</value>
+  </data>
+  <data name="default_groupcode" xml:space="preserve">
+    <value>Group Code</value>
+  </data>
+  <data name="default_heading" xml:space="preserve">
+    <value>Welcome to the Seven Tudes</value>
+  </data>
+  <data name="default_instr" xml:space="preserve">
+    <value>Please use the codes provided to you to begin your assessment(s).</value>
+  </data>
+  <data name="default_invalid_input" xml:space="preserve">
+    <value>Invalid input. Please try again</value>
+  </data>
+  <data name="default_loginagain" xml:space="preserve">
+    <value>For security purposes, you may not be logged into two surveys at once. Please return to your first window.</value>
+  </data>
+  <data name="default_participantid" xml:space="preserve">
+    <value>Participant Code</value>
+  </data>
+  <data name="default_participants" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_hpi" xml:space="preserve">
+    <value>We are excited about your upcoming Corporate Athlete/Energy Management training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_jnj" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance in Life training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_wp" xml:space="preserve">
+    <value>We are excited about your upcoming Energy for Performance training. The profile(s) you will be completing are an integral and critical part of the training you will be attending.</value>
+  </data>
+  <data name="default_participants_cr" xml:space="preserve">
+    <value>We are excited about your upcoming EXCELerate Program. The profile you will be completing is an integral and critical part of the training you will be attending. Please use the codes provided to you to begin your assessment.</value>
+  </data>
+  <data name="default_rater" xml:space="preserve">
+    <value>I want to provide feedback for someone else.</value>
+  </data>
+  <data name="default_raterpassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="default_raters" xml:space="preserve">
+    <value>Thank you for taking the time to complete this assessment. You should be able to complete the questions in 10-15 minutes.</value>
+  </data>
+  <data name="default_reload" xml:space="preserve">
+    <value>Click here to try logging in again</value>
+  </data>
+  <data name="default_report" xml:space="preserve">
+    <value>Request Report</value>
+  </data>
+  <data name="default_reportsent" xml:space="preserve">
+    <value>Your report has been sent to your email address.</value>
+  </data>
+  <data name="default_self" xml:space="preserve">
+    <value>I want to access my own profile.</value>
+  </data>
+  <data name="default_submit" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="default_unknownemailaddress" xml:space="preserve">
+    <value>This email address is not in the system.</value>
+  </data>
+  <data name="demog_chooseone" xml:space="preserve">
+    <value>Choose One</value>
+  </data>
+  <data name="demog_heading" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="demog_instr" xml:space="preserve">
+    <value>Items in red are required</value>
+  </data>
+  <data name="demog_rptnote" xml:space="preserve">
+    <value>&lt;b&gt;REMINDER: &lt;/b&gt;You will receive your report(s) via email after the due date and prior to your course date. Please complete all tasks in the main menu prior to the deadline provided.</value>
+  </data>
+  <data name="demog_valsumm1" xml:space="preserve">
+    <value>Please answer the following questions.</value>
+  </data>
+  <data name="emails_invitation" xml:space="preserve">
+    <value>Invitation</value>
+  </data>
+  <data name="emails_note" xml:space="preserve">
+    <value>Note: This will be followed by the invitation email message shown above.</value>
+  </data>
+  <data name="emails_reminder" xml:space="preserve">
+    <value>Reminder</value>
+  </data>
+  <data name="health_heading" xml:space="preserve">
+    <value>Health Profile</value>
+  </data>
+  <data name="health_hour" xml:space="preserve">
+    <value>hour</value>
+  </data>
+  <data name="health_hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="health_q16_1" xml:space="preserve">
+    <value>Think about days you were limited in the amount or kind of work you could do, days you accomplished less than you would like, or days you could not do your work as carefully as usual. If low or negative energy affected your work only a little, choose a low number. Choose a high number if low or negative energy affected your work a great deal. </value>
+  </data>
+  <data name="health_q16_2" xml:space="preserve">
+    <value>Consider only how much low (or negative) energy affected productivity &lt;u&gt;while you were working. &lt;/u&gt;</value>
+  </data>
+  <data name="health_q17_1" xml:space="preserve">
+    <value>By regular activities, we mean the usual activities you do, such as work around the house, shopping, childcare, exercising, studying, etc. Think about times you were limited in the amount or kind of activities you could do and times you accomplished less than you would like. If health problems affected your activities only a little, choose a low number. Choose a high number if health problems affected your activities a great deal. </value>
+  </data>
+  <data name="health_q17_2" xml:space="preserve">
+    <value>Consider only how much &lt;u&gt;low or negative energy levels&lt;/u&gt; affected your ability to do your regular daily activities, other than work at a job. </value>
+  </data>
+  <data name="legal_notice" xml:space="preserve">
+    <value>&lt;b&gt;Legal Notice&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+All content in this portion of this website is owned or controlled by Human Performance Institute, Inc. and is protected by worldwide copyright laws. You may download content only for your personal use for non-commercial purposes but no modification or further reproduction of the content is permitted. The content may otherwise not be copied or used in anyway. 
+&lt;br&gt;&lt;br&gt;
+The owners of this site will use reasonable efforts to include up-to-date and accurate information in this website, but the owners and Human Performance Institute, Inc. make no representations, warranties, or assurances as to the accuracy, currency, or completeness of the information provided. The owners of this site and Human Performance Institute, Inc. shall not be liable for any damages or injury resulting from your access to, or inability to access, this website, or from your reliance on any information provided at this website.  
+&lt;br&gt;&lt;br&gt;
+This website may provide links or references to other sites but the owners of this site and Human Performance Institute, Inc. have no responsibility for the content of such other sites and shall not be liable for any damages or injury arising from that content. Any links to other sites are provided as merely a convenience to the users of this website. 
+&lt;br&gt;&lt;br&gt;
+The trademarks, service marks, trade names, trade dress and products in this website are protected in the U.S. and internationally. No use of any of these may be made without the prior, written authorization of the owners of this site, except to identify the products or services of the company. 
+&lt;br&gt;&lt;br&gt;
+Any personally identifiable information in electronic communications to this website is governed by this site's &lt;a href="Privacy_Statement.aspx"&gt;Privacy Statement&lt;/a&gt;.  The owners of this site and Human Performance Institute, Inc. shall be free to use or copy all other information in any such communications, including any ideas, inventions, concepts, techniques or know-how disclosed therein, for any purposes. Such purposes may include disclosure to third parties and/or developing, manufacturing and/or marketing goods or services. 
+&lt;br&gt;&lt;br&gt;
+The sender of any communications to this website or otherwise to the owners of this site and Human Performance Institute, Inc. shall be responsible for the content and information contained therein, including its truthfulness and accuracy.</value>
+  </data>
+  <data name="legal_notice_hdr" xml:space="preserve">
+    <value>Legal Notice</value>
+  </data>
+  <data name="logout_loginagain" xml:space="preserve">
+    <value>Login again</value>
+  </data>
+  <data name="logout_msg" xml:space="preserve">
+    <value>Your session has expired due to inactivity. Please log in to continue the survey, using the access codes in your email.</value>
+  </data>
+  <data name="master_copyright" xml:space="preserve">
+    <value>© 2016 Thunderbird School of Global Management and University of Hartford Barney School of Business. All rights reserved.</value>
+  </data>
+  <data name="master_keepworking" xml:space="preserve">
+    <value>Keep working</value>
+  </data>
+  <data name="master_logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="master_pname" xml:space="preserve">
+    <value>Please evaluate:</value>
+  </data>
+  <data name="master_prework" xml:space="preserve">
+    <value>For questions about completing the survey please contact us at &lt;a class=alink href="mailto:surveys@performanceprograms.com"&gt;email&lt;/a&gt;.</value>
+  </data>
+  <data name="master_relname" xml:space="preserve">
+    <value>As your:</value>
+  </data>
+  <data name="master_rname" xml:space="preserve">
+    <value>Welcome: </value>
+  </data>
+  <data name="master_savepartial" xml:space="preserve">
+    <value>Return to menu</value>
+  </data>
+  <data name="master_support" xml:space="preserve">
+    <value>To learn more about Seven Tudes, go to our website at &lt;a href="http://www.seventudes.com" target="_blank"&gt;www.seventudes.com&lt;/a&gt;</value>
+  </data>
+  <data name="misc_instr" xml:space="preserve">
+    <value>Please answer the following questions by selecting the option that most closely reflects your answer. Place your mouse arrow over the number rating to read the text associated with that choice.</value>
+  </data>
+  <data name="misc_instr2" xml:space="preserve">
+    <value>Please answer the following questions by selecting the option that most closely reflects your answer.</value>
+  </data>
+  <data name="misc_mandatory" xml:space="preserve">
+    <value>Responses to all questions are required.</value>
+  </data>
+  <data name="pagexofy" xml:space="preserve">
+    <value>Page "xx" of "yy"</value>
+  </data>
+  <data name="privacy_stmt" xml:space="preserve">
+    <value>&lt;b&gt;Privacy Statement&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+This Privacy Statement is designed to tell you about the Human Performance Institute, Inc.’s (“Human Performance Institute”) practices regarding collection, use, and disclosure of information that you may provide via the Human Performance Institute portions of this website. This Privacy Statement also applies to E-mail communications that arise out of your completion of surveys on this website. Please be sure to read this entire Privacy Statement before using or submitting information to this website. 
+&lt;br&gt;&lt;br&gt;
+This portion of the website hosts Human Performance Institute surveys designed to compile information about you or someone you know for use in our administration of various health and wellness courses. Although your participation in the surveys is voluntary, their completion helps us to optimize our delivery of the courses to you or to the person about whom you are responding in the survey. Although the surveys are hosted and compiled, and the resultant E-mails sent by Performance Programs, Inc., a third party service provider, the pages you visit on the website and resultant E-mails are governed by this Privacy Statement.
+&lt;br&gt;&lt;br&gt;
+By using portions of the website governed by this Privacy Statement, you agree to the terms of this Privacy Statement. Specifically, you consent to the collection, processing, retention, and disclosure of information you provide for the purposes described in this Privacy Statement.
+&lt;br&gt;&lt;br&gt;
+Other portions of Performance Programs, Inc.’s website are not governed by the Human Performance Institute’s Privacy Statement.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Information that You Provide&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+This portion of the website maintains and uses information you provide (e.g., name, contact information, demographic information, health goals, health conditions, medications, claims, activities and lifestyle) about you or about another person(s) for whom you are responding to a survey request. The information is compiled as a product of your interactivity on the website. Some areas of this website may require you to submit information in order for you or someone you know to benefit from Human Performance Institute courses or to participate in a particular activity. 
+&lt;br&gt;&lt;br&gt;
+You will be informed at each information collection point what information is required and what information is optional.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Our Use of Information that You Provide; Disclosure to Third Parties&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+We, along with our business partners and service providers, use the survey information to provide various products and services, most notably our health and wellness courses. We will not use the information you provide in these surveys to promote our products or services. We will not otherwise sell or give this information to other parties for their marketing purposes.
+&lt;br&gt;&lt;br&gt;
+We may disclose survey information to HealthMedia, Inc. and Wellness &amp; Prevention, Inc., and other entities that comprise the Johnson &amp; Johnson Family of Health and Performance Companies to which the Human Performance Institute belongs, who agree to treat the information in accordance with this Privacy Statement and use it for the specified purposes.
+&lt;br&gt;&lt;br&gt;
+Except as otherwise stated, we may use information collected via this website to improve the content of our website, for research purposes, and for any other purposes specified. In addition, we may make full use of all information acquired through this website that is not in personally identifiable form.
+&lt;br&gt;&lt;br&gt;
+If you provide personally identifiable information to this website, we may combine such information with other actively collected information unless we specify otherwise at the point of collection. We may disclose personally identifiable information you provide via this website to other Johnson &amp; Johnson Operating Companies worldwide that agree to treat it in accordance with this Privacy Statement and use it for the same purposes.
+&lt;br&gt;&lt;br&gt;
+We may disclose survey information to third parties that are not Johnson &amp; Johnson Operating Companies, but will do so only: (i) to contractors we use to support our business (e.g., fulfillment services, technical support, delivery services, and financial institutions), in which case we will require such third parties to agree to treat the information according to terms consistent with this Privacy Statement and use it for specified purposes; (ii) in connection with the sale, assignment, or other transfer of the business of this website to which the information relates, in which case we will require any such buyer to agree to treat the information in accordance with this Privacy Statement and use it for the specified purposes; or (iii) to respond to law enforcement requests or where required by applicable laws, court orders, or government regulations.
+&lt;br&gt;&lt;br&gt;
+Our affiliates, business partners, and service providers may process the survey information in the United States and in locations outside the United States.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Passive Information Collection&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+As you use the website, your browser or other device communicates with the servers involved to coordinate the interactivity and content that you request. Those servers, which include those operated by Performance Programs, Inc., Human Performance Institute, and also those of our other business partners and services providers, keep records of your interactivity and requests for services and content to assist us in managing and improving the utility of the website and in conducting research and analysis on the use of the website.
+&lt;br&gt;&lt;br&gt;
+The types of such interactive information include your Internet protocol (IP) addresses, browser types, URLs of referring hyperlinks (i.e., if you clicked through to a page in our website), and related web usage information.
+&lt;br&gt;&lt;br&gt;
+Such information is stored in web server logs and in web cookies kept on your computer or mobile device, which are then transmitted back to our website by your computer or mobile device. These servers are operated and the cookies managed by Performance Programs, Inc., our service provider.
+&lt;br&gt;&lt;br&gt;
+Performance Programs, Inc. use cookies to store your user id and to subsequently authenticate you to the protected portions of the website, and to analyze how the website, E-mail communications, and related services are accessed and used. Performance Programs, Inc. also uses cookies from other service providers for these purposes. Acceptance of cookies by your browser is required for the correct functioning of this portion of website.
+&lt;br&gt;&lt;br&gt;
+Performance Programs, Inc. and we, along with our business partners and service providers, use other similar techniques to record other interactivity information about the use of the website, E-mail communications, and related services, and to analyze how the website, E-mail communications, and related services are accessed and used.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Information about Children&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Human Performance Institute does not offer programs to persons under the age of 18. Although program participants may invite their children to serve as raters to provide information about their parents, we do not knowingly collect information from persons under the age of 13. We encourage parents to talk to their children about their use of the Internet and the information that they disclose.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Managing Information about You: Opt-out Procedure&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+To keep information that you provide via this portion of the website accurate, current, and complete, please contact us as specified below and we will take appropriate steps to update or correct such information in our possession.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Security&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Human Performance Institute, Inc. takes reasonable steps to protect personally identifiable information as you transmit it to our website and to protect such information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. You should keep in mind that no Internet transmission is ever completely secure or error-free. In particular, E-mail sent to or from this website may not be secure.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Links to Other Websites&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+This website may contain links and references to other websites that contain relevant information. Our Privacy Statement does not apply to such websites. We encourage you to become familiar with the privacy practices of the other websites that you use.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Contacting Us&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+If you have a comment or question about the use of the website, please contact us online or as follows:
+&lt;br&gt;&lt;br&gt;
+Human Performance Institute, Inc.&lt;br&gt;
+9757 Lake Nona Rd., Orlando, FL 32827 USA&lt;br&gt;
++1-407-438-9911&lt;br&gt;
+&lt;a hef="mailto:privacy@hpinstitute.com"&gt;privacy@hpinstitute.com&lt;/a&gt; 
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Updates to Our Privacy Statement&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+As we update this Privacy Statement from time to time, we will post the revised statement on this website. Please check back periodically, and especially before you provide personal information. This Privacy Statement was last updated on October 19, 2011.</value>
+  </data>
+  <data name="privacy_stmt_hdr" xml:space="preserve">
+    <value>Privacy Statement</value>
+  </data>
+  <data name="profile_additionalresources" xml:space="preserve">
+    <value>Additional Resources</value>
+  </data>
+  <data name="profile_checkbox" xml:space="preserve">
+    <value>Please mark the highlighted checkbox if the question is confusing.</value>
+  </data>
+  <data name="profile_family" xml:space="preserve">
+    <value>Since you are a family member or friend, please answer all questions from the perspective of "home."</value>
+  </data>
+  <data name="profile_heading" xml:space="preserve">
+    <value>Seven Tudes</value>
+  </data>
+  <data name="profile_keytakeaways" xml:space="preserve">
+    <value>Key Takeaways</value>
+  </data>
+  <data name="profile_reqdmissing" xml:space="preserve">
+    <value>Please rate all items with a red asterisk.</value>
+  </data>
+  <data name="profile_valsumm1" xml:space="preserve">
+    <value>Please provide ratings for the following questions.</value>
+  </data>
+  <data name="progress_audit" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="progress_comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="progress_demographics" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="progress_ratings" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="questions_btncomplete" xml:space="preserve">
+    <value>Submit Completed Survey</value>
+  </data>
+  <data name="questions_btnnext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="questions_btnprev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="questions_nextmsg" xml:space="preserve">
+    <value>Your answers will be saved when you go to the next page.</value>
+  </data>
+  <data name="register_addheading" xml:space="preserve">
+    <value>Add raters</value>
+  </data>
+  <data name="register_bullet1" xml:space="preserve">
+    <value>&lt;font color=red&gt;Recommended volume of raters is 5 or more&lt;/font&gt;, as follows:&lt;ul&gt;
+&lt;li&gt;Supervisor/manager:  1 (minimum )&lt;/li&gt;
+&lt;li&gt;Peers:  2 or more&lt;/li&gt;
+&lt;li&gt;Direct reports:  2 or more&lt;/li&gt;
+&lt;li&gt;Friends/Family:  any&lt;/li&gt;
+&lt;li&gt;Children:  any&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="register_bullet2" xml:space="preserve">
+    <value>If you do not have a &lt;b&gt;minimum of 2 peers and 2 direct reports&lt;/b&gt;, the categories are combined in your report to preserve anonymity.</value>
+  </data>
+  <data name="register_bullet3" xml:space="preserve">
+    <value>Children questions are targeted at ages 7-18, and answer 6 questions designed for that age group. Any child over 18 is recommended to select "Family Member" to take the in-depth question set.</value>
+  </data>
+  <data name="register_bullet4" xml:space="preserve">
+    <value>You may use your own email address for children, if they don’t have one. Once they login, they should choose "child" as their relationship to you.</value>
+  </data>
+  <data name="register_currentheading" xml:space="preserve">
+    <value>Current Raters</value>
+  </data>
+  <data name="register_detail1" xml:space="preserve">
+    <value>Detailed Rater Information</value>
+  </data>
+  <data name="register_duedate" xml:space="preserve">
+    <value>All Responses Due by</value>
+  </data>
+  <data name="register_emailaddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="register_emailssent" xml:space="preserve">
+    <value>|Count| emails sent.</value>
+  </data>
+  <data name="register_exists" xml:space="preserve">
+    <value>This email address is in use. Please try again.</value>
+  </data>
+  <data name="register_firstname" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="register_groupheading" xml:space="preserve">
+    <value>Register to access the Seven Tudes</value>
+  </data>
+  <data name="register_heading" xml:space="preserve">
+    <value>Register Raters </value>
+  </data>
+  <data name="register_instr" xml:space="preserve">
+    <value>Please select the persons you would like to provide feedback for your 360 Seven Tudes. The raters you select will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends &amp; family.&lt;/b&gt; For example, personal habit-related items like nutrition or exercise are only asked of friends and family. There is no maximum on the number of raters, so please register as many as you would like.</value>
+  </data>
+  <data name="register_instr2" xml:space="preserve">
+    <value>&lt;u&gt;INSTRUCTIONS: &lt;/u&gt;Enter the required information for each person, and click “Save (send emails)”. The system will then send out the invitation to the raters selected.</value>
+  </data>
+  <data name="register_invalidemailaddress" xml:space="preserve">
+    <value>Error Alert: One or more email addresses is invalid. Please see the entry marked with a red asterisk and re-enter the correct address.</value>
+  </data>
+  <data name="register_lastname" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="register_maxdate" xml:space="preserve">
+    <value>Reminders Sent</value>
+  </data>
+  <data name="register_nocurrentdata" xml:space="preserve">
+    <value>You don't have any raters registered at this time.</value>
+  </data>
+  <data name="register_note" xml:space="preserve">
+    <value>Note:
+&lt;ul&gt;
+&lt;li&gt;When adding a &lt;b&gt;child&lt;/b&gt; as a rater you may use your own email address if they don't have one. When they log in they will select "child" as their relationship to you and this will take them to the children profile. Older children (18 or older) may take a more extensive profile by selecting "family member" instead of "child".&lt;/li&gt;
+&lt;li&gt;A rater receives a reminder email each time you click the "Send Reminders" button. The system sends reminders to only those raters who have not yet completed the profile. 
+&lt;/li&gt;
+&lt;li&gt;Please make sure the email addresses that you enter for your raters are correct. 
+&lt;/li&gt;
+
+
+
+&lt;/ul&gt;</value>
+  </data>
+  <data name="register_note2" xml:space="preserve">
+    <value>Please Note: Email addresses ending with att.com, shaw.ca and sbcglobal.net may have difficulty in receiving these emails. To ensure delivery of the information, please utilize email addresses outside these domains, if possible.</value>
+  </data>
+  <data name="register_note3" xml:space="preserve">
+    <value>Automated reminders are sent to any rater who has &lt;u&gt;not&lt;/u&gt; provided feedback by the response deadline.</value>
+  </data>
+  <data name="register_previewemails" xml:space="preserve">
+    <value>Preview Emails</value>
+  </data>
+  <data name="register_reminders" xml:space="preserve">
+    <value>Automatic reminder emails will be sent to any rater who has not provided feedback by the response deadline above. The date the most recent reminders were sent is shown below. You may choose to send reminders yourself by clicking on ’Send Reminders’.</value>
+  </data>
+  <data name="register_reminders2" xml:space="preserve">
+    <value>The most recent date that reminders were sent is displayed to the left. If you would like to send reminders yourself, simply click on the “Send Reminders” button. Reminders are sent only to those who have not completed their survey.</value>
+  </data>
+  <data name="register_respcount" xml:space="preserve">
+    <value>Number of responses received so far: |nn|</value>
+  </data>
+  <data name="register_respinstr" xml:space="preserve">
+    <value>(For confidentiality reasons, you will not see who has completed the profile.) </value>
+  </data>
+  <data name="register_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="register_savesend" xml:space="preserve">
+    <value>Save (send emails)</value>
+  </data>
+  <data name="register_sendreminders" xml:space="preserve">
+    <value>Send Reminders</value>
+  </data>
+  <data name="register_sentcount" xml:space="preserve">
+    <value>|nn| message(s) sent</value>
+  </data>
+  <data name="register_step1" xml:space="preserve">
+    <value>&lt;b&gt;Step 1:&lt;/b&gt; Use the table to the left to enter the names and email addresses of your raters.
+</value>
+  </data>
+  <data name="register_step1a" xml:space="preserve">
+    <value>Please note: Email addresses ending at &lt;i&gt;att.com&lt;/i&gt;, &lt;i&gt;shaw.ca&lt;/i&gt; and &lt;i&gt;sbcglobal.net&lt;/i&gt; may have difficulty in receiving these emails. To ensure delivery of information to your raters, please utilize email addresses outside of these domains, if possible.</value>
+  </data>
+  <data name="register_step2" xml:space="preserve">
+    <value>&lt;b&gt;Step 2: &lt;/b&gt;Click the "Save" button located below the table. An email invitation will be automatically sent to your raters with instructions to complete the 360 Seven Tudes. &lt;br&gt;&lt;br&gt;Raters may include: peers, direct reports, manager/supervisor, friends, family members and children (age 7-18). Please select as many raters as you would like as there is no maximum that you may input. &lt;b&gt;At least 5 rater responses are needed in order to generate your report.&lt;/b&gt; A minimum of 2 peer responses and 2 direct report responses are needed, or these groups will be combined in the report in order to provide anonymity to the raters.&lt;br&gt;&lt;br&gt;Once you have entered your raters, you can view and edit them in the lower half of this page as well as send reminder emails. You may log back in at any time to add any additional Raters and/or to track your rater responses by the tally given below. 
+</value>
+  </data>
+  <data name="rel_continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="rel_heading" xml:space="preserve">
+    <value>Please select the relationship</value>
+  </data>
+  <data name="rel_instr1" xml:space="preserve">
+    <value>Step 1: Use the table to the left to enter the names and email addresses of your raters.</value>
+  </data>
+  <data name="rel_instr2" xml:space="preserve">
+    <value>If you are a child between the ages of 7 and 18, please select "Child" as the relationship. If you are a child over 18, please select "Family" as the relationship.</value>
+  </data>
+  <data name="rel_instr3" xml:space="preserve">
+    <value>* Most questions are multiple choice and those responses are reported in aggregate. Responses to open-ended (write in) questions may be identifiable as your response by the person you are rating based on the specifics of what you state in your response.</value>
+  </data>
+  <data name="selfhome_datecompleted" xml:space="preserve">
+    <value>Date Completed</value>
+  </data>
+  <data name="selfhome_datestarted" xml:space="preserve">
+    <value>Date Started</value>
+  </data>
+  <data name="selfhome_instr" xml:space="preserve">
+    <value>Please complete the task(s) listed below. You may complete these item(s) in whatever order you choose. Your answers will be saved, so you can come back at any time before the deadline to complete the items.</value>
+  </data>
+  <data name="selfhome_instr2" xml:space="preserve">
+    <value>Completion of these tasks by the deadline provided will ensure that you receive your report(s) prior to your training session.</value>
+  </data>
+  <data name="selfhome_instr3" xml:space="preserve">
+    <value>NOTE: You will receive your report(s) via email after the due date and prior to your course date.</value>
+  </data>
+  <data name="selfhome_raterreg" xml:space="preserve">
+    <value>|x| responded out of |y| registered</value>
+  </data>
+  <data name="selfhome_reportrequested" xml:space="preserve">
+    <value>Report request has been sent</value>
+  </data>
+  <data name="selfhome_requestreport" xml:space="preserve">
+    <value>Request Report</value>
+  </data>
+  <data name="selfhome_takesurvey" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="selfhome_task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="selfonly_intro" xml:space="preserve">
+    <value>Upon entering your information below, you will be able to begin your survey. You will also receive an email that contains personal login codes, should you choose to return later and complete the survey.</value>
+  </data>
+  <data name="selfonly_login" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="selfonly_register" xml:space="preserve">
+    <value>Register and Begin Survey</value>
+  </data>
+  <data name="st_clickonce" xml:space="preserve">
+    <value>After clicking the 'Submit' button, your report will be processed. This may take some time. Please be patient and only 'click' once.</value>
+  </data>
+  <data name="st_heading" xml:space="preserve">
+    <value>Storytelling Profile</value>
+  </data>
+  <data name="st_instr" xml:space="preserve">
+    <value>&lt;b&gt;Important Note: &lt;/b&gt;Some questions on this profile will not always provide the choices that are a perfect fit for you. In that case, we ask you to select the answer that is closest to the reality of your story (the way you see yourself).</value>
+  </data>
+  <data name="st_invalidranks" xml:space="preserve">
+    <value>Invalid ranks entered for question |nn|</value>
+  </data>
+  <data name="st_legend" xml:space="preserve">
+    <value>Legend:</value>
+  </data>
+  <data name="st_noresponse" xml:space="preserve">
+    <value>No response selected for question |nn|</value>
+  </data>
+  <data name="st_rateall" xml:space="preserve">
+    <value>Please rate all items in question |nn|</value>
+  </data>
+  <data name="st_requiredfield" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="st_total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="thanks_partial" xml:space="preserve">
+    <value>Your partially completed survery has been saved. You can return and complete it at a later time.
+&lt;br&gt;&lt;br&gt;
+You can now &lt;a href="javascript:window.close();"&gt;close&lt;/a&gt; this window.</value>
+  </data>
+  <data name="thanks_rater" xml:space="preserve">
+    <value>Thank you for completing the profile. Your responses will be combined with those from other raters and included in this person's feedback report.</value>
+  </data>
+  <data name="default_surveyclosed" xml:space="preserve">
+    <value>The survey is no longer open.</value>
+  </data>
+  <data name="st_noresponse_choice" xml:space="preserve">
+    <value>No response</value>
+  </data>
+  <data name="date_report" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="date_tasks" xml:space="preserve">
+    <value>MMM dd, yyyy</value>
+  </data>
+  <data name="emails_completedon" xml:space="preserve">
+    <value>completed on</value>
+  </data>
+  <data name="emails_notstarted" xml:space="preserve">
+    <value>not started</value>
+  </data>
+  <data name="emails_startedon" xml:space="preserve">
+    <value>started on</value>
+  </data>
+  <data name="register_forgotpassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="prev_rater_header" xml:space="preserve">
+    <value>Select Previous Raters.</value>
+  </data>
+  <data name="prev_rater_addnew" xml:space="preserve">
+    <value>Add Raters</value>
+  </data>
+  <data name="prev_rater_instr" xml:space="preserve">
+    <value>On the next two pages you will select the people who you would like to give feedback for your 360 Seven Tudes. The raters will receive a subset of the questions asked of you. &lt;b&gt;The questions they receive are based on their relationship to you, work-related versus friends and family.&lt;/b&gt;</value>
+  </data>
+  <data name="prev_rater_instr2" xml:space="preserve">
+    <value>This page shows all the raters that you had selected for your previous 360. &lt;font color="red"&gt;&lt;b&gt;We highly encourage you to select all of these raters again&lt;/b&gt;&lt;/font&gt;. However, you are not required to do so. You will have the opportunity to add additional raters on the following screen.
+
+Please review the list of previous raters below and select those you would like to participate in this assessment. When finished, click Next to continue.</value>
+  </data>
+  <data name="prev_rater_next_alert" xml:space="preserve">
+    <value>Please review your selections. You will not be able to return to this screen.</value>
+  </data>
+  <data name="rater_dup_alert" xml:space="preserve">
+    <value>The following duplicate email addresses have been found.  Please review and update:</value>
+  </data>
+  <data name="default_instr_t2" xml:space="preserve">
+    <value>Please use the codes you have been provided to begin your Seven Tudes.</value>
+  </data>
+  <data name="default_participants_t2" xml:space="preserve">
+    <value>The Seven Tudes is the Human Performance Institute's most comprehensive online assessment tool. The profile focuses on behaviors in each of the four energy dimensions (physical, mental, emotional, and spiritual). It provides awareness of strengths as well as uncovers opportunities for growth in each energy dimension.</value>
+  </data>
+  <data name="register_ch_groupheading" xml:space="preserve">
+    <value>Register to access the NorthStar Assessment</value>
+  </data>
+  <data name="thanks_rater_ch" xml:space="preserve">
+    <value>Thank you for completing the Northstar Assessment.  Your responses will be combined with those from other raters and included in this person's feedback report.</value>
+  </data>
+  <data name="default_heading_ch" xml:space="preserve">
+    <value>Welcome to the NorthStar Assessment</value>
+  </data>
+  <data name="default_instr_ch" xml:space="preserve">
+    <value>Please use the codes provided to you to begin your assessment.</value>
+  </data>
+  <data name="default_participants_ch" xml:space="preserve">
+    <value>We are excited about your upcoming training with the Human Performance Institute. The assessment(s) you will be completing are an integral part of the training you will be attending.</value>
+  </data>
+</root>

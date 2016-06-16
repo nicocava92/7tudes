@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="profile_additionalresources" xml:space="preserve">
+<value>Additional Resources</value>
+</data>
+<data name="profile_keytakeaways" xml:space="preserve">
+<value>Key Takeaways</value>
+</data>
+<data name="audit_fullydisengaged" xml:space="preserve">
+<value>完全脱离</value>
+</data>
+<data name="audit_fullyengaged" xml:space="preserve">
+<value>完全参与</value>
+</data>
+<data name="audit_heading" xml:space="preserve">
+<value>生活参与调查</value>
+</data>
+<data name="audit_instr" xml:space="preserve">
+<value>用过去六个月中的时间框架来回答所有问题。根据您的参与水平在1-7级中选择。</value>
+</data>
+<data name="comments_charsleft" xml:space="preserve">
+<value>所剩字符：</value>
+</data>
+<data name="comments_heading" xml:space="preserve">
+<value>开放式评论问题</value>
+</data>
+<data name="comments_instr" xml:space="preserve">
+<value>每条评论最多可输入300个字符。</value>
+</data>
+<data name="consent_agree" xml:space="preserve">
+<value>我同意</value>
+</data>
+<data name="consent_disagree" xml:space="preserve">
+<value>我不同意</value>
+</data>
+<data name="consent_finaltext" xml:space="preserve">
+<value>我已阅读并且同意隐私权说明和法律告示中的条款和详细信息，并且同意美国和其他地区关于个人信息处理的数据保护规则可能与我所居住的国家有所不同。</value>
+</data>
+<data name="consent_heading" xml:space="preserve">
+<value>同意书</value>
+</data>
+<data name="consent_no" xml:space="preserve">
+<value>很抱歉。若您改变主意，请重新登录。</value>
+</data>
+<data name="consentrater_para1" xml:space="preserve">
+<value>感谢您同意为课程的参与者提供调查回复。</value>
+</data>
+<data name="consentrater_para2" xml:space="preserve">
+<value>人类行为表现研究院健康和防护部门有限公司（“健康与防护”）为那些准备参与能量和行为表现项目（“项目”）的个人提供此网站和调查。我们知道您所分享的关于项目参与者的信息可能较为个人化。该隐私权声明意在向您说明健康和防护搜集、使用和公开您所提供信息的方法。</value>
+</data>
+<data name="consentrater_para3" xml:space="preserve">
+<value>通过完成这些调查问卷，您同意健康和防护、我们的合作伙伴以及我们的服务供应商收集、处理、保留和公开这些回复（如涉及到参与者行为和生活方式的信息，以及你提供的其他信息），各方利用信息共同实施项目。我们不会将您所提供的信息因与项目无关的目的而出售或给予他人。</value>
+</data>
+<data name="consentrater_para4" xml:space="preserve">
+<value>健康和防护采取合理步骤来保护信息，防止丢失、滥用和非法使用、公开、修改或销毁。</value>
+</data>
+<data name="consentrater_para5" xml:space="preserve">
+<value>您若有问题或需要关于此调查的其他支持，可通过以下方式联系我们：</value>
+</data>
+<data name="consentrater_para6" xml:space="preserve">
+<value>美国，佛罗里达州32827，奥兰多，诺纳湖路9757，人类行为表现研究院健康和防护部门有限公司，info@corporateathlete.com</value>
+</data>
+<data name="consentrater_para7" xml:space="preserve">
+<value>关于我们整体隐私权措施的更多信息，您可查阅项目的隐私权声明。本网站的使用受法律公告的约束。</value>
+</data>
+<data name="consentself_bullet1" xml:space="preserve">
+<value>人类行为表现研究院健康和防护部门有限公司将会对我的信息保密，除了隐私权声明所述情况外不会主动公开这些信息。</value>
+</data>
+<data name="consentself_bullet2" xml:space="preserve">
+<value>关于我的信息可能会提供给在能量和行为表现项目中支持我的教练。</value>
+</data>
+<data name="consentself_bullet3" xml:space="preserve">
+<value>健康和防护可能提供关于其参与者的不可识别的集合以及统计信息给以下各方：</value>
+</data>
+<data name="consentself_bullet3a" xml:space="preserve">
+<value>赞助人（若适用）以及其他赞助该项目的机构</value>
+</data>
+<data name="consentself_bullet3b" xml:space="preserve">
+<value>供其他方进行分析和研究</value>
+</data>
+<data name="consentself_bullet4" xml:space="preserve">
+<value>健康和防护以及赞助机构可能就项目信息和请求与我联系</value>
+</data>
+<data name="consentself_intro" xml:space="preserve">
+<value>请仔细阅读以下内容以及隐私权声明和法律公告，参与各种人类行为表现研究院项目均需您充分理解并完全同意这些条款：</value>
+</data>
+<data name="date_report" xml:space="preserve">
+<value>年 月 日</value>
+</data>
+<data name="date_tasks" xml:space="preserve">
+<value>年 月 日</value>
+</data>
+<data name="default_checkemail" xml:space="preserve">
+<value>查看您的收件箱，检索请求信息。</value>
+</data>
+<data name="default_enablecookies" xml:space="preserve">
+<value>请开启cookies功能</value>
+</data>
+<data name="default_groupcode" xml:space="preserve">
+<value>群码</value>
+</data>
+<data name="default_heading" xml:space="preserve">
+<value>欢迎来到能量简况</value>
+</data>
+<data name="default_instr" xml:space="preserve">
+<value>请用提供给您的代码来开始评定。</value>
+</data>
+<data name="default_instr_t2" xml:space="preserve">
+<value>请用提供给您的代码来开启您的能量简况</value>
+</data>
+<data name="default_invalid_input" xml:space="preserve">
+<value>无效输入。请重试</value>
+</data>
+<data name="default_loginagain" xml:space="preserve">
+<value>出于安全目的，您无法同时登陆两项调查。请返回第一个窗口。</value>
+</data>
+<data name="default_participantid" xml:space="preserve">
+<value>参与者代码</value>
+</data>
+<data name="default_participants" xml:space="preserve">
+<value>我们期待您即将开始的行为表现能量培训。你即将完成的简况是您即将参加培训的主要和关键部分。</value>
+</data>
+<data name="default_participants_hpi" xml:space="preserve">
+<value>我们期待您即将开始的企业运动员/能量管理培训。你即将完成的简况是您即将参加培训的主要和关键部分。</value>
+</data>
+<data name="default_participants_jnj" xml:space="preserve">
+<value>我们期待您即将开始的生命行为表现能量培训。你即将完成的简况是您即将参加培训的主要和关键部分。</value>
+</data>
+<data name="default_participants_t2" xml:space="preserve">
+<value>能量简况是人类行为表现研究院最全面的在线评定工具。该简况关注能量的四个方面（身体、情绪、精神和心灵）的表现。它给出了优势的意识并且揭示了各能量方面增长的机会。</value>
+</data>
+<data name="default_participants_wp" xml:space="preserve">
+<value>我们期待您即将开始的行为表现能量培训。你即将完成的简况是您即将参加培训的主要和关键部分。</value>
+</data>
+<data name="default_raterpassword" xml:space="preserve">
+<value>密码</value>
+</data>
+<data name="default_raters" xml:space="preserve">
+<value>感谢抽空完成此评定。您可在10-15分钟内完成问题。</value>
+</data>
+<data name="default_reload" xml:space="preserve">
+<value>点击此处，尝试再次登录</value>
+</data>
+<data name="default_report" xml:space="preserve">
+<value>请求报告</value>
+</data>
+<data name="default_reportsent" xml:space="preserve">
+<value>您的报告已发送至您的邮箱。</value>
+</data>
+<data name="default_submit" xml:space="preserve">
+<value>开始</value>
+</data>
+<data name="default_surveyclosed" xml:space="preserve">
+<value>该调查不再开放。</value>
+</data>
+<data name="default_unknownemailaddress" xml:space="preserve">
+<value>该邮件地址在系统中不存在。</value>
+</data>
+<data name="demog_chooseone" xml:space="preserve">
+<value>选择一项</value>
+</data>
+<data name="demog_heading" xml:space="preserve">
+<value>人口统计资料</value>
+</data>
+<data name="demog_instr" xml:space="preserve">
+<value>需要红色字体的项目</value>
+</data>
+<data name="demog_rptnote" xml:space="preserve">
+<value>提醒：您将在到期日后、课程开始前通过邮箱接收到您的报告。请在截止日期前完成主菜单上的所有任务。</value>
+</data>
+<data name="demog_valsumm1" xml:space="preserve">
+<value>请回答以下问题。</value>
+</data>
+<data name="emails_completedon" xml:space="preserve">
+<value>完成于</value>
+</data>
+<data name="emails_invitation" xml:space="preserve">
+<value>邀请</value>
+</data>
+<data name="emails_note" xml:space="preserve">
+<value>注意：随后为以上所述的邀请邮件信息。</value>
+</data>
+<data name="emails_notstarted" xml:space="preserve">
+<value>未启动</value>
+</data>
+<data name="emails_reminder" xml:space="preserve">
+<value>提醒</value>
+</data>
+<data name="emails_startedon" xml:space="preserve">
+<value>开始于</value>
+</data>
+<data name="health_heading" xml:space="preserve">
+<value>健康简况</value>
+</data>
+<data name="health_hour" xml:space="preserve">
+<value>小时</value>
+</data>
+<data name="health_hours" xml:space="preserve">
+<value>小时</value>
+</data>
+<data name="health_q16_1" xml:space="preserve">
+<value>考虑一下您在可做工作的量或类型上限定天数、您比计划少用的天数或您无法如常认真工作的天数。若低能量或负能量对您工作产生影响极少，选择低数值。若低能量或负能量对工作影响极大，请选择高数值。</value>
+</data>
+<data name="health_q16_2" xml:space="preserve">
+<value>当您工作时，考虑低（或负）能量在多大程度上影响成效。</value>
+</data>
+<data name="health_q17_1" xml:space="preserve">
+<value>常规活动是指您常做的一般活动，如在室内的活动、购物、照顾孩子、锻炼、学习等等。考虑一下您在可做工作的量或类型上限定的时间、您比计划提前完成的时间。若健康问题对您工作产生影响极少，选择低数值。若健康问题对工作影响极大，请选择高数值。</value>
+</data>
+<data name="health_q17_2" xml:space="preserve">
+<value>考虑低或负能量水平对您进行常规日常活动（除了工作中的）的能力有多大影响。</value>
+</data>
+<data name="logout_loginagain" xml:space="preserve">
+<value>再次登录</value>
+</data>
+<data name="logout_msg" xml:space="preserve">
+<value>您的会话因不活跃而过期。请用邮件中的登录代码登录继续参与调查。</value>
+</data>
+<data name="master_copyright" xml:space="preserve">
+<value>&#169;人类行为表现研究院健康和防护部门有限公司 2003 – 2012 隐私权声明 法律公告</value>
+</data>
+<data name="master_keepworking" xml:space="preserve">
+<value>继续工作</value>
+</data>
+<data name="master_logout" xml:space="preserve">
+<value>登出</value>
+</data>
+<data name="master_pname" xml:space="preserve">
+<value>请评估：</value>
+</data>
+<data name="master_prework" xml:space="preserve">
+<value>关于完成此调查的问题请通过1.407.438.9911 或邮件联系我们。</value>
+</data>
+<data name="master_relname" xml:space="preserve">
+<value>作为您的：</value>
+</data>
+<data name="master_rname" xml:space="preserve">
+<value>欢迎：</value>
+</data>
+<data name="master_savepartial" xml:space="preserve">
+<value>返回菜单</value>
+</data>
+<data name="master_support" xml:space="preserve">
+<value>若获取简况有问题，请通过邮件联系我们。</value>
+</data>
+<data name="misc_instr" xml:space="preserve">
+<value>请通过选择最能反映您答案的选项来回答下列问题。将鼠标箭头放在评级数字上阅读与该选项相关的文本。</value>
+</data>
+<data name="misc_instr2" xml:space="preserve">
+<value>请通过选择最能反映您答案的选项来回答下列问题。</value>
+</data>
+<data name="misc_mandatory" xml:space="preserve">
+<value>需要对所有问题作出回答。</value>
+</data>
+<data name="pagexofy" xml:space="preserve">
+<value>供“yy”页，第“xx”页</value>
+</data>
+<data name="prev_rater_addnew" xml:space="preserve">
+<value>添加评定人</value>
+</data>
+<data name="prev_rater_header" xml:space="preserve">
+<value>选择之前的评定人。</value>
+</data>
+<data name="prev_rater_instr" xml:space="preserve">
+<value>在接下来的两页中，您可选择对您的360能量简况做出回馈的人。这些评定人将会受到关于您的问题的一部分。他们所收到的问题由与您的关系决定，是工作关系还是朋友和家人关系。</value>
+</data>
+<data name="prev_rater_instr2" xml:space="preserve">
+<value>本页显示了您为之前的360调查所选择的评定人。我们非常鼓励您再次全部选择这些评定人。但是，您并非必须如此。您可以在以下界面添加其他评定人。请审阅之前的评定人并选择参与本次评定的人。结束后，点击下一步继续。</value>
+</data>
+<data name="prev_rater_next_alert" xml:space="preserve">
+<value>请查阅您的选择。你无法再返回此页面。</value>
+</data>
+<data name="profile_checkbox" xml:space="preserve">
+<value>若问题存在疑虑，请用突出显示的检查框标记。</value>
+</data>
+<data name="profile_family" xml:space="preserve">
+<value>因为您属于家人或朋友，请回答所有关于“家庭”角度的问题。</value>
+</data>
+<data name="profile_heading" xml:space="preserve">
+<value>能量简况</value>
+</data>
+<data name="profile_reqdmissing" xml:space="preserve">
+<value>请用红色星号为所有项目评级。</value>
+</data>
+<data name="profile_valsumm1" xml:space="preserve">
+<value>请为以下问题提供评级。</value>
+</data>
+<data name="progress_audit" xml:space="preserve">
+<value>监察</value>
+</data>
+<data name="progress_comments" xml:space="preserve">
+<value>评论</value>
+</data>
+<data name="progress_demographics" xml:space="preserve">
+<value>人口统计资料</value>
+</data>
+<data name="progress_ratings" xml:space="preserve">
+<value>简况</value>
+</data>
+<data name="questions_btncomplete" xml:space="preserve">
+<value>提交完成的调查</value>
+</data>
+<data name="questions_btnnext" xml:space="preserve">
+<value>下一步</value>
+</data>
+<data name="questions_btnprev" xml:space="preserve">
+<value>上一步</value>
+</data>
+<data name="questions_nextmsg" xml:space="preserve">
+<value>当您进入下一页面时会保存您的答案。</value>
+</data>
+<data name="register_addheading" xml:space="preserve">
+<value>添加评定人</value>
+</data>
+<data name="register_bullet1" xml:space="preserve">
+<value>推荐的评定人数量为5人或更多，如下： •	监督人/经理人：1（最少） •	同事：2位或更多 •	直接报告人：2个或更多 •	朋友/家人：任意 •	孩子：任意</value>
+</data>
+<data name="register_bullet2" xml:space="preserve">
+<value>若您的同事和直接报告人数量无法达到最少的2人，该类别在您的报告中合并为保持匿名。</value>
+</data>
+<data name="register_bullet3" xml:space="preserve">
+<value>孩子的问题是针对7-18岁的儿童，需要回答6道为该年龄群设计的问题。超过18岁的孩子建议选择“家庭成员”，回答更有深度的问题。</value>
+</data>
+<data name="register_bullet4" xml:space="preserve">
+<value>您可能有孩子自己的邮箱地址。若孩子没有。当他们登录时，应选择“孩子”作为与您的关系。</value>
+</data>
+<data name="register_currentheading" xml:space="preserve">
+<value>当前评定人</value>
+</data>
+<data name="register_detail1" xml:space="preserve">
+<value>评定人详细信息</value>
+</data>
+<data name="register_duedate" xml:space="preserve">
+<value>所有回复</value>
+</data>
+<data name="register_emailaddress" xml:space="preserve">
+<value>邮箱地址</value>
+</data>
+<data name="register_emailssent" xml:space="preserve">
+<value>|Count|邮件发送。</value>
+</data>
+<data name="register_exists" xml:space="preserve">
+<value>该邮箱地址在使用中。请重试。</value>
+</data>
+<data name="register_firstname" xml:space="preserve">
+<value>名</value>
+</data>
+<data name="register_forgotpassword" xml:space="preserve">
+<value>忘记密码</value>
+</data>
+<data name="register_groupheading" xml:space="preserve">
+<value>登陆以进入能量简况</value>
+</data>
+<data name="register_heading" xml:space="preserve">
+<value>等级评定人</value>
+</data>
+<data name="register_instr" xml:space="preserve">
+<value>您可选择对您的360能量简况做出回馈的人。这些评定人将会收到关于您的问题的一部分。他们所收到的问题由与您的关系决定，是工作关系还是朋友和家人关系。例如，个人相关的项目如营养品或锻炼仅会询问朋友和家人。评定人的数量没有最大值限制，所以请尽可能多地登记。</value>
+</data>
+<data name="register_instr2" xml:space="preserve">
+<value>说明：输入每个人的必须信息并点击“保存（发送邮件）”。之后系统会向选定的评定人发送邀请。</value>
+</data>
+<data name="register_invalidemailaddress" xml:space="preserve">
+<value>错误警告：一个或多个邮箱地址已失效。请看标有红色星号的条目并重新输入正确地址。</value>
+</data>
+<data name="register_lastname" xml:space="preserve">
+<value>姓</value>
+</data>
+<data name="register_maxdate" xml:space="preserve">
+<value>发送提醒</value>
+</data>
+<data name="register_nocurrentdata" xml:space="preserve">
+<value>您这次未登记评定人。</value>
+</data>
+<data name="register_note2" xml:space="preserve">
+<value>请注意：邮箱地址以att.com、shaw.ca和sbcglobal.net结尾的很难收到邮件。为确保信息的发送，若可能请尽量使用这些域名以外的邮箱地址。</value>
+</data>
+<data name="register_note3" xml:space="preserve">
+<value>自动提醒邮件会发送给在回复截止日期前未作出回馈的评定人。</value>
+</data>
+<data name="register_previewemails" xml:space="preserve">
+<value>预览邮件</value>
+</data>
+<data name="register_reminders" xml:space="preserve">
+<value>自动提醒邮件会发送给在回复截止日期前未作出回馈的评定人。提醒发送的最近日期显示在下方您可选择自己发送提醒或点击‘发送提醒’。</value>
+</data>
+<data name="register_reminders2" xml:space="preserve">
+<value>提醒发送的最近日期显示在左侧。若您想亲自发送提醒，只需点击“发送提醒”按钮即可。提醒仅发送给尚未完成调查的人。</value>
+</data>
+<data name="register_respcount" xml:space="preserve">
+<value>距今为止收到的回复数量：|nn|</value>
+</data>
+<data name="register_respinstr" xml:space="preserve">
+<value>（出于保密原因，您无法看到谁已完成该简况。）</value>
+</data>
+<data name="register_save" xml:space="preserve">
+<value>保存</value>
+</data>
+<data name="register_savesend" xml:space="preserve">
+<value>保存（发送邮件）</value>
+</data>
+<data name="register_sendreminders" xml:space="preserve">
+<value>发送提醒</value>
+</data>
+<data name="register_sentcount" xml:space="preserve">
+<value>|nn|信息发送</value>
+</data>
+<data name="register_step1" xml:space="preserve">
+<value>第一步：用左侧的表格输入评定人的姓名和地址。</value>
+</data>
+<data name="register_step1a" xml:space="preserve">
+<value>请注意：邮箱地址以att.com、shaw.ca和sbcglobal.net结尾的很难收到邮件。为确保信息的发送，若可能请尽量使用这些域名以外的邮箱地址。</value>
+</data>
+<data name="rel_continue" xml:space="preserve">
+<value>继续</value>
+</data>
+<data name="rel_heading" xml:space="preserve">
+<value>请选择关系</value>
+</data>
+<data name="rel_instr1" xml:space="preserve">
+<value>第一步：用左侧的表格输入评定人的姓名和地址。</value>
+</data>
+<data name="rel_instr2" xml:space="preserve">
+<value>若您的孩子年龄介于7到18岁之间，请选择“孩子”作为关系。若您的孩子超过18岁，请选择“家人”作为关系。</value>
+</data>
+<data name="rel_instr3" xml:space="preserve">
+<value>*大多数问题是多选，回复汇集在集合之中。开放式问题中的回复可能会被辨认出，因为您对待评定人的回复是建立在您在回复中所列内容之上的。</value>
+</data>
+<data name="selfhome_datecompleted" xml:space="preserve">
+<value>完成日期</value>
+</data>
+<data name="selfhome_datestarted" xml:space="preserve">
+<value>开始日期</value>
+</data>
+<data name="selfhome_instr" xml:space="preserve">
+<value>请完成以下所列的任务。您可按照自己的顺序完成项目。您的答案会保存，因此您可在完成项目前随时返回。</value>
+</data>
+<data name="selfhome_instr2" xml:space="preserve">
+<value>在最后期限前完成这些任务可确保您在培训会议前收到报告。</value>
+</data>
+<data name="selfhome_instr3" xml:space="preserve">
+<value>注意：您会在到期日后、课程开始日期前通过邮件收到报告。</value>
+</data>
+<data name="selfhome_raterreg" xml:space="preserve">
+<value>登记|y|，回复|x|</value>
+</data>
+<data name="selfhome_reportrequested" xml:space="preserve">
+<value>报告请求已发送</value>
+</data>
+<data name="selfhome_requestreport" xml:space="preserve">
+<value>请求报告</value>
+</data>
+<data name="selfhome_takesurvey" xml:space="preserve">
+<value>行动</value>
+</data>
+<data name="selfhome_task" xml:space="preserve">
+<value>任务</value>
+</data>
+<data name="selfonly_intro" xml:space="preserve">
+<value>通过输入以下信息，您可以开始调查。您会收到一封包含个人登录代码的邮件，您可选择稍后回来或完成调查。</value>
+</data>
+<data name="selfonly_login" xml:space="preserve">
+<value>登记</value>
+</data>
+<data name="selfonly_register" xml:space="preserve">
+<value>登记并开始调查</value>
+</data>
+<data name="st_clickonce" xml:space="preserve">
+<value>点击“提交”按钮后，您的报告会进行处理。这会花费一些时间。请耐心等待，仅“点击”一次即可。</value>
+</data>
+<data name="st_heading" xml:space="preserve">
+<value>叙事简况</value>
+</data>
+<data name="st_instr" xml:space="preserve">
+<value>重要提示：该简况中的某些问题可能无法提供完美适合您的选项。在此情况下，我们要求您选择最靠近您真实情况（您看待自己的方式）的答案。</value>
+</data>
+<data name="st_invalidranks" xml:space="preserve">
+<value>问题|nn|的无效评定</value>
+</data>
+<data name="st_legend" xml:space="preserve">
+<value>标题：</value>
+</data>
+<data name="st_noresponse" xml:space="preserve">
+<value>无关于问题|nn|的回复</value>
+</data>
+<data name="st_noresponse_choice" xml:space="preserve">
+<value>无回复</value>
+</data>
+<data name="st_rateall" xml:space="preserve">
+<value>请评定问题|nn|中所有项目</value>
+</data>
+<data name="st_requiredfield" xml:space="preserve">
+<value>必须填写</value>
+</data>
+<data name="st_total" xml:space="preserve">
+<value>共计</value>
+</data>
+<data name="thanks_partial" xml:space="preserve">
+<value>您部分完成的调查已保存。您可以返回并稍后完成。  您现在可选择关闭此窗口。</value>
+</data>
+<data name="thanks_rater" xml:space="preserve">
+<value>感谢您完成此简况。您的回复将与其他评定人的回复结合在一起，体现在待评定人的回馈报告中。</value>
+</data>
+<data name="viewemail_instr" xml:space="preserve">
+<value>点击此处查看其他语言的说明</value>
+</data>
+</root>

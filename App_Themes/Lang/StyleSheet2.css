@@ -1,0 +1,76 @@
+﻿body
+{
+    font-family: Calibri;
+    font-size: medium;
+}
+.altrow
+{
+    background-color: #BFBFBF;
+}
+
+.headrow
+{
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+
+.selrow
+{
+    background-color: Yellow;
+}
+.error
+{
+    color: Maroon;
+}
+
+.footrow
+{
+    background-color: #DDDDDD;
+}
+.Section
+{
+    font-size: 22px;
+    color: Navy;
+    background-color: Silver;
+    padding: 5px;
+}
+a:active
+{
+    color: Maroon;
+}
+a:hover
+{
+    background-color: Yellow;
+    color: Maroon;
+}
+a:visited
+{
+    color: Maroon;
+}
+
+a:link
+{
+    color: Maroon;
+}
+
+.pager td
+{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.langmissing
+{
+    background-color: red;
+}
+
+.langsearch
+{
+    background-color: #00FF00;
+}
+
+.note 
+{
+    background-color: #CCFFCC;
+    padding:10px;
+    border:solid 1px #0090FE;
+}

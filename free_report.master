@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" CodeFile="free_report.master.vb" Inherits="Free_free2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 5px;
+            height: 131px;
+        }
+        .style2
+        {
+            width: 1280px;
+            height: 321px;
+        }
+    </style>
+</head>
+<body style="background-color:#fff;">
+
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td valign="left">
+                    <img id="tbbrandlogo" src="../images/thunderbird_sogm_logo.png" alt=""/><img id="uhbrandlogo" src="../images/university_of_hartford_logo.png" alt=""/>
+                </td>
+                <td valign="middle" align="right">
+                    <h1 style="color: #002d5d; font-size:22pt;">Seven Tudes Results</h1>
+                </td>
+            </tr>
+        </table>
+       
+
+        <center>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+        </center>
+        
+    </div>
+    </form>
+
+</body>
+</html>

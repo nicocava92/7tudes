@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="audit_fullydisengaged" xml:space="preserve">
+<value>Gar n. engagier.</value>
+</data>
+<data name="audit_fullyengaged" xml:space="preserve">
+<value>Max. engagie.</value>
+</data>
+<data name="audit_heading" xml:space="preserve">
+<value>&#220;bp. des Eng. im Leb.</value>
+</data>
+<data name="audit_instr" xml:space="preserve">
+<value>Beantworten Sie alle Fragen anhand der letzten 6 Monate. W&#228;hlen Sie die Zahl auf einer Skala von 1 bis 7, die Ihrem Niveau an Engagement entspricht.</value>
+</data>
+<data name="comments_charsleft" xml:space="preserve">
+<value>Restzeichen:</value>
+</data>
+<data name="comments_heading" xml:space="preserve">
+<value>Offene Fragen</value>
+</data>
+<data name="comments_instr" xml:space="preserve">
+<value>F&#252;r jeden Kommentar stehen 300 Zeichen zur Verf&#252;gung.</value>
+</data>
+<data name="consent_agree" xml:space="preserve">
+<value>Sti. zu</value>
+</data>
+<data name="consent_disagree" xml:space="preserve">
+<value>Sti. nicht zu</value>
+</data>
+<data name="consent_finaltext" xml:space="preserve">
+<value>Ich stimme diesen Bedingungen und den in der Datenschutzerkl&#228;rung (www.hpinstitute.com/privacy) und der Legal Notice (http://www.hpinstitute.com/legal) genannten sowie der Verarbeitung personenbezogener Daten in den USA und anderen L&#228;ndern zu, in denen u.U. andere Datenschutzgesetze gelten als in meinem Land.</value>
+</data>
+<data name="consent_heading" xml:space="preserve">
+<value>Einw.erkl. </value>
+</data>
+<data name="consent_no" xml:space="preserve">
+<value>Schade. Sie k&#246;nnen sich jederzeit wieder anmelden.</value>
+</data>
+<data name="consentrater_para1" xml:space="preserve">
+<value>Danke, dass Sie Umfrageantworten zu einem unserer Kursteilnehmer geben m&#246;chten. </value>
+</data>
+<data name="consentrater_para2" xml:space="preserve">
+<value>Diese Website und Umfrage der Human Performance Institute Division of Wellness &amp; Prevention, Inc. („Wellness &amp; Prevention“) dient der Vorbereitung von Personen auf unsere Energie- und Leistungsprogramme („das Programm“). Die uns von Ihnen zur Verf&#252;gung gestellten Informationen k&#246;nnen sehr pers&#246;nlich sein. Diese Datenschutzerkl&#228;rung erl&#228;utert die Verfahrensweisen von Wellness &amp; Prevention in Bezug auf deren Erfassung, Verwendung und Offenlegung.</value>
+</data>
+<data name="consentrater_para3" xml:space="preserve">
+<value>Indem Sie diese Umfrage ausf&#252;llen, stimmen Sie der Erfassung, Verarbeitung, Speicherung und Offenlegung der Antworten (z. B. zum Verhalten und Lebensstil des Teilnehmers) durch Wellness &amp; Prevention, unsere Gesch&#228;ftspartner und Dienstleistungsanbieter zu; diese Informationen werden zur Ausf&#252;hrung des Programms verwendet. Von Ihnen bereitgestellte Informationen werden an Dritte nicht zu anderen als programmbezogenen Zwecken verkauft oder weitergegeben.</value>
+</data>
+<data name="consentrater_para4" xml:space="preserve">
+<value>Es erfolgen angemessene Schritte, solche Informationen vor Verlust, Missbrauch, unbefugtem/r Zugriff, Offenlegung, Ver&#228;nderung oder Zerst&#246;rung zu sch&#252;tzen.</value>
+</data>
+<data name="consentrater_para5" xml:space="preserve">
+<value>Fragen zu dieser Umfrage k&#246;nnen an folgende Adresse gerichtet werden:</value>
+</data>
+<data name="consentrater_para6" xml:space="preserve">
+<value>Human Performance Institute Division of Wellness &amp; Prevention, Inc. 9757 Lake Nona Rd. Orlando, FL 32827 USA +1.407.438.9911, mailto:info@corporateathlete.com</value>
+</data>
+<data name="consentrater_para7" xml:space="preserve">
+<value>Weitere Informationen zu unseren Datenschutzpraktiken erhalten Sie hier: www.hpinstitute.com/privacy. Die Nutzung dieser Website unterliegt der Legal Notice (www.hpinstitute.com/legal).</value>
+</data>
+<data name="consentself_bullet1" xml:space="preserve">
+<value>Wellness &amp; Prevention, Inc. wird Informationen zu meiner Person vertraulich behandeln und nicht freiwillig offenlegen, soweit nicht anders in der Datenschutzerkl&#228;rung beschrieben.</value>
+</data>
+<data name="consentself_bullet2" xml:space="preserve">
+<value>U. U. werden Trainern pers&#246;nliche Informationen bzgl. der Energie- und Leistungsprogramme zur Verf&#252;gung gestellt.</value>
+</data>
+<data name="consentself_bullet3" xml:space="preserve">
+<value>Wellness &amp; Prevention stellt u. U. anonymisierte und statistische Teilnehmerinformationen bereit:</value>
+</data>
+<data name="consentself_bullet3a" xml:space="preserve">
+<value>Meinem Sponsor (falls zutreffend) und anderen Tr&#228;gern f&#252;r die Verwaltung des Programms</value>
+</data>
+<data name="consentself_bullet3b" xml:space="preserve">
+<value>Anderen Parteien f&#252;r Analyse und Forschung.</value>
+</data>
+<data name="consentself_bullet4" xml:space="preserve">
+<value> Wellness &amp; Prevention und Tr&#228;gerorg. d&#252;rfen mich &#252;ber Programminformationen und Anfragen informieren.</value>
+</data>
+<data name="consentself_intro" xml:space="preserve">
+<value>Lesen Sie sich Folgendes zus&#228;tzlich zu unserer Datenschutzerkl&#228;rung (www.hpinstitute.com/privacy) und Legal Notice (www.hpinstitute.com/legal) aufmerksam durch, da die Zustimmung zu diesen Bedingungen f&#252;r die Teilnahme an den verschiedenen Programmen des Human Performance Institute erforderlich ist.</value>
+</data>
+<data name="default_checkemail" xml:space="preserve">
+<value>Die gew&#252;nschten Infos sind in Ihrem Posteingang.</value>
+</data>
+<data name="default_enablecookies" xml:space="preserve">
+<value>Bitte Cookies aktivi.</value>
+</data>
+<data name="default_groupcode" xml:space="preserve">
+<value>Grup.-Code</value>
+</data>
+<data name="default_heading" xml:space="preserve">
+<value>Willkommen b. Energie-Profil</value>
+</data>
+<data name="default_instr" xml:space="preserve">
+<value>Die bereitgest. Codes nutzen, um mit den Bewertungen zu beginnen.</value>
+</data>
+<data name="default_invalid_input" xml:space="preserve">
+<value>Eintrag ung&#252;ltig. Erneut vers. </value>
+</data>
+<data name="default_loginagain" xml:space="preserve">
+<value>Sie k&#246;nnen nicht bei zwei Umfragen gleichzeitig angemeldet sein. Bitte zum ersten Fenster zur&#252;ckkehren.</value>
+</data>
+<data name="default_participantid" xml:space="preserve">
+<value>Teilnehmer-Code</value>
+</data>
+<data name="default_participants" xml:space="preserve">
+<value>Wir freuen uns auf das anstehende Energie f&#252;r Leistung-Training. Das Profil/die Profile, die Sie ausf&#252;llen werden, sind ein wichtiger Teil Ihres Tranings.</value>
+</data>
+<data name="default_participants_hpi" xml:space="preserve">
+<value>Wir freuen uns auf das anstehende Corporate Athlete-/Energiemanagement-Training. Das Profil/die Profile, das Sie/die Sie ausf&#252;llen werden, sind ein wichtiger Teil Ihres Trainings.</value>
+</data>
+<data name="default_participants_jnj" xml:space="preserve">
+<value>Wir freuen uns auf das anstehende Energie f&#252;r Leistung im Leben-Training. Das Profil/die Profile, die Sie ausf&#252;llen werden, sind ein wichtiger Teil Ihres Trainings.</value>
+</data>
+<data name="default_participants_wp" xml:space="preserve">
+<value>Wir freuen uns auf das anstehende Energie f&#252;r Leistung-Training. Das Profil/die Profile, die Sie ausf&#252;llen werden, sind ein wichtiger Teil Ihres Trainings.</value>
+</data>
+<data name="default_raterpassword" xml:space="preserve">
+<value>Kennwort</value>
+</data>
+<data name="default_raters" xml:space="preserve">
+<value>Danke, dass Sie diese Bewertung bearbeiten. Dies sollte nicht mehr als 10-15 Minuten Ihrer Zeit in Anspruch nehmen.</value>
+</data>
+<data name="default_reload" xml:space="preserve">
+<value>F&#252;r neuen Versuch hier klicken</value>
+</data>
+<data name="default_report" xml:space="preserve">
+<value>Anfrag.bericht</value>
+</data>
+<data name="default_reportsent" xml:space="preserve">
+<value>Ihr Bericht wurde an Ihre E-Mail-Adr. gesendet.</value>
+</data>
+<data name="default_submit" xml:space="preserve">
+<value>Begi.</value>
+</data>
+<data name="default_surveyclosed" xml:space="preserve">
+<value>Umfrage wurde geschlossen.</value>
+</data>
+<data name="default_unknownemailaddress" xml:space="preserve">
+<value>E-Mail-Adr. nicht im System enthalten.</value>
+</data>
+<data name="demog_chooseone" xml:space="preserve">
+<value>Ausw&#228;hlen</value>
+</data>
+<data name="demog_heading" xml:space="preserve">
+<value>Demografie</value>
+</data>
+<data name="demog_instr" xml:space="preserve">
+<value>Rote Felder sind obligat.</value>
+</data>
+<data name="demog_rptnote" xml:space="preserve">
+<value>&lt;b&gt;ERINNERUNG:&lt;/b&gt; Berichte werden Ihnen nach dem F&#228;lligkeitsdatum und vor dem Kursdatum &#252;ber E-Mail zugesandt. Bitte schlie&#223;en Sie alle Aufgaben im Hauptmen&#252; vor Fristende ab.</value>
+</data>
+<data name="demog_valsumm1" xml:space="preserve">
+<value>Bitte beantworten Sie die fol. Fragen.</value>
+</data>
+<data name="emails_completedon" xml:space="preserve">
+<value>Abgeschl. am</value>
+</data>
+<data name="emails_invitation" xml:space="preserve">
+<value>Einladung</value>
+</data>
+<data name="emails_note" xml:space="preserve">
+<value>Hinweis: Dies folgt auf die oben angezeigte Einladungs-E-Mail.</value>
+</data>
+<data name="emails_notstarted" xml:space="preserve">
+<value>N. begonnen</value>
+</data>
+<data name="emails_reminder" xml:space="preserve">
+<value>Erinner.</value>
+</data>
+<data name="emails_startedon" xml:space="preserve">
+<value>beg. am</value>
+</data>
+<data name="health_heading" xml:space="preserve">
+<value>Gesundh.prof.</value>
+</data>
+<data name="health_hour" xml:space="preserve">
+<value>Stu.</value>
+</data>
+<data name="health_hours" xml:space="preserve">
+<value>Stn.</value>
+</data>
+<data name="health_q16_1" xml:space="preserve">
+<value>Denken Sie an Tage, an denen Sie nur begrenzte Mengen oder Arten von Arbeit erledigen konnten, Tage, an denen Sie nicht so viel wie gew&#252;nscht erledigen oder mit der &#252;blichen Sorgfalt arbeiten konnten. W&#228;hlen Sie eine niedrige Zahl, wenn dies nur etwas an niedriger/negativer Energie lag, bzw. eine hohe, wenn dies sehr stark der Fall war.</value>
+</data>
+<data name="health_q16_2" xml:space="preserve">
+<value>Dabei sind nur die Auswirkungen niedriger/negativer Energie &lt;u&gt;w&#228;hrend der Arbeit&lt;/u&gt; wichtig.</value>
+</data>
+<data name="health_q17_1" xml:space="preserve">
+<value>„Normale Aktivit&#228;ten“ sind &#252;bliche Handlungen wie Hausarbeit, Einkaufen, Kinderbetreuung, Training, Lernen usw. Denken Sie an Momente, in denen Sie nur beschr&#228;nkte Mengen oder Arten von Aktivit&#228;ten durchf&#252;hren und nicht so viel wie gew&#252;nscht erledigen konnten. W&#228;hlen Sie eine niedrige Zahl, wenn dies nur etwas an Gesundheitsproblemen lag, bzw. eine hohe, wenn dies sehr stark der Fall war.</value>
+</data>
+<data name="health_q17_2" xml:space="preserve">
+<value>Dabei sind nur die Auswirkungen &lt;u&gt;niedriger/negativer&lt;/u&gt; Energie auf Ihre allt&#228;glichen normalen Aktivit&#228;ten (nicht auf Ihre Arbeit) wichtig.</value>
+</data>
+<data name="logout_loginagain" xml:space="preserve">
+<value>Neu anmeld.</value>
+</data>
+<data name="logout_msg" xml:space="preserve">
+<value>Ihre Sitzung ist wegen Inaktivit&#228;t abgelaufen. Melden Sie sich zum Fortfahren mit den Zugriffs-Codes aus der E-Mail an.</value>
+</data>
+<data name="master_copyright" xml:space="preserve">
+<value>&#169; Human Performance Institute Division of Wellness &amp; Prevention, Inc. 2003 – 2012       www.hpinstitute.com/privacy       www.hpinstitute.com/legal</value>
+</data>
+<data name="master_keepworking" xml:space="preserve">
+<value>Fortfahren</value>
+</data>
+<data name="master_logout" xml:space="preserve">
+<value>Abmel.</value>
+</data>
+<data name="master_pname" xml:space="preserve">
+<value>Bitte bewerten:</value>
+</data>
+<data name="master_prework" xml:space="preserve">
+<value>Fragen zum Ausf&#252;llen der Umfrage k&#246;nnen an die Telefonnummer 1.407.438.9911 oder mailto:prework@hpinstitute.com gerichtet werden.</value>
+</data>
+<data name="master_relname" xml:space="preserve">
+<value>Als Ihr:</value>
+</data>
+<data name="master_rname" xml:space="preserve">
+<value>Willkom.:</value>
+</data>
+<data name="master_savepartial" xml:space="preserve">
+<value>Zur&#252;. zum Men&#252;</value>
+</data>
+<data name="master_support" xml:space="preserve">
+<value>Schreiben Sie uns eine E-Mail (mailto:surveys@performanceprograms.com), wenn Sie Probleme mit dem Zugriff auf Ihr Profil haben.</value>
+</data>
+<data name="misc_instr" xml:space="preserve">
+<value>Beantworten Sie die folgenden Fragen, indem Sie eine Option w&#228;hlen, die Ihrer Antwort am ehesten entspricht. Zeigen Sie mit der Maus auf die Nummern, um den damit verbundenen Text anzuzeigen.</value>
+</data>
+<data name="misc_instr2" xml:space="preserve">
+<value>Beantworten Sie die Fragen, indem Sie eine Option w&#228;hlen, die Ihrer Antwort am ehesten entspricht</value>
+</data>
+<data name="misc_mandatory" xml:space="preserve">
+<value>Alle Fragen m&#252;ssen beantwortet werden.</value>
+</data>
+<data name="pagexofy" xml:space="preserve">
+<value>S. &quot;xx&quot; von &quot;yy&quot;</value>
+</data>
+<data name="profile_checkbox" xml:space="preserve">
+<value>Hervorg. Kontr.k&#228;stchen markieren, wenn die Frage verwirrend ist.</value>
+</data>
+<data name="profile_family" xml:space="preserve">
+<value>Beantworten Sie alle Fragen aus der Perspektive &quot;zu Hause&quot;, da Sie ein Familienmitglied/Freund sind.</value>
+</data>
+<data name="profile_heading" xml:space="preserve">
+<value>Energieprofil</value>
+</data>
+<data name="profile_reqdmissing" xml:space="preserve">
+<value>Bewerten Sie alle Elem. mit rotem Sternch.</value>
+</data>
+<data name="profile_valsumm1" xml:space="preserve">
+<value>Geben Sie Bewertungen f&#252;r alle folgenden Fragen.</value>
+</data>
+<data name="progress_audit" xml:space="preserve">
+<value>Pr&#252;f.</value>
+</data>
+<data name="progress_comments" xml:space="preserve">
+<value>Komment.</value>
+</data>
+<data name="progress_demographics" xml:space="preserve">
+<value>Demografie</value>
+</data>
+<data name="progress_ratings" xml:space="preserve">
+<value>Profil</value>
+</data>
+<data name="questions_btncomplete" xml:space="preserve">
+<value>Umfrage absenden</value>
+</data>
+<data name="questions_btnnext" xml:space="preserve">
+<value>Wei.</value>
+</data>
+<data name="questions_btnprev" xml:space="preserve">
+<value>Vor.</value>
+</data>
+<data name="questions_nextmsg" xml:space="preserve">
+<value>Wenn Sie zur n&#228;ch. S. gehen, werden Ihre Antworten gesp.</value>
+</data>
+<data name="register_addheading" xml:space="preserve">
+<value>Beu. hinzu</value>
+</data>
+<data name="register_bullet1" xml:space="preserve">
+<value>Empfohlene Anzahl an Beurteilern ist 5 oder mehr:&lt;br&gt;&lt;br&gt; &lt;ul&gt; &lt;li&gt;Vorgesetzer/Manager: min. 1&lt;/li&gt; &lt;li&gt;Kollegen: min. 2&lt;/li&gt; &lt;li&gt;Direkt unterstellte Mitarbeiter: min. 2&lt;/li&gt; &lt;li&gt;Freunde/Familie: jeg.&lt;/li&gt; &lt;li&gt;Kinder: jeg.&lt;/li&gt; &lt;/ul&gt;</value>
+</data>
+<data name="register_bullet2" xml:space="preserve">
+<value>Bei &lt;b&gt;weniger als 2 Kollegen und 2 dir. unterst. Mitarbeitern&lt;/b&gt; werden die Kategorien zur Wahrung der Anonymit&#228;t kombiniert..</value>
+</data>
+<data name="register_bullet3" xml:space="preserve">
+<value>Die Kinderfragen der Kategorie 6 sind auf die Altersgruppe 7-18 ausgerichtet. Personen &#252;ber 18 wird die Auswahl von &quot;Familienmitglied&quot; empfohlen, um tiefergehendere Fragen zu erhalten.</value>
+</data>
+<data name="register_bullet4" xml:space="preserve">
+<value>F&#252;r Kinder k&#246;nnen Sie Ihre eigene E-Mail-Adresse verwenden. Beim Anmelden sollten diese dann &quot;Kind&quot; als Beziehungsstatus zu Ihnen angeben.</value>
+</data>
+<data name="register_currentheading" xml:space="preserve">
+<value>Akt. Beurteil.</value>
+</data>
+<data name="register_detail1" xml:space="preserve">
+<value>Detail. Beurteilerinfo.</value>
+</data>
+<data name="register_duedate" xml:space="preserve">
+<value>Alle Atw. f&#228;llig bis</value>
+</data>
+<data name="register_emailaddress" xml:space="preserve">
+<value>E-Mail-Adr.</value>
+</data>
+<data name="register_emailssent" xml:space="preserve">
+<value>|Count| E-Mails gs. </value>
+</data>
+<data name="register_exists" xml:space="preserve">
+<value>E-Mail-Adr. bereits verwendet. Neu versuchen.</value>
+</data>
+<data name="register_firstname" xml:space="preserve">
+<value>Vorname</value>
+</data>
+<data name="register_groupheading" xml:space="preserve">
+<value>F&#252;r Zugriff auf Energieprofil anmeld.</value>
+</data>
+<data name="register_heading" xml:space="preserve">
+<value>Beurteiler regi.</value>
+</data>
+<data name="register_instr" xml:space="preserve">
+<value>Bitte w&#228;hlen Sie die Personen, die Feedback zu Ihrem 360-Grad-Energieprofil geben sollen. Die Beurteiler werden einen Teil der Ihnen gestellten Fragen erhalten. &lt;b&gt;Die Fragen h&#228;ngen von deren Beziehung zu Ihnen ab (Arbeitsbezogen vs. Freunde/Familie&lt;/b&gt;. Beispielsweise werden pers&#246;nliche Angewohnheiten wie Ern&#228;hrung oder sportliche Bet&#228;tigung nur von Freunden/Familie abgefragt. Registrieren Sie so viele Beurteiler, wie Sie m&#246;chten.</value>
+</data>
+<data name="register_instr2" xml:space="preserve">
+<value>&lt;u&gt;ANWEISUNGEN:&lt;/u&gt; Geben Sie die erf. Informat. ein und klicken Sie auf „Safe (send emails)“ (Speichern (E-Mails abs.)). Das System versendet dann entsp. Einladungen.</value>
+</data>
+<data name="register_invalidemailaddress" xml:space="preserve">
+<value>Fehler: Min. eine E-Mail-Adresse ung&#252;ltig. Bitte den mit einem roten Sternchen markierten Eintrag korrigieren.</value>
+</data>
+<data name="register_lastname" xml:space="preserve">
+<value>Nachname</value>
+</data>
+<data name="register_maxdate" xml:space="preserve">
+<value>Erinner. vers.</value>
+</data>
+<data name="register_nocurrentdata" xml:space="preserve">
+<value>Aktuell sind keine Beurteiler registriert.</value>
+</data>
+<data name="register_note2" xml:space="preserve">
+<value>Hinweis: Bei E-Mail-Adressen auf att.com, shaw.ca und sbcglobal.net treten u. U. Empfangsprobleme auf. Nutzen Sie wenn m&#246;glich andere E-Mail-Adressen, damit der Empfang sichergestellt werden kann.</value>
+</data>
+<data name="register_note3" xml:space="preserve">
+<value>Beurteiler, die bis zur Antwortfrist &lt;u&gt;kein&lt;/u&gt; Feedback gegeben haben, erhalten autom. Erinnerungen.</value>
+</data>
+<data name="register_previewemails" xml:space="preserve">
+<value>E-Mail-Vorsch.</value>
+</data>
+<data name="register_reminders" xml:space="preserve">
+<value>An Beurteiler, die bis zur Antwortfrist kein Feedback gegeben haben, werden autom. Erinnerungen versendet. Das Datum der zuletzt versandten Erinnerungen wird unten angezeigt. &#220;ber „Send Reminders“ (Erin. verschicken) k&#246;nnen Sie dies auch selbst tun.</value>
+</data>
+<data name="register_reminders2" xml:space="preserve">
+<value>Links wird das Datum der zuletzt versandten Erin. angezeigt. Wenn Sie selbst Erin. senden m&#246;chten, klicken Sie auf „Send Reminders“ (Erin. absenden). Diese werden nur an die Beurt. verschickt, die ihre Umfrage nicht abges. haben.</value>
+</data>
+<data name="register_respcount" xml:space="preserve">
+<value>Zahl der bisher erhaltenen Antw.: |nn|</value>
+</data>
+<data name="register_respinstr" xml:space="preserve">
+<value>(Aus Vertraulichkeitsgr&#252;nden k&#246;nnen Sie den Verfasser des Profils nicht sehen).</value>
+</data>
+<data name="register_save" xml:space="preserve">
+<value>Spe.</value>
+</data>
+<data name="register_savesend" xml:space="preserve">
+<value>Spe. (E-Mails sn.)</value>
+</data>
+<data name="register_sendreminders" xml:space="preserve">
+<value>Erin. absenden</value>
+</data>
+<data name="register_sentcount" xml:space="preserve">
+<value>|nn| Nachr. abges.</value>
+</data>
+<data name="register_step1" xml:space="preserve">
+<value> &lt;b&gt;Schritt 1&lt;/b&gt;: Geben Sie in der Tabelle links die Namen und E-Mail-Adr. Ihrer Beurt. ein.</value>
+</data>
+<data name="register_step1a" xml:space="preserve">
+<value>Hinweis: Bei E-Mail-Adressen auf &lt;i&gt;att.com, shaw.ca&lt;/i&gt; und &lt;i&gt;sbcglobal.net&lt;/i&gt; treten u. U. Empfangsprobleme auf. Nutzen Sie wenn m&#246;glich andere E-Mail-Adressen, damit sichergestellt werden kann, dass Ihre Beurteiler die E-Mails erhalten.</value>
+</data>
+<data name="rel_continue" xml:space="preserve">
+<value>Fortf.</value>
+</data>
+<data name="rel_heading" xml:space="preserve">
+<value>Bitte Beziehung ausw&#228;hlen</value>
+</data>
+<data name="rel_instr1" xml:space="preserve">
+<value>Schritt 1: Geben Sie in der Tabelle links die Namen und E-Mail-Adr. Ihrer Beurt. ein.</value>
+</data>
+<data name="rel_instr2" xml:space="preserve">
+<value> Wenn Sie ein Kind zwischen 7 und 18 sind, w&#228;hlen Sie „Kind“ als Beziehung. Wenn Sie &#252;ber 18 sind, w&#228;hlen Sie als Beziehung „Familie“.</value>
+</data>
+<data name="rel_instr3" xml:space="preserve">
+<value>* Die meisten Fragen sind Multiple-Choice-Fragen und werden gesammelt eingereicht. An den Antworten auf offene (schriftlich zu beantwortende Fragen) kann die beurteilte Person abh&#228;ngig von Ihrem Inhalt R&#252;ckschl&#252;sse auf Ihre Identit&#228;t ziehen.</value>
+</data>
+<data name="selfhome_datecompleted" xml:space="preserve">
+<value>Abschlussdatum</value>
+</data>
+<data name="selfhome_datestarted" xml:space="preserve">
+<value>Startdatum</value>
+</data>
+<data name="selfhome_instr" xml:space="preserve">
+<value>F&#252;hren Sie unten aufgef&#252;hrte(n) Aufgaben (in beliebiger Reihenfolge) durch. Da Ihre Antworten gespeichert werden, k&#246;nnen Sie jederzeit vor Fristende mit der Bearbeitung der einzelnen Punkte fortfahren.</value>
+</data>
+<data name="selfhome_instr2" xml:space="preserve">
+<value> Durch das Abschlie&#223;en der Aufgaben vor Fristende wird sichergestellt, dass Sie Ihre(n) Bericht(e) vor der Schulung erhalten.</value>
+</data>
+<data name="selfhome_instr3" xml:space="preserve">
+<value>HINWEIS: Sie erhalten Ihre(n) Bericht(e) nach Fristende und vor dem Kursdatum &#252;ber E-Mail.</value>
+</data>
+<data name="selfhome_raterreg" xml:space="preserve">
+<value>|x| Antworten von |y| registrierten</value>
+</data>
+<data name="selfhome_reportrequested" xml:space="preserve">
+<value>Berichtanfrage versendet</value>
+</data>
+<data name="selfhome_requestreport" xml:space="preserve">
+<value>Bericht anfra.</value>
+</data>
+<data name="selfhome_takesurvey" xml:space="preserve">
+<value>St</value>
+</data>
+<data name="selfhome_task" xml:space="preserve">
+<value>Auf.</value>
+</data>
+<data name="selfonly_intro" xml:space="preserve">
+<value>Sobald Sie Ihre Daten unten eingetragen haben, k&#246;nnen Sie mit der Umfrage beginnen. Sie erhalten eine E-Mail mit Ihren pers&#246;nlichen Anmelde-Codes, anhand derer Sie zu einem sp&#228;t. Zeitp. fortf. k&#246;nnen.</value>
+</data>
+<data name="selfonly_login" xml:space="preserve">
+<value>Registr.</value>
+</data>
+<data name="selfonly_register" xml:space="preserve">
+<value>Registr. und Umfrage beg.</value>
+</data>
+<data name="st_clickonce" xml:space="preserve">
+<value>Wenn Sie auf „Submit“ (Absenden) geklickt haben, wird Ihr Bericht verarbeitet. Dies kann einen Moment dauern. Bitte nur 1x klicken.</value>
+</data>
+<data name="st_heading" xml:space="preserve">
+<value>Darstellungsprofil</value>
+</data>
+<data name="st_instr" xml:space="preserve">
+<value>&lt;b&gt;Wichtig&lt;/b&gt;: Einige Fragen in diesem Profil bieten Ihnen nicht immer die Auswahlm&#246;glichkeiten, die Sie sich w&#252;nschen. W&#228;hlen Sie bitte immer die Antwort, die der selbst empfundenen Realit&#228;t Ihrer Darstellung am ehesten entspricht.</value>
+</data>
+<data name="st_invalidranks" xml:space="preserve">
+<value>Ung&#252;ltige Beurteilungen bei Frage |nn| </value>
+</data>
+<data name="st_legend" xml:space="preserve">
+<value>Legen.:</value>
+</data>
+<data name="st_noresponse" xml:space="preserve">
+<value>K. Antwort f&#252;r Frage |nn| ausgew&#228;hlt</value>
+</data>
+<data name="st_noresponse_choice" xml:space="preserve">
+<value>K. Antwort</value>
+</data>
+<data name="st_rateall" xml:space="preserve">
+<value>Bitte alle Punkte in Frage |nn| beurt.</value>
+</data>
+<data name="st_requiredfield" xml:space="preserve">
+<value>Pflichtfeld</value>
+</data>
+<data name="st_total" xml:space="preserve">
+<value>Gesa.</value>
+</data>
+<data name="thanks_partial" xml:space="preserve">
+<value>Ihre teilweise abgeschlossene Umfrage wurde gespeichert. Sie k&#246;nnen zu einem sp&#228;teren Zeitpunkt damit fortfahren.&lt;br&gt;&lt;br&gt;Sie k&#246;nnen dieses Fenster jetzt schlie&#223;en (close).</value>
+</data>
+<data name="thanks_rater" xml:space="preserve">
+<value>Vielen Dank f&#252;r das Ausf&#252;llen des Profils. Ihre Antworten werden mit denen anderer Beurteiler kombiniert und im Feedback-Bericht eingebunden.</value>
+</data>
+</root>
